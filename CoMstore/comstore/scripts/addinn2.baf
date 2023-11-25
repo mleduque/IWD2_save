@@ -1,0 +1,8 @@
+IF
+	Global("MakeShi","AR1104",0)
+THEN
+	RESPONSE #100
+		CreateCreature("cmshi01","cmshi01",[424.576],0) // Shi'nayne Xiltyn
+		SetGlobal("MakeShi","AR1104",1)
+END
+

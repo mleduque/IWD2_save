@@ -1,0 +1,101 @@
+BACKUP ~comstore/backup~
+AUTHOR ~http://forums.chosenofmystra.net~ //Visit the forums for questions
+
+LANGUAGE "American English" "american" 
+  ~comstore/american/setup.tra~
+
+BEGIN ~comstore~
+
+COPY ~comstore/iplat20.bam~	~override/iplat20.bam~
+
+COPY ~comstore/item/CMI2BL01.itm~      ~override/CMI2BL01.itm~       
+SAY NAME2 @1 SAY DESC @2
+
+COPY ~comstore/item/CMI2NE01.itm~      ~override/CMI2NE01.itm~       
+SAY NAME2 @3 SAY DESC @4
+
+COPY ~comstore/item/CMI2SW01.itm~      ~override/CMI2SW01.itm~       
+SAY NAME2 @5 SAY DESC @6
+
+COPY ~comstore/item/CMI2SW02.itm~      ~override/CMI2SW02.itm~       
+SAY NAME2 @7 SAY DESC @8
+
+COPY ~comstore/item/CMI2AR01.itm~      ~override/CMI2AR01.itm~       
+SAY NAME2 @9 SAY DESC @10
+
+COPY ~comstore/item/CMI2AX01.itm~      ~override/CMI2AX01.itm~       
+SAY NAME2 @11 SAY DESC @12
+
+COPY ~comstore/item/CMI2AR02.itm~       ~override/CMI2AR02.itm~       
+SAY NAME2 @13 SAY DESC @14
+
+COPY ~comstore/item/CMI2BL02.itm~       ~override/CMI2BL02.itm~       
+SAY NAME2 @15 SAY DESC @16
+
+COPY ~comstore/item/CMI2HE01.itm~       ~override/CMI2HE01.itm~       
+SAY NAME2 @17 SAY DESC @18
+
+COPY ~comstore/item/CMI2RI01.itm~       ~override/CMI2RI01.itm~       
+SAY NAME2 @19 SAY DESC @20
+
+COPY ~comstore/item/CMI2AW01.itm~       ~override/CMI2AW01.itm~       
+SAY NAME2 @21 SAY DESC @22
+
+COPY ~comstore/item/CMI2AX02.itm~       ~override/CMI2AX02.itm~       
+SAY NAME2 @23 SAY DESC @24
+
+COPY ~comstore/item/CMI2HA01.itm~       ~override/CMI2HA01.itm~       
+SAY NAME2 @25 SAY DESC @26
+
+COPY ~comstore/item/CMI2AR03.itm~       ~override/CMI2AR03.itm~       
+SAY NAME2 @27 SAY DESC @28
+
+COPY ~comstore/item/CMI2BW01.itm~       ~override/CMI2BW01.itm~       
+SAY NAME2 @29 SAY DESC @30
+
+COPY ~comstore/item/CMI2AX03.itm~       ~override/CMI2AX03.itm~       
+SAY NAME2 @31 SAY DESC @32
+
+COPY ~comstore/item/CMI2HE02.itm~       ~override/CMI2HE02.itm~       
+SAY NAME2 @33 SAY DESC @34
+
+COPY ~comstore/item/CMI2SW03.itm~       ~override/CMI2SW03.itm~       
+SAY NAME2 @35 SAY DESC @36
+
+COPY ~comstore/item/CMI2SW04.itm~       ~override/CMI2SW04.itm~       
+SAY NAME2 @39 SAY DESC @40
+
+COPY ~comstore/item/CMI2SL01.itm~       ~override/CMI2SL01.itm~       
+SAY NAME2 @41 SAY DESC @42
+
+COPY ~comstore/item/CMI2SW05.itm~       ~override/CMI2SW05.itm~       
+SAY NAME2 @43 SAY DESC @44
+
+COPY    ~comstore/sto/cmstor01.sto~     ~override/cmstor01.sto~
+  SAY 0xc @37
+
+COPY    ~comstore/cre/cmshi01.cre~     ~override/cmshi01.cre~
+  SAY NAME1 @38 SAY NAME2 @38
+
+// New items
+
+COPY ~comstore/item/CMI2AW02.itm~       ~override/CMI2AW02.itm~       
+SAY NAME2 @100 SAY DESC @101
+
+COPY ~comstore/item/CMI2HM01.itm~       ~override/CMI2HM01.itm~       
+SAY NAME2 @102 SAY DESC @103
+
+COPY ~comstore/item/CMI2FL01.itm~       ~override/CMI2FL01.itm~       
+SAY NAME2 @104 SAY DESC @105
+
+COPY ~comstore/item/CMI2SW06.itm~       ~override/CMI2SW06.itm~       
+SAY NAME2 @106 SAY DESC @107
+
+EXTEND_TOP ~ar1104.bcs~ ~comstore/scripts/addinn2.baf~
+EXTEND_TOP ~ar6004.bcs~ ~comstore/scripts/addinn3.baf~
+
+COMPILE ~comstore/dlg/cmshi01.d~       
+  USING ~comstore/%s/cmshi01.tra~
+
+
+AT_INTERACTIVE_EXIT ~VIEW comstore\readme_iwd2store.html~

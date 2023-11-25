@@ -1,0 +1,403 @@
+@1 = ~The Bleeder Mace +3~
+
+@2 = ~The Bleeder was a creation of a follower of Bane, who enjoyed watching people die a slow bloody death. Kel'atian was a well known dirty fighter in combat and few could meet his fighting skills. He let his guard down for a brief moment which lead to his demise when he fought a Chosen of Mystra and died a very slow death by his own mace when it was snatched out of his hand and used against him. 
+
+STATISTICS:
+
+Damage: 1d8 +3
+Attack Bonus: +3
+Enchantment: +3
+Damage Type: Bludgeoning
+Special:
+  Flame: +2D6 Fire Damage
+  Wounding (Blood Letting): Inflicts 4 additional point of damage per round for 10 rounds (Fortitude negates)
+Weight: 12 lb.
+Required Feat: Simple Weapon, Mace
+Type: One-handed~
+
+@3 = ~Amulet of Protection +3~
+
+@4 = ~Amulets are one the most favored items to enchant by wizards because of their ability to be worn without interfering with the delicate rituals of spell casting. This particular amulet has been infused with various magics that are designed to protect the wearer from harm and the cold.
+
+STATISTICS:
+
+Resistance: 3/- Cold Resistance
+Deflection Bonus: +3 
+Saving Throw Bonus: +3
+Weight: 1 lb.~
+
+@5 = ~Angurvadal +5~
+
+@6 = ~The true power of Frithior's blazing sword has been unleashed by the Liquid Mercury.
+
+STATISTICS:
+Special Abilities:
+Increase strength to 22 when equipped.
+User is immune to level drain when equipped.
+
+Attack Bonus: +5 bonus
+Damage: 1D8 +5, 1d4 
+Flame: +1 fire damage
+Damage type: slashing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 Strength~
+
+@7 = ~Fire and Lightning Sword +5~
+
+@8 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the longsword has a single-edged blade. There is no single version of the longsword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all longswords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most longswords have a double-edged blade and a sharp point at the tip. Despite the tip, the longsword is designed for slashing, not thrusting. 
+
+STATISTICS:
+
+Damage: 1d8 +5
+Attack Bonus: +5
+Enchantment: +5
+Damage Type: Slashing
+Special:
+  Defending: +3 Deflection Bonus
+  Flame: +1d8 fire damage
+  Shock: +1d8 electrical damage
+Weight: 4 lb.
+Feat Requirement: Martial Weapon, Large Sword
+Type: One-handed~
+
+@9 = ~Glacier Full Plate Mail +1~
+
+@10 = ~Forged from the ice from the Gloom Frost Glacier, this armor protects those who wear it from the cold elements. An insane dwarf named Asgrim, was the last one known to have this armor. 
+
+STATISTICS:
+
+Special: 
+Resistance: 1/- Cold Resistance.
++1 to Constitution.
+
+Heavy Armor
+Armor Bonus: +9
+Max Dex Bonus: +1
+Armor Check Penalty: -5
+Arcane Spell Failure: 35%
+Weight: 20lb.~
+
+@11 = ~Axe of the Unyielding +5~
+
+@12 = ~Enhanced by the magic of the Baalor's Claw, the Axe of the Unyielding is now the most fearsome of weapons - a vorpal edged axe capable of severing an opponents head with a single blow. 
+
+
+STATISTICS
+
+Equipped Abilities: 
+  Improves AC by 1
+  User regenerates 3 hp/round
+  Increase user's constitution by +1
+
+Combat Abilities:
+  Chance of instantly killing an opponent by decapitation with each successful attack
+
+Attack Bonus: +5 bonus 
+Damage: 1D8 +5
+Damage type: slashing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Axe
+Type: 1-handed
+Requires: 10 Strength~
+
+@13 = ~Bathed in Blood~
+
+@14 = ~Kheros the Red wore this blood-red suit of plate mail through many of the years that he fought for the church of Tempus. He was born as the son of humble farmers near Calaunt. When he was a young man, he set off for the city to hire himself out as a mercenary. After a number of successful endeavors, Kheros became a short-term member of many adventuring companies. Along the way, despite his many victories, Kheros became disgusted and terrified by the sight of blood.
+
+His fear eventually spiraled out of control, consuming him with madness. Priests of Tempus found the huge warrior and took him into safe-keeping. The priests believed that they could cure Kheros of his fear. Over several years, Kheros learned the ways of the Tempuran religion, eventually becoming a priest.  His final step in overcoming his fear was being submerged in a tub of blood until he almost drowned.  All the time he was held down, he never struggled, flinched or tried to escape. In his later years, he had a suit of armor made to remind him of his past.
+
+STATISTICS:
+
+Armor Class: +3
+Weight: 55~
+
+@15 = ~Blood of the Gloomfrost~
+
+@16 = ~This weapon was fashioned by your hands, guided by the dwarf, Tiernon. Forged from ice taken from the walls of the Gloomfrost, this hammer has taken some of the glacier and some of your strength into it, creating a formidable weapon. Though made of ice, the weapon is only slightly cold to the touch and does not melt, even when exposed to the hottest flames.
+ 
+STATISTICS: 
+
+Damage: 1D8 +5
+Attack Bonus: +4 
+Damage Type: Crushing
+Special: 
+Resistance: 1/- Fire Resistance 
+Resistance: 1/- Cold Resistance 
+Weight: 3 
+Speed Factor: 1
+Proficiency Type: Hammer
+Type: 1-handed~ 
+
+@17 = ~Cyclone~
+
+@18 = ~Properly a hat, not a helm, the Cyclocone is a wizardly item of impressive power. The wizard Bemban of Immersea was known to be quite fond of these pointed hats both for their appearance and their power. Many wizards sought their own Cyclocones, but their distinctive appearance soon became the butt of many jokes among adventurers. Bemban grew senile in his later years, and left most of his fortune to private mages in the hope that they would continue to make his favorite magical hat.
+
+STATISTICS:
+
+Armor Bonus: +1
+Special: Wearer can cast Whirlwind
+Weight: 1
+Only Usable By:
+ Mage (Single, Dual-, and Multi-Class)~
+
+@19 = ~Ring of the Grand Wizard~
+
+@20 = ~This ring belonged to a former Magister of Mystra. It was believed a gift to a powerful mage by the goddess, Mystra herself. Engraved on the inside it says "Knowledge is power".
+
+STATISTICS:
+
+Intelligence: +2
+Bonus level 1 spells: 3 
+Bonus level 2 spells: 3
+Weight: 0 lb.~
+
+@21 = ~Talos Arrows~
+
+@22 = ~These arrows were enhanced through magical means when they were created. They appear slightly straighter than the average arrow, almost alive as they effortlessly leave your bow and streak towards their target with deadly accuracy.
+
+STATISTICS:
+
+Damage: 1d6
+Attack Bonus: +3
+Enchantment: +3
+Damage Type: Missile (piercing)
+Special: 
+  Shock: +2d6 electrical damage
+  Chance of death from electrocution
+Weight: 0 lb.
+Launcher: Bow~
+
+
+@23 = ~Axe of Malice~
+
+@24 = ~Written on the axe blade it says: "Purification through fire is the only means in the world's salvation". The handle is warm to the touch and touching the blade causes the skin to blister, even if gloves are worn.
+
+STATISTICS:
+
+Damage: 1d8 +4
+Attack Bonus: +4
+Enchantment: +4
+Damage Type: Slashing
+Special:
+ Flame: +2D6 Fire damage
+ Chance strike will cause death
+Weight: 7 lb.
+Required Feat: Martial Weapon, Axe
+Type: One-handed~
+
+@25 = ~Halberd +4 "Cold Fury"~
+
+@26 = ~This halberd has a core of iron within its shaft, and looks like it was intended to hook onto the sides of enemy ships and lock them in place to allow them to be boarded. It is quite light and quick for a halberd, and the hook on the end makes it easy to latch onto structures. It doesn't look like it's seen much combat use, although it would be perfect for lancing goblins from a distance. Placed on this halberd is the enchantment to do cold damage which may result in the target of becoming stunned from the freezing touch of the blade.
+
+STATISTICS:
+
+Damage: 1d10 +4
+Attack Bonus: +4
+Enchantment: +4
+
+Special:
+ Frost: +1D6 Cold damage
+Damage Type: Piercing
+Weight: 10 lb.
+Feat Requirement: Martial Weapon, Pole arm
+Type: Two-handed~
+
+@27 = ~Dwarven Mithril Plate~
+
+@28 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  
+
+STATISTICS:
+
+Heavy Armor
+Armor Bonus: +10
+Resistance: 1/- cold resistance
+Armor Check Penalty: -5
+Arcane Spell Failure: 35%
+Special:
+  Resistance: 1/- Bludgeoning
+Weight: 50lb.~
+
+
+@29 = ~The Black Bow~
+
+@30 = ~A rough bow with a dusty appearance, the Black Bow was created as an instrument of vengeance by a Cormyrean settler in the Western Heartlands of Faerun. A former soldier named Jonan of Suzail, after years of campaigning in the name of the crown, finally returned home to marry his childhood sweetheart. Through all of his years in the military, he remained true to his love and saved his earnings. He and his new wife moved west in the hopes that they would find frontier land to settle. In the lands north of Baldur's Gate and east of the Trollbark Forest, Jonan built his home and farm. Within five years, there were raiders in the area, and farms were being destroyed all around Jonan's. Eventually, the raiders targeted Jonan's home, killing his wife and child and leaving him for dead. His farm was burned to the ground. Weeks later, Jonan crafted this bow and rubbed the ashes of his farm and family into the grain of the wood. He later went on a murderous rampage, slaying each of the bandits where he found them, and later killing anyone they associated with. Sages debate how the bow became enchanted, but most believe that, after Jonan's death, it was blessed by a god. Some say it was blessed by Tyr, some say by Hoar, and others say by Bhaal. Theories tend to revolve around whether the speaker believes Jonan's actions were just, vengeful, or murderous.
+
+STATISTICS:
+
+Damage: +3
+THACO: +4
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Bow
+Type: 2-handed
+Minimum Strength of 12 required~
+
+@31 = ~Foe's Fate~
+
+@32 = ~This mighty weapon consists of a four- to five-foot haft with a very heavy blade. The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade. It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it. Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage: 1D10 +4
+Attack Bonus: +4 bonus
+Damage type: Slashing
+Special:
+  Shock: +1D6 electric damage
+Weight: 10
+Speed Factor: 9
+Proficiency Type: Axe
+Type: 2-handed~
+
+@33 = ~Helm of the Black Knight~
+
+@34 = ~The Black Knight was a fearsome warrior from Shadow Dale. He was an evil being who delighted in bloody warfare. He came to Icewind Dale one day, looking for adventure and battle. It is believed he found battle since he has not been heard from again.
+
+STATISTICS:
+
+Special:  
+    Spell Power: Can cast the spell Inflict Moderate Wounds 1/Day
+    +1 to Strength
+Weight: 1lb.~
+
+@35 = ~Black Knight's Sword +4~
+
+@36 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the longsword has a single-edged blade. There is no single version of the longsword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all longswords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most longswords have a double-edged blade and a sharp point at the tip. Despite the tip, the longsword is designed for slashing, not thrusting. 
+
+STATISTICS:
+
+Damage: 1d8 +4
+Attack Bonus: +4
+Enchantment: +4
+Damage Type: Slashing
+Special:
+  10% of either hopelessness or confusion on target
+  3D6 piercing damage
+Weight: 4lb.
+Feat Requirement: Martial Weapon, Large Sword
+Type: One-handed~
+
+
+@37 = ~The Frozen North Goods~
+
+@38 = ~Shi'nayne Xiltyn~
+
+@39 = ~Heart of Darkness~
+
+@40 = ~Heart of Darkness is rumored to have been a creation of a crazed follower of Bhaal, named Jurgon Delsarius. He murdered many people before he was brought down by his own weapon. Breden Merryfoot, a halfling, disarmed Jurgon when the two had a disagreement over who had the better disarming skills. Jurgon was no match for the quick halfling, Jurgon was drunk at the time which was a common state with him. With a look of horror on his face, Jurgon looked down and saw his own sword imbedded into his chest. He lost the bet and his life.
+
+STATISTICS:
+
+Damage: 1d8 +3 
+Attack Bonus: +3
+Enchantment: +3
+Damage Type: Slashing
+Special: 
+  Flame: +2D4 Fire damage
+  Frost: 2D4 Cold damage
+  Stunning: 35% chance target is Stunned
+Weight: 4lb.
+Feat Requirement: Martial Weapon, Large Sword
+Type: One-handed~
+
+@41 = ~Edley's Sling~
+
+@42 = ~The halfling warrior-rogue Edley Bramble was the owner of this fine weapon. Edley was a villain to some, but a hero to many more. Despite the fact that most halflings publicly regard Edley as a scoundrel and bad influence on halfling culture, many secretly revere and admire him. Edley's pranks and adventures among humans and elves are recorded in some of the folksongs created by Waren Blackbird.
+
+STATISTICS:
+
+Damage: +2 (Missile Damage)
+Attack Bonus: +3
+Weight: 0
+Speed Factor: 4
+Proficiency Type: Missile Weapons
+Type: 1-handed~
+
+@43 = ~Cairn Blade~
+
+@44 = ~Named for its ability to lay warriors low, the Cairn Blade was used by the mercenary Adal Kerrn. Kerrn was a skilled heavy infantryman. He and his company, Kerrn's Breakers, hired themselves out to all sorts of warlords, bandits, wizards, and religious leaders. They were typically placed at the front of the battlefield where they would intercept charging heavy cavalry units and break their formation. Kerrn died in 1054 DR when he accidentally killed the horse of a heavily armored foe. The horse fell on top of Kerrn, killing him. In the madness of the battle that followed, most of his comrades were routed. Though Kerrn's body was never found, the group that had employed him at the time, the church of Helm, recovered his distinctive sword.
+
+STATISTICS:
+
+Damage: 2D6 +4
+Attack Bonus: +4
+Damage type: Slashing
+Weight: 20
+Speed Factor: 6
+Proficiency Type: Great Sword
+Type: 2-handed~
+
+// New Stuff
+
+@100 = ~Freezing Arrows +4~
+
+@101 = ~These arrows were enhanced through magical means when they were created. They appear slightly straighter then the average arrow, almost alive as they effortlessly leave your bow and streak towards their target with deadly accuracy. 
+
+STATISTICS:
+
+Special:
+	Frost: +2D4 Cold damage
+	Chance of being frozen to death  
+Damage: 1d6 +4 
+Attack Bonus: +4  
+Enchantment: +4 
+Damage Type: Missile (piercing) 
+Weight: 0 lb. 
+Launcher: Bow~
+
+@102 = ~Warhammer of Fear~
+
+@103 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand. Maces and flails are two previous examples of this - the warhammer is another. The horseman's warhammer is the descendent of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is about 18 inches long.
+
+This hammer has a unique glow as it was enhanced by magical means.
+
+STATISTICS:  
+Damage: 1d10 +4 
+Attack Bonus: +4  
+Enchantment: +4 
+Damage Type: Bludgeoning 
+Special: 
+  Strike Terror: Target will flee in fear (save vs Will) 
+Weight: 7lb. 
+Feat Requirement: Martial Weapon, Hammer 
+Type: One-handed~
+
+@104 = ~Greater Flail of the Elements~
+
+@105 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder. 
+
+STATISTICS:  
+
+Damage: 1d8 +5
+Damage Type: Bludgeoning 
+Enchantment: +5 
+Special:   
+Flame: +2d6 fire damage   
+Frost: +2d6 cold damage   
+Shock: +2d6 electric damage   
+Sure Striking: Weapon is treated as having a +5 enchantment for the purpose of hitting creatures that require magical weapons to hit 
+Weight: 5 lb 
+Required Feat: Martial Weapon, Flail 
+Type: One-handed~
+
+@106 = ~Elemental Longsword~
+
+@107 = ~Crafted by druidic followers of Silvanus, this sword inflicts damage from the elements of fire, cold and electricity. The surging electricity, from the sword's impact, may briefly disrupt the target's nervous system; while the chilling cold may slow the target's body. The feeling of burning up from within is felt by the effects of fire.
+
+STATISTICS:
+
+Damage: 1D8 +3
+Attack Bonus: +3 
+Enchantment: +3
+Damage type: Slashing
+Special: 
+  Shock: +1D6 Electrical damage
+  Flame: +1D6 Fire damage 
+  Frost: +1D6 Cold damage
+Weight: 4lb. 
+Feat Requirement: Martial Weapon, Large Sword
+Type: One-handed~
+
