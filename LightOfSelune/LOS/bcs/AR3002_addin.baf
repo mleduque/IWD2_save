@@ -1,0 +1,10 @@
+
+IF
+  Global("NEWITEM_AR3002","AR3002",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Hall_Table_1",CreateItem("F#RTHFD2",1,0,0))
+    ActionOverride("Hall_Chest_1",CreateItem("00AX1H90",1,0,0))
+    
+    SetGlobal("NEWITEM_AR3002","AR3002",1)
+END

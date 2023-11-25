@@ -1,0 +1,12 @@
+
+IF
+  Global("NEWITEM_AR1100","AR1100",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Rain Barrel",CreateItem("F#AMUL03",1,0,0))
+    SetGlobal("NEWITEM_AR1100","AR1100",1)
+END
+
+
+
+

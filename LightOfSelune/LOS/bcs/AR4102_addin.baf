@@ -1,0 +1,12 @@
+
+IF
+  Global("NEWITEM_AR4102","AR4102",0)
+THEN
+  RESPONSE #100
+    ActionOverride("TreasuryCrate10",CreateItem("F#RTHFF1",1,0,0))
+    SetGlobal("NEWITEM_AR4102","AR4102",1)
+END
+
+
+
+

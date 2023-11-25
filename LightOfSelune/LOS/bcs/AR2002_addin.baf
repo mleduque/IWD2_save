@@ -1,0 +1,9 @@
+IF
+  Global("NEWITEM_AR2002","AR2002",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Slime_Pile",CreateItem("60RTHF02",1,0,0))
+    
+    SetGlobal("NEWITEM_AR2002","AR2002",1)
+END
+

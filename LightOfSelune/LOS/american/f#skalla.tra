@@ -1,0 +1,21 @@
+// f#skalla.tra
+
+
+
+@101    = ~Who are ye, stranger?  And what brings ye to Targos?~
+@102    = ~My name is <CHARNAME> and I'm here to help defend the town from the goblin hordes.~
+@103    = ~My name is <CHARNAME> and I'm a sell-sword looking to fill my purse and kill a few goblins.  After that, who's to say?~
+@104    = ~Well met, <CHARNAME>!  I be Skalla Ironaxe of Mirabar.~
+@105    = ~Mirabar?  That's a great distance from Targos.  How'd you come to be here, Master Ironaxe?~
+@106    = ~Aye, I'm a fair distance from home.  That I am.~
+@107    = ~As it so happened, I was in Bremen, selling me wares to the locals not so long before the thrice-damned goblins attacked.~
+@108    = ~For better or worse, the boat that got me out of Bremen came straight here ta poor Targos, not so long before yer boat arrived from Luskan.~
+@109    = ~Luckily, I was able to get out with me inventory.  So if ye want ta look at me wares, just say so.~
+@110    = ~Show me what ya got, Master Ironaxe.~
+@111    = ~Maybe some other time, Skalla.~
+@112    = ~Mercenaries, are ye?  Well, there naught wrong with bein' a sell-sword, so long as y're careful who ye be takin' yer gold from.~
+@113    = ~But enuffa that.  I be Skalla Ironaxe of Mirabar.  And if ye be lookin' for weapons and such, I be sellin' the finest ye'll find north of Waterdeep!~
+@114    = ~What're ye sell-swords doin' here?  Get yersells down ta da dockyard and defend the town!!!~
+@115    = ~What brings ye back, <CHARNAME>?~
+@116    = ~Let me look at yer stuff, Skalla.~
+@117    = ~Just checking in, Skalla. Catch ya later.~

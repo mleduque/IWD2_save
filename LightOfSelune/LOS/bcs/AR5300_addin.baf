@@ -1,0 +1,9 @@
+
+IF
+  Global("NEWITEM_AR5300","AR5300",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Water's Edge",CreateItem("F#RTHFK1",1,0,0))
+    SetGlobal("NEWITEM_AR5300","AR5300",1)
+END
+

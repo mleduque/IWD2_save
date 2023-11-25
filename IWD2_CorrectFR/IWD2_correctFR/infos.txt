@@ -1,0 +1,26 @@
+﻿                      À propos du correctif d'Icewind Dale 2 
+                                         v1.03 - 16.02.2020
+
+Ce correctif modifie simplement certaines entrées qui comportent
+ des erreurs de frappe, d'orthographe, conjugaison et compagnie.
+À l'occasion, certaines traductions ont été aussi modifiées. 
+Pour voir la liste des erreurs corrigées, rendez vous sur la page suivante :
+http://havredest.eklablog.fr/correctif-pour-la-version-francaise-a90094613
+
+                                 _____________________
+
+                                    Installation
+
+Il est préférable d'avoir la version patchée d'IWD2 (v2.01),
+avant de faire l'installation de ce correctif.
+
+Il vous suffit de placer le contenu de l'archive .zip 
+(fichier .exe + dossier) dans le répertoire d'Icewind Dale 2
+Puis de lancer l'exécutable "setup-IWD2_correctFR.exe" et de
+suivre les instructions.
+
+                                  _____________________
+
+
+
+

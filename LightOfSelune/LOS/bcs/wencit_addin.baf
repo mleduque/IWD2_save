@@ -1,0 +1,8 @@
+
+IF
+    Global("F#MakeWencit","MYAREA",0)
+THEN
+    RESPONSE #100
+        CreateCreature("f#wencit","f#wencit",[165.268],0)  
+        SetGlobal("F#MakeWencit","MYAREA",1)
+END

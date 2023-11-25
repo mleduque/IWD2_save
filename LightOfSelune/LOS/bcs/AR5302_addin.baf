@@ -1,0 +1,10 @@
+
+IF
+  Global("NEWITEM_AR5302","AR5302",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Cabinet",CreateItem("F#RTHFK3",1,0,0))
+    SetGlobal("NEWITEM_AR5302","AR5302",1)
+END
+
+

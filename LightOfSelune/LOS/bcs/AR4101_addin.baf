@@ -1,0 +1,10 @@
+
+IF
+  Global("NEWITEM_AR4101","AR4101",0)
+THEN
+  RESPONSE #100
+    ActionOverride("StorageCrate5",CreateItem("F#RTHFF3",1,0,0))
+    SetGlobal("NEWITEM_AR4101","AR4101",1)
+END
+
+

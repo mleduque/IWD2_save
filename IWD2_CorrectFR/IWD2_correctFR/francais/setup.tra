@@ -1,0 +1,61 @@
+@0 = ~Icewind Dale II - Correctif franáais~
+
+
+// Traduction des messages affichÈs par WeiDU
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de rÇpondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installÇs ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DêJA installÇs ?
+Les [R]Çinstaller, les s[U]pprimer, dem[A]nder pour chacun ? "
+
+@-1004= "Veuillez signaler votre probläme en n'oubliant pas de poster le contenu du fichier"
+@-1005= "a"
+
+@-1006= "Voulez-vous installer ["
+@-1007= "] ?
+[R]Çinstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "RÇinstallation du composant ["
+@-1011= "] "
+@-1012= "RÇinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prÇalable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour Ö l'Çtat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Module non-installÇ"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+@-1025= "] ?
+[R]Çinstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installÇ actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]Çinstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION EêCHOUêEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Voulez-vous lire les instructions du fichier Æ infos.txt Ø ? [Y]Oui [N]on"
+@-1035= "Dans la langue"

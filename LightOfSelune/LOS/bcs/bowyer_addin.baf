@@ -1,0 +1,14 @@
+
+
+IF
+    Global("F#MakeBowyer","MYAREA",0)
+THEN
+    RESPONSE #100
+        CreateCreature("f#bowyer","f#bowyer",[2004.435],0)    
+        CreateCreature("f#susu","f#susu",[2175.561],0)   
+        SetGlobal("F#MakeBowyer","MYAREA",1)
+END
+
+
+
+

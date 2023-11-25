@@ -1,0 +1,2193 @@
+/*************************************************************************
+ * 
+ * IWD2 Light of Selune Mod
+ *
+ * REV 2
+ * 
+ *
+ *************************************************************************/
+ 
+
+
+
+BACKUP ~los/backup~ // where should we put backup files? 
+// where should tell the user to send email if something goes wrong? 
+
+AUTHOR "fburton@starfire.mv.com"
+
+AUTO_TRA ~los/%s~
+
+LANGUAGE ~American English~ ~american~ 
+         ~los/american/setup-los.tra~
+
+
+
+
+//*******************************************************************************
+//*******************************************************************************
+//
+// Class tweaks
+//
+// This section includes various adjustments to some of the classes.
+// The most significant adjustment by far is to the Ranger class to 
+// bring it more in keeping with the 3.5 ed standard.
+//
+// LOS Rev2: Some items have been removed from this section because 
+// I could not prove conclusively that the intended benefits were
+// actually applied.
+//
+//
+//*******************************************************************************
+//*******************************************************************************
+
+BEGIN @0
+
+    // Update the SKILLPTS.2DA file for the ranger and bard columns.
+    COPY_EXISTING ~SKILLPTS.2DA~ ~override~
+        SET_2DA_ENTRY 0 8 12 ~3~ // Ranger: Increase from 2 to 3. 
+        SET_2DA_ENTRY 0 2 12 ~3~ // Bard: Increase from 2 to 3. 
+
+
+    
+    // Update the SKILCOST.2DA file for Sorcerer's Diplomacy cost.
+    COPY_EXISTING ~SKILCOST.2DA~ ~override~
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   0 9 ~1~ // Rogue: Reduce the Alchemy cost from 2 to 1 to allow the Envenom Feat to be more accessible in normal mode.
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 1 ~1~ // Barbarian: Diplomacy
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 2 ~1~ // Bard: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 3 ~1~ // Cleric: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 4 ~1~ // Druid: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 5 ~1~ // Fighter: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 6 ~1~ // Monk: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 7 ~1~ // Paladin: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 8 ~1~ // Ranger: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 9 ~1~ // Rogue: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 10 ~1~ // Sorcerer: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   2 11 ~1~ // Wizard: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 1 ~1~ // Barbarian: Diplomacy
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 2 ~1~ // Bard: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 3 ~1~ // Cleric: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 4 ~1~ // Druid: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 5 ~1~ // Fighter: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 6 ~1~ // Monk: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 7 ~1~ // Paladin: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 8 ~1~ // Ranger: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 9 ~1~ // Rogue: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 10 ~1~ // Sorcerer: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   4 11 ~1~ // Wizard: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 1 ~1~ // Barbarian: Intimidation
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 2 ~1~ // Bard: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 3 ~1~ // Cleric: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 4 ~1~ // Druid: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 5 ~1~ // Fighter: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 6 ~1~ // Monk: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 7 ~1~ // Paladin: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 8 ~1~ // Ranger: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 9 ~1~ // Rogue: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 10 ~1~ // Sorcerer: 
+        SET_2DA_ENTRY_LATER ~_#_#_#SKILCOST~   7 11 ~1~ // Wizard: 
+        SET_2DA_ENTRIES_NOW ~_#_#_#SKILCOST~ 12
+
+
+
+
+
+
+// Not sure about Ranger and Bard armor prof.
+
+// This is where to give certain other feats... such as:
+//   Giving Rangers the Lightning Reflexes feat at creation,
+//   Giving all halflings and rock gnomes the Dodge feat at creation,
+//   
+    // Update the FEATS.2DA file for a number of items.
+    COPY_EXISTING ~FEATS.2DA~ ~override~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 3 11  ~1~   // Ranger: Set Armor Prof to light armor
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 3 5   ~1~   // Bard: Set Armor Prof to light armor
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 25 11 ~1~   // Ranger: Give the Forester Feat
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 25 7  ~1~   // Druid: Give the Forester Feat
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 39 5  ~1~   // Bard: Give the Martial Weapon: Bow Feat
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 4   ~1~   // Give EVERY class the Two-Weapon Fighting feat, 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 5   ~1~   //  thus eliminating it.
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 6   ~1~  
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 7   ~1~    
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 8   ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 9   ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 10  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 11  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 12  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 13  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 14  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 15  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 16  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 17  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 18  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 19  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 20  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 21  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 22  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 23  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 24  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 25  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 26  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 27  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 28  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 29  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 30  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 31  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 32  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 33  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 34  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 35  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 36  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 37  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 38  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 70 39  ~1~ 
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 16 33  ~1~  // LF Halfling: Give the Dodge feat to represent an AC bonus to due to their small size.
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 16 34  ~1~  // SH Halfling: Give the Dodge feat to represent an AC bonus to due to their small size.
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 16 35  ~1~  // GW Halfling: Give the Dodge feat to represent an AC bonus to due to their small size.
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 16 36  ~1~  // Rock Gnome: Give the Dodge feat to represent an AC bonus to due to their small size.
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATS~ 35 11 ~1~   // Ranger: Give Rangers the Lightning Reflexes feat as a simple replacement for removing the bugged Reflex save tweak.
+        SET_2DA_ENTRIES_NOW ~_#_#_#FEATS~ 40
+
+
+    // Update the LISTSPLL.2DA file to add a number of spells to various classes.
+    // NOTE: I added PfE and MCaE to druid's spells.  It is thoroughly ridiculous 
+    // to be able to summon elementals only to have them immediately turn on you.
+    COPY_EXISTING ~LISTSPLL.2DA~ ~override~
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 215 3 ~1~ // Druid: Add Protection from Evil at level 1
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 26 3 ~2~  // Druid: Add Bull's Strength at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 31 3 ~2~  // Druid: Add Cat's Grace at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 177 3 ~3~ // Druid: Add Magic Circle against Evil at level 3
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 274 3 ~5~ // Druid: Add Stoneskin at level 5
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 91 3 ~8~  // Druid: Move Tremor from level 9 to level 8
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 38 5 ~1~  // Ranger: Add Charm Person or Animal at level 1
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 15 5 ~2~  // Ranger: Add Barkskin at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 31 5 ~2~  // Ranger: Add Cat's Grace at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 262 5 ~2~ // Ranger: Add Spike Growth at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 26 5 ~2~  // Ranger: Add Bull's Strength at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 116 4 ~2~ // Paladin: Add Eagle's Splendor at level 2
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 230 4 ~3~ // Paladin: Add Remove Curse at level 3
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 301 2 ~5~ // Cleric: Add Symbol of Pain at level 5
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 301 6 ~5~ // Wizzy: Add Symbol of Pain at level 5
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 301 7 ~5~ // Sorceror: Add Symbol of Pain at level 5
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 299 2 ~6~ // Cleric: Add Symbol of Fear at level 6
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 299 6 ~6~ // Wizzy: Add Symbol of Fear at level 6
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 299 7 ~6~ // Sorceror: Add Symbol of Fear at level 6
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 302 2 ~7~ // Cleric: Add Symbol of Stunning at level 7
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 302 6 ~7~ // Wizzy: Add Symbol of Stunning at level 7
+        SET_2DA_ENTRY_LATER ~_#_#_#LISTSPLL~ 302 7 ~7~ // Sorceror: Add Symbol of Stunning at level 7
+        SET_2DA_ENTRIES_NOW ~_#_#_#LISTSPLL~ 9
+    // Add the updated descriptions to the SPL files later in this file.
+    
+
+     
+       
+
+
+    // Update WSPECIAL.2DA to change the effects of Weapon Focus and Specialization
+    // such that WF's benefit will be +1 to-hit AND +2 to damage, and WS's benefit
+    // will be +2 to-hit AND +4 to damage.
+    COPY_EXISTING ~WSPECIAL.2DA~ ~override~
+        SET_2DA_ENTRY 2 1 3 ~1~ 
+        SET_2DA_ENTRY 2 2 3 ~2~  
+        SET_2DA_ENTRY 3 1 3 ~2~  
+        SET_2DA_ENTRY 3 2 3 ~4~  
+
+
+    // Update FEATCLAS.2DA for additional ranger and paladin feat points.
+    // Also extend the additional feats that a rogue gets normally starting
+    // at level 10, down to level 4 (i.e. every 3rd level, starting at L4).
+    COPY_EXISTING ~FEATCLAS.2DA~ ~override~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 3 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 3 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 7 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 7 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 11 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 11 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 15 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 15 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 19 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 19 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 23 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 23 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 27 7 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 27 8 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 3 9 ~1~
+        SET_2DA_ENTRY_LATER ~_#_#_#FEATCLAS~ 6 9 ~1~    
+        SET_2DA_ENTRIES_NOW ~_#_#_#FEATCLAS~ 12
+    
+//*******************************************************************************
+//*******************************************************************************
+//
+// Part of Conversion of DnD 3.5 ed. tweak: Druids and Metal Armor
+//
+// According to the DnD 3.5ed Players Manual, druids are not allowed to use metal armors.
+// If you think that this is too severe, just take a level of fighter and it's no longer
+// an issue.
+//
+// Strictly, metal shields should also not be usable by druids, but since there
+// really aren't any clearly non-metal shields and there's no specific guarantee
+// the existing shields aren't non-metal, I'm gonna leave shields as is.
+//
+// I want to thank "andyr@gibberlings3.net" from whom I've leveraged this bit
+// of code from the Unfinished Business BG2 mod to accomplish this task, with
+// some modifications to fit IWD2, of course.
+//
+//
+//*******************************************************************************
+//*******************************************************************************
+
+BEGIN @1
+
+    COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+      SET "armor_patch" = 0
+      SET "other_patch" = 0
+      READ_BYTE 0x1C "type"
+      READ_BYTE 0x1E "druid"
+      WHILE ("%armor_patch%" = 0) AND
+            (("%druid%"  BAND 0b00001000) = 0b00000000) AND // if usable by druids
+            (("%type%" = 2) OR // Armor
+            ("%type%" = 62) OR // Chain Mail
+            ("%type%" = 63) OR // Splint Mail
+            ("%type%" = 64) OR // Half plate
+            ("%type%" = 65))   // Full plate
+      BEGIN
+        WRITE_BYTE 0x1E ("%druid%" BOR 0b00001000) // making sure that all metal armor is unusable by druids
+        SET "armor_patch" = 1
+      END
+    BUT_ONLY_IF_IT_CHANGES
+
+// Make the metal Chain of Drakkas (which is typed as a Robe) unusable by druids.
+    COPY_EXISTING 
+        ~60HFCNCD.ITM~ ~override~
+        ~60CHANCD.ITM~ ~override~
+        WRITE_BYTE 0x1E ("%druid%" BOR 0b00001000) // these "metal armor" robes are *NOT* usable by druids
+
+
+// Make the 3 known Boring Beetle armors usable by druids.
+
+    COPY_EXISTING   
+        ~00PLAT10.ITM~ ~override~
+        ~00PLAT11.ITM~ ~override~
+        ~00PLAT12.ITM~ ~override~
+        WRITE_BYTE 0x1E ("%druid%" BOR 0b00000000) // these non-metal armors *are* usable by druids
+
+
+
+
+
+
+
+//*******************************************************************************
+//*******************************************************************************
+//
+// The core Light of Selune mod.
+//
+// Adds a lot of new items, modifies many existing items, and moves a few existing
+// items.  Also adds 4 new merchants and upgrades traps to make them nastier.
+//
+//
+//*******************************************************************************
+//*******************************************************************************
+
+
+BEGIN @2
+
+
+//
+// Trap Upgrades
+//
+// Make the game's traps a little nastier.
+//
+
+
+    // Just copy all of the upgraded trap SPL files to the override folder and that's it.
+    COPY ~los/traps~    ~override~
+
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+
+// These two statements are designed to replace existing RTHF items in the RT files with
+// new or upgraded items, or as a prelude to moving the existing item elsewhere in the game.  
+
+
+COPY_EXISTING ~RT_NORM.2DA~     ~override~
+  REPLACE_TEXTUALLY ~00SWDL89~ ~00SWDL88~   // RMEW_05: Replace the original Bhaal's Fire +3 LSwd with a generic +3 LSwd, so I can use BF elsewhere.
+  REPLACE_TEXTUALLY ~00SWDLDY~ ~F#SWLS04~   // 00RTHF32: Replace Dykhast Longsword (00SWDLDY) with Bhaal's Fire. 
+  REPLACE_TEXTUALLY ~00BowLFK~ ~F#HALB03~   // 00RTHF52: Replace Flamekiller with Foe Reaver
+  REPLACE_TEXTUALLY ~00BOWSEH~ ~F#SWLS05~   // 00RTHF51: Replace Eye of the Hunter with Flicker
+  REPLACE_TEXTUALLY ~00BWHXMR~ ~00FLAL03~   // 00RTHF55: Replace Mailripper with Skullflail
+
+COPY_EXISTING ~RT_FURY.2DA~     ~override~
+  REPLACE_TEXTUALLY ~00SWDL89~ ~00SWDL88~   // RMEW_05: Replace the original Bhaal's Fire +3 LSwd with a generic +3 LSwd, so I can use BF elsewhere.
+  REPLACE_TEXTUALLY ~00HFSLDY~ ~F#HSWL04~   // 00RTHF32: Replace HOF Dykhast Longsword (00HFSLDY) with Bhaal's Inferno. 
+  REPLACE_TEXTUALLY ~00HFBLFK~ ~F#HHLB03~   // 00RTHF52: (HOF) Replace Flamekiller with Foe Reaver (HOF)
+  REPLACE_TEXTUALLY ~00HFBSEH~ ~F#SWLS05~   // 00RTHF51: (HOF) Replace Eye of the Hunter with Flicker
+  REPLACE_TEXTUALLY ~00HFHXMR~ ~00FLAL03~   // 00RTHF55: (HOF) Replace Mailripper with Skullflail
+
+
+// *******************************************************************************************
+
+// Add Skalla Ironaxe, the Reputable Merchant
+
+
+// Create the store and overwrite the store name into the file.
+COPY    ~los/sto/f#skalla.sto~     ~override~
+  SAY STORE_NAME @101
+
+// Create the character and overwrite the character's name and short name into the CRE file.
+COPY    ~los/cre/f#skalla.cre~     ~override~
+  SAY NAME1 @102 SAY NAME2 @103
+
+// Add character script to the area (Gallaway's Trading Depot) script.
+EXTEND_TOP ~ar1102.bcs~ ~los/bcs/skalla_addin.baf~  
+
+// Compile the character's dialog script.
+COMPILE ~los/dlg/f#skalla.d~       
+  USING ~los/%s/f#skalla.tra~
+
+
+
+// *******************************************************************************************
+
+// Add Govan Tremayne, the Smarmy Fence
+
+
+// Create the store and overwrite the store name into the file.
+COPY    ~los/sto/f#smarmy.sto~     ~override~
+  SAY STORE_NAME @104
+
+// Create the second store and overwrite the store name into the file.
+COPY    ~los/sto/f#smarm2.sto~     ~override~
+  SAY STORE_NAME @105
+
+
+// Create the character and overwrite the character's name and short name into the CRE file.
+COPY    ~los/cre/f#smarmy.cre~     ~override~
+  SAY NAME1 @106 SAY NAME2 @107
+
+// Add character script to the area (Weeping Willow Inn, 1st floor) script.
+EXTEND_TOP ~ar1104.bcs~ ~los/bcs/smarmy_addin.baf~  
+
+// Compile the character's dialog script.
+COMPILE ~los/dlg/f#smarmy.d~       
+  USING ~los/%s/f#smarmy.tra~
+
+
+// Compile the Smarmy's chatter script.
+COMPILE ~los/bcs/f#smarm1.baf~
+  USING ~los/%s/f#smarm1.tra~
+
+
+
+// *******************************************************************************************
+
+// Add Kanno, the Bowyer, and his daughter, Susu
+
+
+// Create the store and overwrite the store name into the file.
+COPY    ~los/sto/f#bowyer.sto~     ~override~
+  SAY STORE_NAME @120
+
+// Create the character and overwrite the character's name and short name into the CRE file.
+COPY    ~los/cre/f#bowyer.cre~     ~override~
+  SAY NAME1 @121 SAY NAME2 @122
+COPY    ~los/cre/f#susu.cre~     ~override~
+  SAY NAME1 @123 SAY NAME2 @124
+
+// Add character script to the area (Wandering Village) script.
+EXTEND_TOP ~ar5000.bcs~ ~los/bcs/bowyer_addin.baf~  
+
+// Compile the Bowyer's dialog script.
+COMPILE ~los/dlg/f#bowyer.d~       
+  USING ~los/%s/f#bowyer.tra~
+
+
+// Compile the Susu's dialog script.
+COMPILE ~los/dlg/f#susu.d~       
+  USING ~los/%s/f#susu.tra~
+
+// Compile the Susu's auto-start of dialog script.
+COMPILE ~los/bcs/f#susu1.baf~
+
+// Compile the bowyer's chatter script.
+COMPILE ~los/bcs/f#bowy1.baf~
+  USING ~los/%s/f#bowy1.tra~
+
+// Compile the extension to Carynara's dialog.
+COMPILE ~los/dlg/f#caryna.d~       
+  USING ~los/%s/f#caryna.tra~
+
+// *******************************************************************************************
+
+// Add Wencit, the Arcane Merchant
+
+
+// Create the store and overwrite the store name into the file.
+COPY    ~los/sto/f#wencit.sto~     ~override~
+  SAY STORE_NAME @135
+
+// Create the character and overwrite the character's name and short name into the CRE file.
+COPY    ~los/cre/f#wencit.cre~     ~override~
+  SAY NAME1 @136 SAY NAME2 @137
+
+// Add character script to the area (Iselore's Home: AR6005) script.
+EXTEND_TOP ~ar6005.bcs~ ~los/bcs/wencit_addin.baf~  
+
+// Compile the character's dialog script.
+COMPILE ~los/dlg/f#wencit.d~       
+  USING ~los/%s/f#wencit.tra~
+
+
+
+
+
+// *******************************************************************************************
+
+// Skalla's new items
+
+// Valor Plate
+    COPY ~los/itm/F#PLAT02.ITM~   ~override~   SAY NAME2 @206   SAY DESC @207
+
+// Dandy's Plate
+    COPY ~los/itm/F#BRPT02.ITM~   ~override~   SAY NAME2 @208   SAY DESC @209
+    COPY ~los/itm/F#HBPT02.ITM~   ~override~   SAY NAME2 @210   SAY DESC @211
+    
+// Rhino Beetle Shield
+    COPY ~los/itm/F#SHLD01.ITM~   ~override~   SAY DESC @212    SAY UNIDENTIFIED_DESC @674
+    COPY ~los/itm/F#HSHD01.ITM~   ~override~   SAY DESC @213    SAY UNIDENTIFIED_DESC @674
+   
+// Cold Steel
+    COPY ~los/itm/F#SWS01.ITM~    ~override~   SAY NAME2 @216   SAY DESC @217
+// MW Sickle
+    COPY ~los/itm/F#SICK03.ITM~   ~override~   SAY NAME2 @218   SAY DESC @219
+// MW Rapier
+    COPY ~los/itm/F#RAP04.ITM~    ~override~   SAY NAME2 @220   SAY DESC @221    
+        SAY NAME1 @244  SAY UNIDENTIFIED_DESC @200
+// MW Glaive
+    COPY ~los/itm/F#GLAV02.ITM~   ~override~   SAY NAME2 @222   SAY DESC @223
+        SAY NAME1 @246  SAY UNIDENTIFIED_DESC @247
+
+// Bullseye (+1 longbow of accuracy) 
+    COPY ~los/itm/F#BOWL01.ITM~   ~override~   SAY NAME2 @250   SAY DESC @251
+    COPY ~los/itm/F#HBWL01.ITM~   ~override~   SAY NAME2 @252   SAY DESC @253
+
+// Good Boots
+    COPY ~los/itm/F#BOOT01.ITM~   ~override~   SAY NAME2 @328   SAY DESC @329
+
+
+
+
+// *******************************************************************************************
+
+// Smarmy's new items
+
+
+// Lightfingers (gloves of thievery)
+    COPY ~los/itm/F#BRAC01.ITM~   ~override~   SAY NAME2 @224   SAY DESC @225
+
+// Dakarra (quarterstaff)
+    COPY ~los/itm/F#STAF01.ITM~   ~override~   SAY NAME2 @226   SAY DESC @227
+    COPY ~los/itm/F#HSTF01.ITM~   ~override~   SAY NAME2 @228   SAY DESC @229
+
+// One-Eyed Will's Rapier 
+    COPY ~los/itm/F#RAP01.ITM~    ~override~   SAY NAME2 @238   SAY DESC @239
+        SAY NAME1 @244  SAY UNIDENTIFIED_DESC @200
+    COPY ~los/itm/F#HRAP01.ITM~   ~override~   SAY NAME2 @240   SAY DESC @241
+        SAY NAME1 @244  SAY UNIDENTIFIED_DESC @200
+
+// Sickle
+    COPY ~los/itm/F#SICK01.ITM~   ~override~   SAY NAME2 @242   SAY DESC @243
+// Rapier
+    COPY ~los/itm/F#RAP03.ITM~    ~override~   SAY NAME2 @244   SAY DESC @245
+// Glaive
+    COPY ~los/itm/F#GLAV03.ITM~   ~override~   SAY NAME2 @246   SAY DESC @247
+        SAY NAME1 @246  SAY UNIDENTIFIED_DESC @247
+// Ankheg Plate
+    COPY ~los/itm/F#HIDE02.ITM~   ~override~   SAY NAME2 @248   SAY DESC @249
+
+// Silent But Deadly (+1 composite shortbow)
+    COPY ~los/itm/F#BOWP02.ITM~   ~override~   SAY NAME2 @254   SAY DESC @255
+    COPY ~los/itm/F#HBWP02.ITM~   ~override~   SAY NAME2 @256   SAY DESC @257
+
+// Shark Skin Cloak
+    COPY ~los/itm/F#CLOK03.ITM~   ~override~   SAY NAME2 @305   SAY DESC @306
+
+
+
+
+// *******************************************************************************************
+
+
+
+
+// Install all RTHF dummy ITM files.
+    COPY ~los/rthf~    ~override~
+
+// Install all EFF files.
+    COPY ~los/eff~     ~override~
+
+// Install all BAM files.
+    COPY ~los/bam~     ~override~
+
+
+
+// *******************************************************************************************
+
+// Update the RT_NORM.2DA and RT_FURY.2DA random treasure files to include new RTHF items.
+
+// "A" series F#RTHF items are new Targos items, mostly in new stores.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA1    00BWHXMR~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA1    00HFHXMR~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA2    F#SHLD01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA2    F#HSHD01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFA2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA3    F#BRPT02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA3    F#HBPT02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFA3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA4    00BOWLFK~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA4    00HFBLFK~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFA4.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA5    F#STAF01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA5    F#HSTF01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFA5.ITM~
+
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA8    F#RAP01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA8    F#HRAP01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFA8.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFA9    F#BOWL01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFA9    F#HBWL01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFA9.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFAA    F#BOWP02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFAA    F#HBWP02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFAA.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFAB    12SHLDCT~
+APPEND ~RT_FURY.2DA~ ~F#RTHFAB    12HFSDCT~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFAB.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFAC    F#ROBE02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFAC    F#HROB02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFAC.ITM~
+
+
+// *******************************************************************************************
+
+// new items for Targos (non-merchants and old merchants), and up to
+// Shaengarne bridge
+
+
+// Amulet of Natural Armor +1  (add to Elytharra's store)
+    COPY ~los/itm/F#AMUL08.ITM~   ~override~   SAY NAME2 @204   SAY DESC @205
+
+// Bard's Robe (add to Elytharra's store)
+    COPY ~los/itm/F#ROBE02.ITM~   ~override~   SAY NAME2 @429   SAY DESC @430
+    COPY ~los/itm/F#HROB02.ITM~   ~override~   SAY NAME2 @431   SAY DESC @432
+
+// Flamekiller (toned up a smidge) (add to Gallaway's)
+    COPY_EXISTING ~00BOWLFK.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x96 2   // fixed Attack Bonus for a +1 LB.
+        WRITE_SHORT 0x9c 3   // fixed Damage Bonus for a +1 LB.
+        WRITE_LONG  0x34 2500 // new cost
+        SAY DESC @720
+
+    COPY_EXISTING ~00HFBLFK.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x96 4   // fixed Attack Bonus for a +3 LB.
+        WRITE_SHORT 0x9c 5   // fixed Damage Bonus for a +3 LB.
+        WRITE_LONG  0x34 20175 // new cost 
+        SAY DESC @721
+
+// Rabbit's Foot Charm
+    COPY ~los/itm/F#AMUL03.ITM~   ~override~   SAY NAME1 @270   SAY NAME2 @270
+        SAY UNIDENTIFIED_DESC @271   SAY DESC @271
+
+// Donella's Blade *** TOO EXPENSIVE for Targos *** 
+    COPY ~los/itm/F#SWLS02.ITM~   ~override~   SAY NAME2 @214   SAY DESC @215
+ 
+
+// *******************************************************************************************
+
+// Add item(s) to the Goblin Warrens and Guthma's Fortress.
+
+
+// Torment: +1 Full Plate
+    COPY ~los/itm/F#PLAT08.ITM~   ~override~   SAY NAME2 @324   SAY DESC @325
+    COPY ~los/itm/F#HPLT08.ITM~   ~override~   SAY NAME2 @326   SAY DESC @327
+
+// Nasty Club: +1 Club/Morningstar
+    COPY ~los/itm/F#CLUB01.ITM~   ~override~   SAY NAME2 @334   SAY DESC @335
+    COPY ~los/itm/F#HCLB01.ITM~   ~override~   SAY NAME2 @336   SAY DESC @337
+
+// Appleheart: +1 returning throwing dagger
+    COPY ~los/itm/F#TDAG03.ITM~   ~override~   SAY NAME2 @230   SAY DESC @231
+    COPY ~los/itm/F#HTDG03.ITM~   ~override~   SAY NAME2 @232   SAY DESC @233
+
+
+// RTHF "D" series will be for the Goblin Warrens and Guthma's Fortress.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFD1    F#PLAT08~
+APPEND ~RT_FURY.2DA~ ~F#RTHFD1    F#HPLT08~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFD1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFD2    F#CLUB01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFD2    F#HCLB01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFD2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFD3    F#TDAG03~
+APPEND ~RT_FURY.2DA~ ~F#RTHFD3    F#HTDG03~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFD3.ITM~
+
+
+
+// *******************************************************************************************
+
+// new items for the overall Ice Temple region.
+
+
+// Stormbreaker (+1 Warhammer)
+    COPY ~los/itm/F#HAMM01.ITM~   ~override~   SAY NAME2 @312   SAY DESC @313
+    COPY ~los/itm/F#HHAM01.ITM~   ~override~   SAY NAME2 @314   SAY DESC @315
+
+// Blackheart (sickle) 
+    COPY ~los/itm/F#SICK02.ITM~   ~override~   SAY NAME2 @234   SAY DESC @235
+    COPY ~los/itm/F#HSCK02.ITM~   ~override~   SAY NAME2 @236   SAY DESC @237
+
+// Amulet of Natural Armor +2  (add to Beodaewn's store)
+    COPY ~los/itm/F#AMUL09.ITM~   ~override~   SAY NAME2 @272   SAY DESC @273
+
+
+
+// RTHF "F" series will be for the Ice Temple (excluding Battle Squares Rewards).
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFF1    F#HAMM01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFF1    F#HHAM01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFF1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFF2    00BWHXMR~
+APPEND ~RT_FURY.2DA~ ~F#RTHFF2    00HFHXMR~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFF2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFF3    12SHLDKD~
+APPEND ~RT_FURY.2DA~ ~F#RTHFF3    12HFSDKD~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFF3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFF4    F#SICK02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFF4    F#HSCK02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFF4.ITM~
+
+
+// *******************************************************************************************
+
+// new items for the Wandering Village and Fell Woods region.
+
+
+// Elven Boots
+    COPY ~los/itm/F#BOOT03.ITM~   ~override~   SAY DESC @338
+
+// Midnight: +2 Half-Plate
+    COPY ~los/itm/F#PLAT09.ITM~   ~override~   SAY NAME2 @339   SAY DESC @340
+    COPY ~los/itm/F#HPLT09.ITM~   ~override~   SAY NAME2 @341   SAY DESC @342
+
+// Ogien's Chain
+    COPY ~los/fixed_itm/00CHAN09.ITM~   ~override~   SAY NAME2 @307   SAY DESC @308
+
+// Shikata's Hide
+    COPY ~los/itm/F#HIDE05.ITM~   ~override~   SAY NAME2 @262   SAY DESC @263
+    COPY ~los/itm/F#HHID05.ITM~   ~override~   SAY NAME2 @264   SAY DESC @265
+
+// Shirakko: +2 Bastard Sword of Flame 
+    COPY ~los/itm/F#SWBA04.ITM~   ~override~   SAY NAME2 @330   SAY DESC @331
+    COPY ~los/itm/F#HSWB04.ITM~   ~override~   SAY NAME2 @332   SAY DESC @333
+
+// Frostguard +2 leather armor
+    COPY ~los/itm/F#LEAT02.ITM~   ~override~   SAY NAME2 @258   SAY DESC @259
+    COPY ~los/itm/F#HLET02.ITM~   ~override~   SAY NAME2 @260   SAY DESC @261
+
+// Bloodsucker +2 vampiric dagger
+    COPY ~los/itm/F#DAGG03.ITM~   ~override~   SAY NAME2 @266   SAY DESC @267
+    COPY ~los/itm/F#HDAG03.ITM~   ~override~   SAY NAME2 @268   SAY DESC @269
+
+// Oakshield: +2 Small Shield
+    COPY ~los/itm/F#SHLD02.ITM~   ~override~   SAY NAME2 @355   SAY DESC @356
+    COPY ~los/itm/F#HSHD02.ITM~   ~override~   SAY NAME2 @357   SAY DESC @358
+
+// Helm of the Hunter
+    COPY ~los/itm/F#HELM04.ITM~   ~override~   SAY NAME2 @405   SAY DESC @406
+
+// The Swash-Buckler: +1 Buckler
+    COPY ~los/itm/F#SHLD06.ITM~   ~override~   SAY NAME2 @407   SAY DESC @408
+    COPY ~los/itm/F#HSHD06.ITM~   ~override~   SAY NAME2 @409   SAY DESC @410
+    APPEND ~ITEMABIL.2DA~ ~F#SHLD06    1~
+    APPEND ~ITEMABIL.2DA~ ~F#HSHD06    1~
+
+
+// The Shredder: +2 Flail
+    COPY ~los/itm/F#FLAL02.ITM~   ~override~   SAY NAME2 @481   SAY DESC @482
+    COPY ~los/itm/F#HFLA02.ITM~   ~override~   SAY NAME2 @483   SAY DESC @484
+
+// Foe Reaver: +2 Halberd
+    COPY ~los/itm/F#HALB03.ITM~   ~override~   SAY NAME2 @489   SAY DESC @490
+    COPY ~los/itm/F#HHLB03.ITM~   ~override~   SAY NAME2 @491   SAY DESC @492
+
+
+
+
+// Kanno the Bowyer's new items
+
+// The Falcon Arrow: +1 Returning Arrow
+    COPY ~los/itm/F#AROW04.ITM~   ~override~   SAY NAME2 @371   SAY DESC @372
+    COPY ~los/itm/F#AROW05.ITM~   ~override~   SAY NAME2 @373   SAY DESC @374
+    APPEND ~ITEMABIL.2DA~ ~F#AROW04    1~
+    APPEND ~ITEMABIL.2DA~ ~F#AROW05    1~
+
+// The Infinite Bolt
+    COPY ~los/itm/F#BOLT03.ITM~   ~override~   SAY NAME2 @375   SAY DESC @376
+
+// Zugenu: +2 Heavy Crossbow
+    COPY ~los/itm/F#HXBW01.ITM~   ~override~   SAY NAME2 @381   SAY DESC @382
+    COPY ~los/itm/F#HHXB01.ITM~   ~override~   SAY NAME2 @437   SAY DESC @438
+    APPEND ~ITEMABIL.2DA~ ~F#HXBW01    1~
+    APPEND ~ITEMABIL.2DA~ ~F#HHXB01    1~
+
+// Shukonu: +2 Light Crossbow
+    COPY ~los/itm/F#LXBW02.ITM~   ~override~   SAY NAME2 @383   SAY DESC @384
+    COPY ~los/itm/F#HLXB02.ITM~   ~override~   SAY NAME2 @385   SAY DESC @386
+
+// Tome of the Great Archer
+    COPY ~los/itm/F#BOOK01.ITM~   ~override~   SAY NAME2 @391   SAY DESC @392
+
+// Scarab of the Great Archer
+    COPY ~los/itm/F#AMUL07.ITM~   ~override~   SAY NAME2 @379   SAY DESC @380
+
+// The Alicorn Bow: +2 Shortbow
+    COPY ~los/itm/F#BOWS02.ITM~   ~override~   SAY NAME2 @397   SAY DESC @398
+    COPY ~los/itm/F#HBWS02.ITM~   ~override~   SAY NAME2 @399   SAY DESC @400
+
+// Bowstring
+    COPY ~los/itm/F#BOWSTR.ITM~   ~override~   SAY NAME2 @433   SAY DESC @434
+        SAY NAME1 @433    SAY UNIDENTIFIED_DESC @434
+
+// Acorns
+    COPY ~los/itm/F#ACORNS.ITM~   ~override~   SAY NAME2 @435   SAY DESC @436
+        SAY UNIDENTIFIED_DESC @435  SAY NAME1 @436
+
+// Greenbow: +2 Composite Longbow
+    COPY ~los/itm/F#BOWC01.ITM~   ~override~   SAY NAME2 @439   SAY DESC @440
+    COPY ~los/itm/F#HBWC01.ITM~   ~override~   SAY NAME2 @441   SAY DESC @442
+
+
+// RTHF "G" series will be for the Wandering Village thru the Fell Wood.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG1    F#PLAT09~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG1    F#HPLT09~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG2    F#LEAT02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG2    F#HLET02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG3    F#HIDE05~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG3    F#HHID05~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG4    F#DAGG03~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG4    F#HDAG03~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG4.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG5    F#SWBA04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG5    F#HSWB04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG5.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG6    00BOWSEH~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG6    00HFBSEH~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG6.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG7    F#SHLD02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG7    F#HSHD02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG7.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG8    F#LXBW02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG8    F#HLXB02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG8.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFG9    F#BOWS02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFG9    F#HBWS02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFG9.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFGA    F#SHLD06~
+APPEND ~RT_FURY.2DA~ ~F#RTHFGA    F#HSHD06~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFGA.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFGB    F#AROW04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFGB    F#AROW05~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFGB.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFGC    F#HXBW01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFGC    F#HHXB01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFGC.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFGD    F#AMUL09~
+APPEND ~RT_FURY.2DA~ ~F#RTHFGD    F#AMUL10~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFGD.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFGE    F#FLAL02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFGE    F#HFLA02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFGE.ITM~
+
+
+
+
+// *******************************************************************************************
+
+// new items for the River Caves, Duergar Outpost, etc.
+
+// +2 Umber Hulk full plate
+    COPY ~los/itm/F#HIDE01.ITM~   ~override~   SAY NAME2 @281 SAY UNIDENTIFIED_DESC @282  SAY DESC @283
+
+// Stoneburner (+2 Dwarven Waraxe of Flame)
+    COPY ~los/itm/F#AXE04.ITM~    ~override~   SAY NAME2 @316   SAY DESC @317
+    COPY ~los/itm/F#HAXE04.ITM~   ~override~   SAY NAME2 @318   SAY DESC @319
+    APPEND ~ITEMABIL.2DA~ ~F#AXE04    1~
+    APPEND ~ITEMABIL.2DA~ ~F#HAXE04    1~
+
+// The Silencer: +2 Light Hammer
+    COPY ~los/itm/F#HAMM02.ITM~   ~override~   SAY NAME2 @363   SAY DESC @364
+
+// Drowbane Bolts: +1 Bolts
+    COPY ~los/itm/F#BOLT02.ITM~    ~override~   SAY NAME2 @393   SAY DESC @394
+    COPY ~los/itm/F#HBLT02.ITM~    ~override~   SAY NAME2 @395   SAY DESC @396
+
+// Reforger: +1 Hammer of Smiting
+    COPY ~los/itm/F#HAMM03.ITM~    ~override~   SAY NAME2 @427   SAY DESC @428
+
+// Black Bear's Girdle
+    COPY ~los/itm/F#BELT01.ITM~    ~override~   SAY NAME2 @473   SAY DESC @474
+    COPY ~los/itm/F#HBEL01.ITM~    ~override~   SAY NAME2 @475   SAY DESC @476
+
+// Torgald's Doom: +1 Broadsword
+    COPY ~los/itm/F#SWLS07.ITM~    ~override~   SAY NAME2 @485   SAY DESC @486
+    COPY ~los/itm/F#HSWL07.ITM~    ~override~   SAY NAME2 @487   SAY DESC @488
+
+
+// RTHF "H" series will be for the River Caves, Duergar Outpost, etc.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFH1    F#AXE04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFH1    F#HAXE04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFH1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFH2    F#BOLT02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFH2    F#HBLT02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFH2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFH3    F#BELT01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFH3    F#HBEL01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFH3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFH4    F#SWLS07~
+APPEND ~RT_FURY.2DA~ ~F#RTHFH4    F#HSWL07~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFH4.ITM~
+
+
+
+// *******************************************************************************************
+
+// new items for the Monastary, etc.
+
+
+// Restless Soles
+    COPY ~los/itm/F#BOOT04.ITM~   ~override~   SAY NAME2 @377   SAY DESC @378
+
+// Staff of Discipline: +2 Lawful Quarterstaff
+    COPY ~los/itm/F#STAF10.ITM~    ~override~   SAY NAME2 @413   SAY DESC @414
+    COPY ~los/itm/F#HSTF10.ITM~    ~override~   SAY NAME2 @416   SAY DESC @417
+
+
+// RTHF "J" series will be for the Monastary (inside and out) and the tomb area underneath it.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFJ1    12SHLDSG~
+APPEND ~RT_FURY.2DA~ ~F#RTHFJ1    12HFSDSG~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFJ1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFJ2    F#STAF10~
+APPEND ~RT_FURY.2DA~ ~F#RTHFJ2    F#HSTF10~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFJ2.ITM~
+
+
+// *******************************************************************************************
+
+// new items for the Drow Underdark, the Drider Lair, and the Mindflayer Fortess.
+
+
+// Water's Edge (+2 Tower Shield)
+    COPY ~los/itm/F#SHLD04.ITM~   ~override~   SAY NAME2 @284   SAY DESC @285
+    COPY ~los/itm/F#HSHD04.ITM~   ~override~   SAY NAME2 @286   SAY DESC @287
+
+// Whisper (+3 Leather Armor of Stealth)
+    COPY ~los/itm/F#LEAT01.ITM~   ~override~   SAY NAME2 @289   SAY DESC @290
+    COPY ~los/itm/F#HLET01.ITM~   ~override~   SAY NAME2 @291   SAY DESC @292
+
+// Bonefang (+3 Poisoned Dagger)
+    COPY ~los/itm/F#DAGG04.ITM~   ~override~   SAY NAME2 @293   SAY DESC @294
+    COPY ~los/itm/F#HDAG04.ITM~   ~override~   SAY NAME2 @295   SAY DESC @296
+
+// Mail of Life (+3 Chain Mail)
+    COPY ~los/fixed_itm/00CHAN08.ITM~   ~override~
+
+// Dwarven Thrower +3 throwing hammer
+    COPY ~los/itm/F#THAM01.ITM~   ~override~   SAY NAME2 @310   SAY DESC @311
+
+// The Darkstone Amulet
+    COPY ~los/itm/F#AMUL04.ITM~   ~override~   SAY NAME2 @320   SAY DESC @321
+    COPY ~los/itm/F#HAML04.ITM~   ~override~   SAY NAME2 @322   SAY DESC @323
+
+// Mantle of the Flamewalker
+    COPY ~los/itm/F#CLOK06.ITM~   ~override~   SAY NAME2 @349   SAY DESC @350
+
+// Robe of Sorcere
+    COPY ~los/itm/F#ROBE04.ITM~   ~override~   SAY NAME2 @353   SAY DESC @354
+
+// Battle Gauntlets of Gruumsh
+    COPY ~los/itm/F#BRAC06.ITM~   ~override~   SAY NAME2 @411   SAY DESC @412
+
+// Goblinsbane: +2 Keen Dwarven Waraxe
+    COPY ~los/itm/F#AXE06.ITM~    ~override~   SAY NAME2 @417   SAY DESC @418
+    COPY ~los/itm/F#HAXE06.ITM~   ~override~   SAY NAME2 @419   SAY DESC @420
+    APPEND ~ITEMABIL.2DA~ ~F#AXE06    1~
+    APPEND ~ITEMABIL.2DA~ ~F#HAXE06    1~
+
+// Amulet of Natural Armor +3, +4
+    COPY ~los/itm/F#AMUL10.ITM~   ~override~   SAY NAME2 @274   SAY DESC @275
+    COPY ~los/itm/F#AMUL11.ITM~   ~override~   SAY NAME2 @276   SAY DESC @277
+
+// Frostbite: +3 Short Sword
+    COPY ~los/itm/F#SWS02.ITM~    ~override~   SAY NAME2 @477   SAY DESC @478
+    COPY ~los/itm/F#HSWS02.ITM~   ~override~   SAY NAME2 @479   SAY DESC @480
+
+
+
+// RTHF "K" series will be for the Drow Underdark, the Drider Lair, and the Mindflayer Fortesss.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK1    F#SHLD04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK1    F#HSHD04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK2    F#LEAT01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK2    F#HLET01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK3    F#DAGG04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK3    F#HDAG04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK4    F#AMUL04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK4    F#HAML04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK4.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK5    F#AXE06~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK5    F#HAXE06~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK5.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK6    F#AMUL10~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK6    F#AMUL11~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK6.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFK7    F#SWS02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFK7    F#HSWS02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFK7.ITM~
+
+
+
+// *******************************************************************************************
+
+// new items for the Kuldahar
+
+// Bathed in Blood: +3 Full Plate of Fearlessness
+    COPY ~los/itm/F#PLAT01.ITM~   ~override~   SAY DESC @297
+    COPY ~los/itm/F#HPLT01.ITM~   ~override~   SAY NAME2 @298   SAY DESC @299
+
+// Slayer: +5 Spear of Piercing (no HOF)
+    COPY ~los/itm/F#SPER01.ITM~   ~override~   SAY DESC @300
+
+// Serrated Bone Blade: +3 Massive Greastsword of Cold (no HOF)
+    COPY ~los/itm/F#SWGR04.ITM~   ~override~   SAY DESC @301
+    APPEND ~ITEMABIL.2DA~ ~F#SWGR04    1~
+
+// Hell's Bane: Sure-striking anti-outsider longsword
+    COPY ~los/itm/F#SWLS01.ITM~   ~override~   SAY DESC @302
+    COPY ~los/itm/F#HSWL01.ITM~   ~override~   SAY NAME2 @303   SAY DESC @304
+
+// Khevlahr's Tunic: +3 Hide Armor
+    COPY ~los/itm/F#HIDE04.ITM~   ~override~   SAY NAME2 @279   SAY DESC @280
+    COPY ~los/itm/F#HHID04.ITM~   ~override~   SAY NAME2 @459   SAY DESC @460
+
+// Skirmisher: +4 Composite Shortbow
+    COPY ~los/itm/F#BOWP03.ITM~   ~override~   SAY NAME2 @343   SAY DESC @344
+    COPY ~los/itm/F#HBWP03.ITM~   ~override~   SAY NAME2 @345   SAY DESC @346
+
+// Flicker: +3 Blinking Longsword (no HOF)
+// Replaces the Eye of the Hunter bow in the RT files.
+    COPY ~los/itm/F#SWLS05.ITM~   ~override~   SAY NAME2 @347   SAY DESC @348
+
+// Mystery of the Dead: +3 Tower Shield (no HOF)
+    COPY ~los/itm/F#SHLD05.ITM~   ~override~   SAY DESC @288
+
+// Parrying Hatchet: +3 Handaxe
+    COPY ~los/itm/F#AXE05.ITM~    ~override~   SAY NAME2 @365   SAY DESC @366
+
+// Wildfire: +3 Flaming Shortbow
+    COPY ~los/itm/F#BOWS01.ITM~   ~override~   SAY NAME2 @387   SAY DESC @388
+    COPY ~los/itm/F#HBWS01.ITM~   ~override~   SAY NAME2 @389   SAY DESC @390
+
+// Amulet of Natural Armor +5 (sold by new arcane merchant)
+    COPY ~los/itm/F#AMUL12.ITM~   ~override~   SAY NAME2 @443   SAY DESC @444
+
+// Cloak of Mist (sold by new arcane merchant)
+    COPY ~los/itm/F#CLOK07.ITM~   ~override~   SAY NAME2 @445   SAY DESC @446
+
+// Ring of Protection +4, +5
+    COPY ~los/itm/F#RINGP4.ITM~   ~override~   SAY NAME2 @447   SAY DESC @448
+    COPY ~los/itm/F#RINGP5.ITM~   ~override~   SAY NAME2 @449   SAY DESC @450
+
+// Bracers of Defense +5, +6
+    COPY ~los/itm/F#BRACD5.ITM~   ~override~   SAY NAME2 @451   SAY DESC @452
+    COPY ~los/itm/F#BRACD6.ITM~   ~override~   SAY NAME2 @453   SAY DESC @454
+
+// Rainbow Plate: +3 Full Plate Mail
+    COPY ~los/itm/F#PLAT11.ITM~   ~override~   SAY NAME2 @461   SAY DESC @462
+    COPY ~los/itm/F#HPLT11.ITM~   ~override~   SAY NAME2 @463   SAY DESC @464
+
+// Circlet of Intellect
+    COPY ~los/itm/F#HELM05.ITM~   ~override~   SAY NAME2 @471   SAY DESC @472
+        SAY NAME1 @469   SAY UNIDENTIFIED_DESC @470
+
+
+
+
+// RTHF "T" series will be for the Kuldahar.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT1    F#PLAT01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT1    F#HPLT01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT2    F#SWLS01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT2    F#HSWL01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT3    F#BOWP03~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT3    F#HBWP03~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT4    F#BOWS01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT4    F#HBWS01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT4.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT5    F#AMUL11~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT5    F#AMUL12~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT5.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT6    00BRAC04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT6    F#BRACD6~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT6.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT7    F#HIDE04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT7    F#HHID04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT7.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT8    F#PLAT11~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT8    F#HPLT11~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT8.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFT9    F#RINGP4~
+APPEND ~RT_FURY.2DA~ ~F#RTHFT9    F#RINGP5~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFT9.ITM~
+
+
+
+
+// *******************************************************************************************
+
+// new items for the Chult and Yuan-ti Temple
+
+
+// Black Dragon Scale: +4 Leather Armor (Removed in favor of the Serpent's Scales armor)
+//    COPY ~los/fixed_itm/00HIDE05.ITM~   ~override~   SAY DESC @309
+
+// Apple Blossom: +3 Breastplate
+    COPY ~los/itm/F#BRPT01.ITM~   ~override~   SAY NAME2 @401   SAY DESC @402
+    COPY ~los/itm/F#HBPT01.ITM~   ~override~   SAY NAME2 @403   SAY DESC @404
+
+// Hoarfrost: +3 Katana
+    COPY ~los/itm/F#SWKA03.ITM~   ~override~   SAY NAME2 @421   SAY DESC @422
+        SAY UNIDENTIFIED_DESC @426  SAY NAME1 @425
+    COPY ~los/itm/F#HSWK03.ITM~   ~override~   SAY NAME2 @423   SAY DESC @424    
+        SAY UNIDENTIFIED_DESC @426  SAY NAME1 @425
+    APPEND ~ITEMABIL.2DA~ ~F#SWKA03    1~
+    APPEND ~ITEMABIL.2DA~ ~F#HSWK03    1~
+    
+// Serpent's Scales: +4 Leather Armor
+    COPY ~los/itm/F#LEATSA.ITM~   ~override~   SAY NAME2 @455   SAY DESC @456
+        SAY UNIDENTIFIED_DESC @278
+    COPY ~los/itm/F#HLETSA.ITM~   ~override~   SAY NAME2 @457   SAY DESC @458    
+        SAY UNIDENTIFIED_DESC @278
+
+// Avenger: +4 Composite Longbow
+    COPY ~los/itm/F#BOWC02.ITM~   ~override~   SAY NAME2 @465   SAY DESC @466
+    COPY ~los/itm/F#HBWC02.ITM~   ~override~   SAY NAME2 @467   SAY DESC @468
+    APPEND ~ITEMABIL.2DA~ ~F#BOWC02    1~
+    APPEND ~ITEMABIL.2DA~ ~F#HBWC02    1~
+
+// RTHF "V" series will be for the Chult and Yuan-ti Temple.
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFV1    F#BRPT01~
+APPEND ~RT_FURY.2DA~ ~F#RTHFV1    F#HBPT01~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFV1.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFV2    F#SWKA03~
+APPEND ~RT_FURY.2DA~ ~F#RTHFV2    F#HSWK03~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFV2.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFV3    F#LEATSA~
+APPEND ~RT_FURY.2DA~ ~F#RTHFV3    F#HLETSA~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFV3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFV4    F#BOWC02~
+APPEND ~RT_FURY.2DA~ ~F#RTHFV4    F#HBWC02~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFV4.ITM~
+
+
+// *******************************************************************************************
+
+// new items for the Dragon's Eye
+
+
+// Bhaal's Fire: +3 Flaming Longsword (NM, slight tweaked)
+// (No need to create a new RTHF for this item.  It is replacing Dykhast in the RTHF files.)
+    COPY ~los/itm/F#SWLS04.ITM~   ~override~   SAY DESC @201
+    COPY ~los/itm/F#HSWL04.ITM~   ~override~   SAY NAME2 @202   SAY DESC @203
+
+// Doomfist: +4 Mace
+    COPY ~los/itm/F#MACE04.ITM~   ~override~   SAY NAME2 @351   SAY DESC @352
+
+// The Commander's Plate: +4 Half-Plate
+    COPY ~los/itm/F#PLAT10.ITM~   ~override~   SAY NAME2 @359   SAY DESC @360
+    COPY ~los/itm/F#HPLT10.ITM~   ~override~   SAY NAME2 @361   SAY DESC @362
+
+// Sylvan Chain: +2 Mithral Chainmail
+    COPY ~los/itm/F#CHAN04.ITM~   ~override~   SAY NAME2 @367   SAY DESC @368
+    COPY ~los/itm/F#HCHN04.ITM~   ~override~   SAY NAME2 @369   SAY DESC @370
+
+
+
+// RTHF "W" series will be for the Dragon's Eye.
+
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFW3    F#CHAN04~
+APPEND ~RT_FURY.2DA~ ~F#RTHFW3    F#HCHN04~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFW3.ITM~
+
+APPEND ~RT_NORM.2DA~ ~F#RTHFW2    F#PLAT10~
+APPEND ~RT_FURY.2DA~ ~F#RTHFW2    F#HPLT10~
+COPY ~los/rthf/F#RTHFA1.ITM~   ~override/F#RTHFW2.ITM~
+
+
+
+
+
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+
+
+    
+// *******************************************************************************************
+// *******************************************************************************************
+
+// Some item upgrades, updates, fixes, or outright replacements.
+
+
+// Sherincal's massive greatsword, Winged Blight. (numerous updates)
+    COPY ~los/upg_itm/ZZR6WB.ITM~     ~override~   SAY DESC @601
+    COPY ~los/upg_itm/ZZR6HFWB.ITM~   ~override~   SAY DESC @602
+    APPEND ~ITEMABIL.2DA~ ~ZZR6WB    1~
+    APPEND ~ITEMABIL.2DA~ ~ZZR6HFWB    1~
+
+// Guthma's morningstar, now called Talona's Gift. (REPLACES Mountains of Selune)
+    COPY ~los/upg_itm/00MSTRMS.ITM~   ~override~   SAY NAME2 @603   SAY DESC @604
+    COPY ~los/upg_itm/00HFMRMS.ITM~   ~override~   SAY NAME2 @605   SAY DESC @606
+
+// Iron Arbalest, now renamed Bazell's Rage. (still an arbalest, now usable by all, with some modifications)
+    COPY ~los/upg_itm/00BWHXIA.ITM~   ~override~   SAY NAME2 @607   SAY DESC @608
+    COPY ~los/upg_itm/00HFHXIA.ITM~   ~override~   SAY NAME2 @609   SAY DESC @610
+    APPEND ~ITEMABIL.2DA~ ~00BWHXIA    1~
+    APPEND ~ITEMABIL.2DA~ ~00HFHXIA    1~
+    
+// Goblin Hunter (mild update to NM version, more serious update to HOF version)
+    COPY ~los/upg_itm/ZZL6GH.ITM~     ~override~   SAY DESC @611
+    COPY ~los/upg_itm/11HFDGGH.ITM~   ~override~   SAY NAME2 @612   SAY DESC @613
+
+// Kegsplitter of Shaengarne Ford (toned down)
+    COPY ~los/upg_itm/11HFAXKS.ITM~   ~override~   SAY DESC @614
+
+// Greatsword of the Soulless +5 (toned up, and made evil only, and adjusted the vampiric effect)
+    COPY ~los/upg_itm/00CWSKX1.ITM~   ~override~   SAY DESC @615
+    COPY ~los/upg_itm/00SWDT93.ITM~   ~override~   SAY DESC @615
+
+// Silentkiller shortsword (toned up)
+    COPY ~los/upg_itm/00SWDSSK.ITM~   ~override~   SAY DESC @616
+    COPY ~los/upg_itm/00HFSSSK.ITM~   ~override~   SAY DESC @617
+
+// Azure Rod (toned up, and made finesse-able) REMOVED FOR NOW
+//    COPY ~los/upg_itm/00MACEAR.ITM~   ~override~   SAY DESC @420
+//    COPY ~los/upg_itm/00HFMEAR.ITM~   ~override~   SAY DESC @421
+
+// Handaxe of Expertise +1 (made finesse-able)
+    COPY_EXISTING ~00AX1H90.ITM~   ~override~ 
+        WRITE_SHORT 0x1c 19 // small blade
+        WRITE_SHORT 0x9c 1  // damage bonus == 1  
+        SAY DESC @618 
+
+// Robes of the Good, Neutral, and Evil Archmagi
+    COPY ~los/upg_itm/00ROBE05.ITM~   ~override~   SAY DESC @619
+    COPY ~los/upg_itm/00ROBE06.ITM~   ~override~   SAY DESC @620
+    COPY ~los/upg_itm/00ROBE07.ITM~   ~override~   SAY DESC @621
+
+// New Greatsword "Cera Sumat" Holy Avenger
+    COPY ~los/upg_itm/60SWDLHA.ITM~   ~override~   SAY DESC @622
+    COPY ~los/upg_itm/60HFSLHA.ITM~   ~override~   SAY DESC @623
+    APPEND ~ITEMABIL.2DA~ ~60SWDLHA    1~
+    APPEND ~ITEMABIL.2DA~ ~60HFSLHA    1~
+
+// Scimitar of Acid +2 (removed 50% chance on acid damage)
+    COPY_EXISTING ~00SWDC87.ITM~    ~override~
+        WRITE_BYTE 0x18c 100   
+        SAY DESC @624
+
+// Handaxe (made finesse-able)
+    COPY_EXISTING ~00AX1H11.ITM~   ~override~ 
+        WRITE_SHORT 0x1c 19 // small blade  
+        SAY DESC @625
+
+// Masterwork Handaxe (made finesse-able)
+    COPY_EXISTING ~00AX1H12.ITM~   ~override~ 
+        WRITE_SHORT 0x1c 19 // small blade  
+        SAY DESC @626
+
+// Wizards Ring (increased to +2 INT)
+    COPY_EXISTING ~00RING21.ITM~   ~override~ 
+        WRITE_BYTE 0x86 2  
+        SAY DESC @627
+
+// Belib's Everlasting Torch (made finesse-able and other minor adjustments)
+    COPY_EXISTING ~50CLUBBT.ITM~   ~override~ 
+        WRITE_SHORT 0x1c 19 // small blade  
+        WRITE_LONG 0x34 18305 // cost 
+        WRITE_LONG 0x60 1 // enchantment == 1
+        WRITE_SHORT 0x96 1 // to-hit bonus == 1
+        WRITE_SHORT 0x9c 1 // damage bonus == 1 
+        WRITE_BYTE 0x196 1 // only 1d6 flame damage, not 2.
+        SAY DESC @628
+
+
+// Belib's Amazing Everlasting Torch (made finesse-able and other minor adjustments)
+    COPY_EXISTING ~50HFCLBT.ITM~   ~override~ 
+        WRITE_SHORT 0x1c 19 // small blade  
+        WRITE_LONG 0x34 50305 // cost 
+        WRITE_LONG 0x60 3 // enchantment == 3
+        WRITE_SHORT 0x96 3 // to-hit bonus == 3
+        WRITE_SHORT 0x9c 3 // damage bonus == 3 
+        SAY DESC @629
+
+
+
+// ******************************************************************************
+// ******************************************************************************
+// ******************************************************************************
+
+// Existing Armor Upgrades
+
+
+// Uthgar's Blessing: +1 Leather Armor
+    COPY ~los/upg_armor/10LEATUB.ITM~   ~override~   SAY DESC @630
+    COPY ~los/upg_armor/10HFLTUB.ITM~   ~override~   SAY DESC @631
+
+// Interloper: +1 Studded Leather Armor
+    COPY ~los/upg_armor/60LEATIN.ITM~   ~override~   SAY DESC @632
+    COPY ~los/upg_armor/60HFLTIN.ITM~   ~override~   SAY DESC @633
+
+// Zuvembie: +3 Studded Leather (not really patchable)
+//    COPY ~los/upg_armor/60LEATZU.ITM~   ~override~   SAY DESC @634
+    COPY ~los/upg_armor/60HFLTZU.ITM~   ~override~   SAY DESC @635
+
+// Dirty Bits: +3 Leather Armor
+    COPY ~los/upg_armor/62LEATDB.ITM~   ~override~   SAY DESC @636
+    COPY ~los/upg_armor/62HFLTDB.ITM~   ~override~   SAY DESC @637
+
+// Milton Sixtoes' Armor of Absolute Self: +3 Studded Leather Armor 
+    COPY ~los/upg_armor/50LEATMS.ITM~   ~override~   SAY DESC @638
+    COPY ~los/upg_armor/50HFLTMS.ITM~   ~override~   SAY NAME2 @639   SAY DESC @640
+
+// Wandering Hunter's Armor: +2 Hide Armor
+    COPY ~los/upg_armor/50HIDE06.ITM~   ~override~   SAY DESC @641
+
+// Abishai Hide Armor: +1 Hide Armor
+    COPY ~los/upg_armor/50HIDEAH.ITM~   ~override~   SAY DESC @642
+    COPY ~los/upg_armor/50HFHEAH.ITM~   ~override~   SAY DESC @643
+
+// Mercenary's Lot: +3 Chain Mail
+    COPY ~los/upg_armor/00CHANML.ITM~   ~override~   SAY DESC @644
+    COPY ~los/upg_armor/00HFCNML.ITM~   ~override~   SAY DESC @645
+
+// Glacial Resilience: +1 Splint Mail
+    COPY ~los/upg_armor/60CHANGR.ITM~   ~override~   SAY DESC @646
+    COPY ~los/upg_armor/60HFCNGR.ITM~   ~override~   SAY DESC @647
+
+// Sanctity: +1 Splint Mail
+    COPY ~los/upg_armor/60CHANSA.ITM~   ~override~  
+    COPY ~los/upg_armor/60HFCNSA.ITM~   ~override~   SAY DESC @648
+
+// Armor of Tuqak Mauler: +2 Splint (no need for any name or description changes)
+    COPY ~los/upg_armor/60CHANTM.ITM~   ~override~  
+    COPY ~los/upg_armor/60HFCNTM.ITM~   ~override~ 
+
+// Armor of Warding: +1 Half-Plate
+    COPY ~los/upg_armor/51PLAT10.ITM~   ~override~   SAY DESC @649
+    COPY ~los/upg_armor/51HFPT10.ITM~   ~override~   SAY DESC @650
+
+// Aasimar's Aura: +3 Full Plate
+    COPY ~los/upg_armor/60PLATAA.ITM~   ~override~   SAY DESC @651
+    COPY ~los/upg_armor/60HFPTAA.ITM~   ~override~   SAY DESC @652
+
+// Air Genesi Armor: +2 Full Plate
+    COPY ~los/upg_armor/60PLATAG.ITM~   ~override~   SAY DESC @653
+    COPY ~los/upg_armor/60HFPTAG.ITM~   ~override~   SAY DESC @654
+
+// Diamond Cut: +2 Full Plate
+    COPY ~los/upg_armor/60PLATDC.ITM~   ~override~   SAY DESC @655
+    COPY ~los/upg_armor/60HFPTDC.ITM~   ~override~   SAY DESC @656
+
+// Armor of the Clerics of Myrkul: +2 Half-Plate
+    COPY ~los/upg_armor/60PLATKC.ITM~   ~override~   SAY DESC @657
+    COPY ~los/upg_armor/60HFPTKC.ITM~   ~override~   SAY DESC @658
+
+// Owl's Feather: +1 Half-Plate
+    COPY ~los/upg_armor/60PLATOF.ITM~   ~override~   SAY DESC @659
+    COPY ~los/upg_armor/60HFPTOF.ITM~   ~override~   SAY DESC @660
+
+// Plate of the Pit Fiend: +3 Half-Plate
+    COPY ~los/upg_armor/60PLATPF.ITM~   ~override~   SAY DESC @661
+    COPY ~los/upg_armor/60HFPTPF.ITM~   ~override~   SAY DESC @662
+
+
+// Existing Shield Upgrades 
+
+
+// Black Urchin: +2 Small Shield
+    COPY ~los/upg_armor/00SHLDBU.ITM~   ~override~   SAY DESC @663
+    COPY ~los/upg_armor/00HFSDBU.ITM~   ~override~   SAY DESC @664
+
+// Footman's Incredibly Ridiculous Folly: +3 Small Shield
+    COPY ~los/upg_armor/00HFSDFF.ITM~   ~override~   SAY DESC @665
+
+// Tabard's Shield: +1 Large Shield
+    COPY ~los/upg_armor/12ShldTS.ITM~   ~override~   SAY DESC @666
+    COPY ~los/upg_armor/12HFSdTS.ITM~   ~override~   SAY DESC @667
+
+// Flank of the Virgin: +1 Large Shield
+    COPY ~los/upg_armor/00SHLDFV.ITM~   ~override~   SAY DESC @668
+    COPY ~los/upg_armor/00HFSDFV.ITM~   ~override~   SAY DESC @669
+
+// Myo-Myo's Gong: +2 Large Shield
+    COPY ~los/upg_armor/00SHLDMM.ITM~   ~override~   SAY DESC @670
+    COPY ~los/upg_armor/00HFSDMM.ITM~   ~override~   SAY DESC @671
+
+// Red Fang's Tomb: +3 Tower Shield
+    COPY ~los/upg_armor/00SHLDRF.ITM~   ~override~   SAY DESC @672
+    COPY ~los/upg_armor/00HFSDRF.ITM~   ~override~   SAY DESC @673
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+
+// Tower Shield 3.5ed rules fix....
+
+// The standard Tower Shield in IWD2 had a base shield bonus of +2 AC, +1 vs missiles.
+// However, per the 3.5ed rules a tower shield's base shield bonus should be a straight +4 AC.
+// HOWEVER, so as not to overdo things, I've increased the shield bonus to only +3 AC.
+
+    COPY ~los/fixed_itm/00SHLD12.ITM~   ~override~   SAY UNIDENTIFIED_DESC @674
+    COPY ~los/fixed_itm/00SHLD13.ITM~   ~override~   SAY UNIDENTIFIED_DESC @674
+    COPY ~los/fixed_itm/00SHLD14.ITM~   ~override~   SAY UNIDENTIFIED_DESC @674
+    COPY ~los/fixed_itm/00SHLD15.ITM~   ~override~   SAY UNIDENTIFIED_DESC @674
+    COPY ~los/fixed_itm/00SHLD16.ITM~   ~override~   SAY DESC @675
+    COPY ~los/fixed_itm/00SHLD17.ITM~   ~override~   SAY DESC @676
+    COPY ~los/fixed_itm/00SHLD85.ITM~   ~override~   SAY DESC @677
+    COPY ~los/fixed_itm/00SHLD86.ITM~   ~override~   SAY DESC @678
+    COPY ~los/fixed_itm/00SHLD87.ITM~   ~override~   SAY DESC @679
+    COPY ~los/fixed_itm/00SHLD97.ITM~   ~override~   SAY DESC @680
+
+// Skipped Red Fang tower shield here.  Included it in my overall "named" Armor/Shields upgrade section.
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+// Fix the Vampiric weapon effect.  Now it's 1d6 and there's no save, period.
+
+
+// Fix "Greatsword of the Soulless +5" LATER....
+// I've manually fixed 00CWSKX1 and 00SWDT93 elsewhere.
+// Editting the alignment bits is a "bit" tricky.
+
+
+//1 Greataxe of Vampiric Flame 
+    COPY_EXISTING ~00AX2H99.ITM~   ~override~ 
+        WRITE_SHORT 0x22a 6  // d6
+        WRITE_SHORT 0x22e 0  // no save
+        WRITE_SHORT 0x232 0  // no DC
+        SAY DESC @681
+
+//2 Morningstar of the Eternal +3
+    COPY_EXISTING ~00MSTR93.ITM~   ~override~ 
+        WRITE_SHORT 0x196 1  // 1 (d6)
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @682
+
+//3 Vampiric Club
+    COPY_EXISTING ~00CLUB84.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @683
+
+//4 Vampire's Fang +1
+    COPY_EXISTING ~00DAGG92.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @684
+
+//5 Vampiric Dagger +1
+    COPY_EXISTING ~00DAGG98.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @685
+
+//6 Vampiric Flail
+    COPY_EXISTING ~00FLAL90.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @686
+
+//7 Massive Halberd of Hate +4
+    COPY_EXISTING ~00HALB96.ITM~   ~override~ 
+        WRITE_SHORT 0x1ca 6  // d6
+        WRITE_SHORT 0x1ce 0  // no save
+        WRITE_SHORT 0x1d2 0  // no DC
+        SAY DESC @687
+
+//8 Life's Blood Drinker
+    COPY_EXISTING ~00HFSRIM.ITM~   ~override~ 
+        WRITE_SHORT 0x34  162305 // corrected price (was missing the cost of the MW spear in the overall price)
+        WRITE_SHORT 0x16a 4  // d4 (leave as d4 so that the 1d4+2 seems like 1d6)
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        WRITE_SHORT 0x1ce 0  // no save (wounding)
+        WRITE_SHORT 0x1d2 0  // no DC (wounding)
+        SAY DESC @688
+        
+//9 Unholy Halberd of Chaos
+    COPY_EXISTING ~ZZM6UC.ITM~   ~override~ 
+        WRITE_SHORT 0x1fa 6  // d6
+        WRITE_SHORT 0x1fe 0  // no save
+        WRITE_SHORT 0x202 0  // no DC
+        SAY DESC @689
+
+//10 Impaler
+    COPY_EXISTING ~00SPERIM.ITM~   ~override~ 
+        WRITE_SHORT 0x16a 6  // d6
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        WRITE_SHORT 0x1ce 0  // no save (wounding)
+        WRITE_SHORT 0x1d2 0  // no DC (wounding)
+        SAY DESC @690
+        
+//11 Vampiric Longsword +4
+    COPY_EXISTING ~00SWDL94.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @691
+
+//12 Longsword +1: Bloodletting
+    COPY_EXISTING ~00SWDL96.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        WRITE_SHORT 0x1fe 0  // no save (wounding)
+        WRITE_SHORT 0x202 0  // no DC (wounding)
+        SAY DESC @692
+        
+//13 Vampiric Long Sword
+    COPY_EXISTING ~00SWDL99.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @693
+
+//14 Vampiric Short Sword
+    COPY_EXISTING ~00SWDS93.ITM~   ~override~ 
+        WRITE_SHORT 0x19a 6  // d6
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @694
+
+//15 Axe of the Souls EFF file
+    COPY_EXISTING ~EFFSOUL1.SPL~   ~override~ 
+        WRITE_SHORT 0xca 6  // d6
+        WRITE_SHORT 0xce 0  // no save
+        WRITE_SHORT 0xd2 0  // no DC
+    COPY_EXISTING ~00AX1HAS.ITM~   ~override~ 
+        SAY DESC @695
+
+
+//16 Soul Stealer EFF file 
+    COPY_EXISTING ~EFFSOUL2.SPL~   ~override~ 
+        WRITE_SHORT 0xca 6  // d6
+        WRITE_SHORT 0xce 0  // no save
+        WRITE_SHORT 0xd2 0  // no DC
+    COPY_EXISTING ~00HFAXAS.ITM~   ~override~ 
+        SAY DESC @696
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+// Fix the Wounding weapons effect.  Now there's no Fort save, period.
+
+// However, per the D&D rules, any cure spell, including most healing potions,
+// Lay Hands, and Lathander's Renewal, has a chance to stop a bleeding wound
+// on a Fort save (DC15) by the wounded person.  Healing Circle is not included
+// only because I'm uncertain of whether it would properly ask each effected
+// character in the "circle" to make a save roll.
+
+
+
+//1 Hunting Arrows
+    COPY_EXISTING ~00AROW96.ITM~   ~override~ 
+        WRITE_SHORT 0xbe 2  // 2 hp per round
+        WRITE_SHORT 0xde 0  // no save
+        WRITE_SHORT 0xe2 0  // no DC
+        SAY DESC @697
+
+//2 Axe of Wounding
+    COPY_EXISTING ~00AX1H82.ITM~   ~override~ 
+        WRITE_SHORT 0x14e 2  // 2 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @698
+
+//3 Greataxe of Blurred Visions +5
+    COPY_EXISTING ~00AX2H87.ITM~   ~override~ 
+        WRITE_SHORT 0x1de 2  // 2 hp per round
+        WRITE_SHORT 0x1fe 0  // no save
+        WRITE_SHORT 0x202 0  // no DC
+        SAY DESC @699
+
+//4 Scales of Balance
+    COPY_EXISTING ~00HFAXBA.ITM~   ~override~ 
+        WRITE_SHORT 0x20e 0  // no save
+        WRITE_SHORT 0x212 0  // no DC
+        SAY DESC @700
+
+//5 Hammer of Bludgeoning +2
+    COPY_EXISTING ~00HAMM88.ITM~   ~override~ 
+        WRITE_SHORT 0x14e 2  // 2 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @701
+
+//6 Mace of Bludgeoning +2
+    COPY_EXISTING ~00MACE89.ITM~   ~override~ 
+        WRITE_SHORT 0x14e 2  // 2 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @702
+
+//7 Star of Quills +2 
+    COPY_EXISTING ~00MSTR92.ITM~   ~override~ 
+        WRITE_SHORT 0x34  72308 // corrected price for double wounding
+        WRITE_SHORT 0x14e 4  // 4 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @703
+
+//8 Bullets of Wounding
+    COPY_EXISTING ~00BULL90.ITM~   ~override~ 
+        WRITE_SHORT 0xbe 2  // 2 hp per round
+        WRITE_SHORT 0xde 0  // no save
+        WRITE_SHORT 0xe2 0  // no DC
+        SAY DESC @704
+
+//9 Dart of Wounding
+    COPY_EXISTING ~00DART04.ITM~   ~override~ 
+        WRITE_SHORT 0xbe 2  // 2 hp per round
+        WRITE_SHORT 0xde 0  // no save
+        WRITE_SHORT 0xe2 0  // no DC
+        SAY DESC @705
+
+//10 Poisoned Blood Flail +2
+    COPY_EXISTING ~00FLAL85.ITM~   ~override~ 
+        WRITE_SHORT 0x17e 2  // 2 hp per round
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @706
+
+//11 Wounding Flail of the Elements +5
+    COPY_EXISTING ~00FLAL96.ITM~   ~override~ 
+        WRITE_SHORT 0x1de 2  // 2 hp per round
+        WRITE_SHORT 0x1fe 0  // no save
+        WRITE_SHORT 0x202 0  // no DC
+        SAY DESC @707
+
+//12 Brilliant Flail of Wounding
+    COPY_EXISTING ~00FLAL98.ITM~   ~override~ 
+        WRITE_SHORT 0x17e 2  // 2 hp per round
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @708
+
+//13 Bruiser Staff
+    COPY_EXISTING ~00STAF80.ITM~   ~override~ 
+        WRITE_SHORT 0x17e 2  // 2 hp per round
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @709
+
+//14 Spear of Perpetual Bleeding +1
+    COPY_EXISTING ~00SPER90.ITM~   ~override~ 
+        WRITE_SHORT 0x14e 2  // 2 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @710
+
+//15 Spear of Wounding
+    COPY_EXISTING ~00SPER94.ITM~   ~override~ 
+        WRITE_SHORT 0x14e 2  // 2 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @711
+
+//16 Scimitar: Blood Trails
+    COPY_EXISTING ~00SWDC90.ITM~   ~override~ 
+        WRITE_SHORT 0x34  98312 // corrected price (entirely too low)
+        WRITE_SHORT 0x17e 4  // 4 hp per round
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @712
+
+//17 Longsword of Wounding +1
+    COPY_EXISTING ~00SWDL82.ITM~   ~override~ 
+        WRITE_SHORT 0x14e 2  // 2 hp per round
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @713
+
+//18 Wounding Sword of Shadows +1
+    COPY_EXISTING ~00SWDS86.ITM~   ~override~ 
+        WRITE_SHORT 0x17e 2  // 2 hp per round
+        WRITE_SHORT 0x19e 0  // no save
+        WRITE_SHORT 0x1a2 0  // no DC
+        SAY DESC @714
+
+//19 Charged Short Sword of Wounding +5
+    COPY_EXISTING ~00SWDS94.ITM~   ~override~ 
+        WRITE_SHORT 0x1de 2  // 2 hp per round
+        WRITE_SHORT 0x1fe 0  // no save
+        WRITE_SHORT 0x202 0  // no DC
+        SAY DESC @715
+
+//20 Bleeding Short Sword +4
+    COPY_EXISTING ~00SWDS97.ITM~   ~override~ 
+        WRITE_SHORT 0x16e 0  // no save
+        WRITE_SHORT 0x172 0  // no DC
+        SAY DESC @716
+
+//21 The Black Lamia's Tongue
+    COPY_EXISTING ~50HFDGLT.ITM~   ~override~ 
+        WRITE_SHORT 0x216 2  // 2 hp per round
+        WRITE_SHORT 0x236 0  // no save
+        WRITE_SHORT 0x23a 0  // no DC
+        WRITE_SHORT 0x1b6 2  // 2 hp per round
+        WRITE_SHORT 0x1d6 0  // no save
+        WRITE_SHORT 0x1da 0  // no DC
+        SAY DESC @717
+
+
+// Install all files relating to the "cure bleeding" fix.
+    COPY ~los/bleeding_fix~     ~override~
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+// Named Bow tweaks
+
+// Arc of Gold (tweaked)
+    COPY_EXISTING ~00BOWCAG.ITM~   ~override~ 
+        WRITE_SHORT 0x26 16  // Set min STR to 16
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x96 5   // fixed Attack Bonus for a +4 CLB.
+        WRITE_SHORT 0x9c 9   // fixed damage bonus for a +4 CLB with a STR 16 req.
+        WRITE_LONG  0x34 32700 // new cost for a +4 CLB with a STR 16 req.
+        SAY DESC @718
+
+    COPY_EXISTING ~00HFBCAG.ITM~   ~override~ 
+        WRITE_SHORT 0x26 16  // Set min STR to 16
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x96 6   // fixed Attack Bonus for a +5 CLB.
+        WRITE_SHORT 0x9c 10  // fixed damage bonus for a +5 CLB with a STR 16 req.
+        WRITE_LONG  0x34 50700 // new cost for a +4 CLB with a STR 16 req.
+        SAY DESC @719
+
+
+
+// Sun-Reacher (tweaked)
+    COPY_EXISTING ~00BOWLSR.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 5   // fixed Damage Bonus for a +3 LB.
+        SAY DESC @722
+
+    COPY_EXISTING ~00HFBLSR.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 6   // fixed Damage Bonus for a +4 LB.
+        WRITE_LONG  0x34 73800 // new cost 
+        SAY DESC @723
+
+// Eye of the Hunter (tweaked)
+    COPY ~los/upg_itm/00BOWSEH.ITM~   ~override~   SAY DESC @724
+    COPY ~los/upg_itm/00HFBSEH.ITM~   ~override~   SAY DESC @725
+
+// Rabbit Slayer (tweaked)
+    COPY ~los/upg_itm/00BOWSRS.ITM~   ~override~   SAY DESC @726
+    COPY ~los/upg_itm/00HFBSRS.ITM~   ~override~   SAY DESC @727
+
+
+// ******************************************************************************
+// ******************************************************************************
+// ******************************************************************************
+
+// Named Crossbow tweaks
+
+
+// Doom Bolter (tweaked)
+    COPY ~los/upg_itm/51BWHXDB.ITM~   ~override~   SAY DESC @728
+    COPY ~los/upg_itm/51HFHXDB.ITM~   ~override~   SAY DESC @729
+
+// Hell Bolter (tweaked)
+    COPY ~los/upg_itm/51BWHXHB.ITM~   ~override~   SAY DESC @730
+    COPY ~los/upg_itm/51HFHXHB.ITM~   ~override~   SAY DESC @731
+
+// Geloise (tweaked)
+    COPY ~los/upg_itm/00BWHXGE.ITM~   ~override~   SAY DESC @732
+    COPY ~los/upg_itm/00HFHXGE.ITM~   ~override~   SAY DESC @733
+
+// Mailripper (tweaked)
+    COPY ~los/upg_itm/00BWHXMR.ITM~   ~override~   SAY DESC @734
+    COPY ~los/upg_itm/00HFHXMR.ITM~   ~override~   SAY DESC @735
+    APPEND ~ITEMABIL.2DA~ ~00BWHXMR    1~
+    APPEND ~ITEMABIL.2DA~ ~00HFHXMR    1~
+    
+// Iron Mary's Reply (tweaked)
+    COPY ~los/upg_itm/00BWLXIM.ITM~   ~override~   SAY DESC @736
+    COPY ~los/upg_itm/00HFLXIM.ITM~   ~override~   SAY DESC @737
+
+// Makavail's Bane (tweaked)
+    COPY ~los/upg_itm/00BWLXMB.ITM~   ~override~   SAY DESC @738
+    COPY ~los/upg_itm/00HFLXMB.ITM~   ~override~   SAY DESC @739
+
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+
+// Composite and non-composite longbow tweak to account for the fact
+// that longbows should do 1d8 while shortbows do only 1d6 base damage.
+
+
+    COPY_EXISTING ~00BOWC01.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY UNIDENTIFIED_DESC @740
+
+    COPY_EXISTING ~00BOWC02.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY UNIDENTIFIED_DESC @741
+
+    COPY_EXISTING ~00BOWC04.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 5   // add 2 to damage bonus
+        SAY DESC @742
+
+    COPY_EXISTING ~00BOWC92.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY DESC @743
+
+    COPY_EXISTING ~00BOWC93.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY DESC @744
+
+    COPY_EXISTING ~00BOWC94.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY DESC @745
+
+    COPY_EXISTING ~00BOWC95.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY DESC @746
+
+    COPY_EXISTING ~00BOWC96.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 9   // add 2 to damage bonus
+        SAY DESC @747
+
+    COPY_EXISTING ~00BOWC97.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 8   // add 2 to damage bonus
+        SAY DESC @748
+
+    COPY_EXISTING ~00BOWC98.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 7   // add 2 to damage bonus
+        SAY DESC @749
+
+    COPY_EXISTING ~00BOWC99.ITM~   ~override~ 
+        WRITE_SHORT 0x26 14  // Set min STR to 14
+        WRITE_SHORT 0x90 110 // set max range for a comp.longbow to 110.
+        WRITE_SHORT 0x9c 6   // add 2 to damage bonus
+        SAY DESC @750
+
+    COPY_EXISTING ~00BOWL01.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 2   // add 2 to damage bonus
+        SAY UNIDENTIFIED_DESC @751
+
+    COPY_EXISTING ~00BOWL02.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 2   // add 2 to damage bonus
+        SAY UNIDENTIFIED_DESC @752
+
+    COPY_EXISTING ~00BOWL03.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 3   // add 2 to damage bonus
+        SAY DESC @753
+
+    COPY_EXISTING ~00BOWL88.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 7   // add 2 to damage bonus
+        SAY DESC @754
+
+    COPY_EXISTING ~00BOWL89.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 6   // add 2 to damage bonus
+        SAY DESC @755
+
+    COPY_EXISTING ~00BOWL90.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 5   // add 2 to damage bonus
+        SAY DESC @756
+
+    COPY_EXISTING ~00BOWL91.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY DESC @757
+
+    COPY_EXISTING ~00BOWL95.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 4   // add 2 to damage bonus
+        SAY DESC @758
+
+    COPY_EXISTING ~00BOWL96.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 2   // add 2 to damage bonus
+        SAY DESC @759
+
+    COPY_EXISTING ~00BOWL97.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 2   // add 2 to damage bonus
+        SAY DESC @760
+
+    COPY_EXISTING ~00BOWL98.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 3   // add 2 to damage bonus
+        SAY DESC @761
+
+    COPY_EXISTING ~00BOWL99.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 7   // add 2 to damage bonus
+        SAY DESC @762
+
+    COPY_EXISTING ~00BOWLSF.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 3   // add 2 to damage bonus
+        SAY DESC @763
+
+    COPY_EXISTING ~00HFBLSF.ITM~   ~override~ 
+        WRITE_SHORT 0x26 10  // Set min STR to 10
+        WRITE_SHORT 0x9c 5   // add 2 to damage bonus
+        SAY DESC @764
+
+// Add all composite longbows, regular longbows, and composite shortbows
+// to the ITEMABIL.2DA file so that their STR minimums are enforced.
+
+// Composite Longbows
+    APPEND ~ITEMABIL.2DA~ ~00BOWC01    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC02    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC04    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC92    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC93    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC94    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC95    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC96    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC97    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC98    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWC99    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWCAG    1~
+    APPEND ~ITEMABIL.2DA~ ~00HFBCAG    1~
+
+// Longbows
+    APPEND ~ITEMABIL.2DA~ ~00BOWL01    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL02    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL03    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL88    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL89    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL90    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL91    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL95    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL96    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL97    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL98    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWL99    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWLSF    1~
+    APPEND ~ITEMABIL.2DA~ ~00HFBLSF    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWLFK    1~
+    APPEND ~ITEMABIL.2DA~ ~00HFBLFK    1~
+
+// Composite Shortbows
+    COPY_EXISTING ~00BOWP01.ITM~   ~override~ 
+                  ~00BOWP02.ITM~   ~override~ 
+                  ~00BOWP97.ITM~   ~override~ 
+                  ~00BOWP98.ITM~   ~override~ 
+                  ~00BOWP99.ITM~   ~override~
+        WRITE_SHORT 0x26 12  // Set min STR to 12
+
+    APPEND ~ITEMABIL.2DA~ ~00BOWP01    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWP02    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWP97    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWP98    1~
+    APPEND ~ITEMABIL.2DA~ ~00BOWP99    1~
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+// This section handles all STO files updates.
+
+
+// Add item(s) to Elytharra's Enchantments.
+COPY_EXISTING ~11ELYTHA.STO~ ~override~
+    ADD_STORE_ITEM ~F#RTHFAC~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Bard's Robe
+    ADD_STORE_ITEM ~F#AMUL08~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Amulet of Natural Armor +1
+
+// Add item(s) to Gallaway Trading Depot.
+COPY_EXISTING ~11DEIRD.STO~ ~override~
+    ADD_STORE_ITEM ~F#RTHFA4~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Flamekiller
+    ADD_STORE_ITEM ~60RTHF06~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Owl's Feather
+
+// Add item(s) to Artemus's Store (outside of Targos, prior to Shaengarne Bridge).
+COPY_EXISTING ~20ARTE.STO~ ~override~
+    ADD_STORE_ITEM ~F#SWLS02~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 // Donella's Blade: +1 keen longsword
+
+// Add item(s) to Beodaewn's Store (prior to the Ice Temple).
+COPY_EXISTING ~40BDAWN.STO~ ~override~
+    ADD_STORE_ITEM ~F#RTHFF2~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Mailripper +2 heavy crossbow
+    ADD_STORE_ITEM ~F#RTHFF4~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Blackheart: +1 Vampiric Sickle
+    ADD_STORE_ITEM ~F#AMUL09~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Amulet of Natural Armor +2
+    
+// Add item(s) to Tahvo's Store (in the Wandering Village).
+COPY_EXISTING ~50TAHVO.STO~ ~override~
+    REPLACE_TEXTUALLY ~00BRAC05~ ~F#HELM04~ // Helm of the Hunter
+    ADD_STORE_ITEM ~F#RTHFG2~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Frostguard +2 leather armor
+    ADD_STORE_ITEM ~F#RTHFG6~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Eye of the Hunter +2 Shortbow
+    ADD_STORE_ITEM ~F#RTHFG7~ LAST #1 #0 #0 ~IDENTIFIED~ #1 // Oakshield: +2 Small Shield
+
+// Add item(s) to Nym's Stores (in the Wandering Village).
+COPY_EXISTING ~50NYM.STO~ ~override~
+    ADD_STORE_ITEM ~F#BOOT03~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Elven Boots
+    ADD_STORE_ITEM ~F#RTHFGA~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // The Swash-Buckler: +1 Buckler
+    ADD_STORE_ITEM ~F#RTHFG1~ LAST #1 #0 #0 ~IDENTIFIED~ #1 // Midnight: +2 Half-Plate
+    ADD_STORE_ITEM ~00CHAN09~ LAST #3 #0 #0 ~IDENTIFIED~ #1 // Ogien's Chain
+    ADD_STORE_ITEM ~F#RTHFG3~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Shikata's Hide
+    ADD_STORE_ITEM ~F#RTHFG5~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Shirakko: +2 Bastard Sword of Flame
+    ADD_STORE_ITEM ~F#RTHFGE~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // The Shredder: +2 Flail
+    ADD_STORE_ITEM ~F#RTHFGD~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Amulet of Natural Armor +2
+
+COPY_EXISTING ~50NYM2.STO~ ~override~
+    ADD_STORE_ITEM ~F#BOOT03~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Elven Boots
+    ADD_STORE_ITEM ~F#RTHFGA~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // The Swash-Buckler: +1 Buckler
+    ADD_STORE_ITEM ~F#RTHFG1~ LAST #1 #0 #0 ~IDENTIFIED~ #1 // Midnight: +2 Half-Plate
+    ADD_STORE_ITEM ~00CHAN09~ LAST #3 #0 #0 ~IDENTIFIED~ #1 // Ogien's Chain
+    ADD_STORE_ITEM ~F#RTHFG3~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Shikata's Hide
+    ADD_STORE_ITEM ~F#RTHFG5~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Shirakko: +2 Bastard Sword of Flame
+    ADD_STORE_ITEM ~F#RTHFGE~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // The Shredder: +2 Flail
+    ADD_STORE_ITEM ~F#RTHFGD~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Amulet of Natural Armor +2
+
+
+// Add item(s) to Underdark Armorer's Store.
+COPY_EXISTING ~53HEGGR.STO~ ~override~
+    ADD_STORE_ITEM ~F#RTHFK2~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Whisper +3 leather armor
+    ADD_STORE_ITEM ~00CHAN08~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Mail of Life +3 chain mail
+    ADD_STORE_ITEM ~F#THAM01~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Dwarven Thrower +3 throwing hammer
+    ADD_STORE_ITEM ~00SWDL89~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Bhaal's Fire +3 longsword
+    ADD_STORE_ITEM ~F#RTHFK7~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Frostbite: +3 Short Sword
+    ADD_STORE_ITEM ~F#RTHFK5~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Goblinsbane: +2 Keen Dwarven Waraxe
+    ADD_STORE_ITEM ~F#BRAC06~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Battle Gauntlets of Gruumsh
+    
+
+// Add item(s) to Underdark Mage Equipment Store.
+COPY_EXISTING ~53MYRVEK.STO~ ~override~
+    ADD_STORE_ITEM ~F#CLOK06~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Mantle of the Flamewalker
+    ADD_STORE_ITEM ~F#ROBE05~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Battle Robe
+    ADD_STORE_ITEM ~F#RTHFK6~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Amulet of Natural Armor +3
+
+
+// Add item(s) to Malavon Despana's Store (in the Underdark Drow Outpost).
+COPY_EXISTING ~53MALAVO.STO~ ~override~
+    ADD_STORE_ITEM ~F#ROBE04~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 // Robe of Sorcere
+    ADD_STORE_ITEM ~F#RTHFK6~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Amulet of Natural Armor +3
+
+
+// Add item(s) to Conlan's Store (in Kuldahar).
+COPY_EXISTING ~60SHEEMI.STO~ ~override~
+    ADD_STORE_ITEM ~62RTHF01~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Dirty Bits
+    ADD_STORE_ITEM ~F#RTHFT7~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Khevlahr's Tunic: +4 Hide Armor
+    ADD_STORE_ITEM ~F#RTHFT8~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Rainbow Plate: +3 Full Plate Mail
+    ADD_STORE_ITEM ~F#RTHFT3~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Skirmisher: +4 Composite Shortbow
+    ADD_STORE_ITEM ~F#RTHFT4~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // Wildfire: +3 Flaming Shortbow
+    ADD_STORE_ITEM ~F#AXE05~ LAST #0 #0 #0 ~IDENTIFIED~ #1  // Parrying Hatchet: +3 Handaxe
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+// This section handles all CRE files updates.
+
+
+// Add item(s) to the witch Limha.
+COPY_EXISTING ~50LIMHA2.CRE~ ~override~
+    ADD_CRE_ITEM ~F#RTHFG4.ITM~ #0 #0 #0 ~NONE~ ~weapon1 weapon2~ EQUIP
+
+// Add item(s) to the Hadbruki, leader of the Black Raven barbarians.
+COPY_EXISTING ~50HADBRU.CRE~ ~override~
+    ADD_CRE_ITEM ~F#RTHFH3.ITM~ #0 #0 #0 ~NONE~ ~belt~
+    
+// Add item(s) to the Dragu Ironbreaker, the duergar smithy.
+COPY_EXISTING ~51DRAGU.CRE~ ~override~
+    ADD_CRE_ITEM ~F#HAMM03.ITM~ #0 #0 #0 ~NONE~ ~inv10~
+    
+// Add item(s) to the wizard Majrash.
+COPY_EXISTING ~53MAJRAS.CRE~ ~override~
+    ADD_CRE_ITEM ~F#RTHFK4.ITM~ #0 #0 #0 ~NONE~ ~amulet~
+    
+// Add item(s) to the Viper's Fang leader Ashra.
+// And make her a bit tougher...
+COPY_EXISTING ~60ASHRA.CRE~ ~override~
+    REPLACE_TEXTUALLY ~00LEAT07~ ~00CIARMA~  // replace current armor with non-droppable armor
+    REPLACE_TEXTUALLY ~00HIDE05~ ~00CIARMA~  // replace current armor with non-droppable armor
+    REPLACE_TEXTUALLY ~00SWDS89~ ~00SWDS97~  // replace the +4 ShSwd with the +4 Bleeding ShSwd
+    ADD_CRE_ITEM ~F#RTHFV3.ITM~ #0 #0 #0 ~NONE~ ~armor~
+    WRITE_BYTE    ~0x1c0~        74  // Give Ashra the Ambidex Feat.  
+    WRITE_BYTE    ~0x1c8~        192 // Give Ashra the Weapon Finesse feat.
+    WRITE_BYTE    ~0x1e3~        3   // Give Ashra the Weapon Specialization in Small Blades 
+    WRITE_BYTE    ~0x269~        22  // Give Ashra the 22 DEX
+
+
+
+// *******************************************************************************************
+// *******************************************************************************************
+
+// This section handles all ARE files updates (except 
+// those used to add the new merchant CRE actors).
+
+
+EXTEND_BOTTOM ~AR1100.bcs~ ~los/bcs/AR1100_addin.baf~
+EXTEND_BOTTOM ~AR1201.bcs~ ~los/bcs/AR1201_addin.baf~ 
+
+EXTEND_BOTTOM ~AR2002.bcs~ ~los/bcs/AR2002_addin.baf~
+
+EXTEND_BOTTOM ~AR3000.bcs~ ~los/bcs/AR3000_addin.baf~  // outside Guthma's Fortress
+EXTEND_BOTTOM ~AR3001.bcs~ ~los/bcs/AR3001_addin.baf~  // Goblin Warrens, Level 1
+EXTEND_BOTTOM ~AR3002.bcs~ ~los/bcs/AR3002_addin.baf~  // Goblin Warrens, Level 2
+EXTEND_BOTTOM ~AR3101.bcs~ ~los/bcs/AR3101_addin.baf~
+
+EXTEND_BOTTOM ~AR4101.bcs~ ~los/bcs/AR4101_addin.baf~
+EXTEND_BOTTOM ~AR4102.bcs~ ~los/bcs/AR4102_addin.baf~
+
+EXTEND_BOTTOM ~AR5100.bcs~ ~los/bcs/AR5100_addin.baf~  // Dragon Cave
+EXTEND_BOTTOM ~AR5101.bcs~ ~los/bcs/AR5101_addin.baf~  // River Caves-Deurgar Outpost
+EXTEND_BOTTOM ~AR5200.bcs~ ~los/bcs/AR5200_addin.baf~  // Outside the Monastary
+EXTEND_BOTTOM ~AR5201.bcs~ ~los/bcs/AR5201_addin.baf~  // Monastary, level 1
+EXTEND_BOTTOM ~AR5300.bcs~ ~los/bcs/AR5300_addin.baf~
+EXTEND_BOTTOM ~AR5302.bcs~ ~los/bcs/AR5302_addin.baf~
+
+EXTEND_BOTTOM ~AR6051.bcs~ ~los/bcs/AR6051_addin.baf~  // Yuan-ti Temple
+EXTEND_BOTTOM ~AR6101.bcs~ ~los/bcs/AR6101_addin.baf~  // Dragon's Eye, level 1
+EXTEND_BOTTOM ~AR6103.bcs~ ~los/bcs/AR6103_addin.baf~  // Dragon's Eye, level 3
+EXTEND_BOTTOM ~AR6104.bcs~ ~los/bcs/AR6104_addin.baf~  // Dragon's Eye, level 4
+
+
+
+
+// *************************************************************************
+// END OF FILE
+
+

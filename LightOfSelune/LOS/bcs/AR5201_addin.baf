@@ -1,0 +1,9 @@
+
+IF
+  Global("NEWITEM_AR5201","AR5201",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Quarters_Chest_01",CreateItem("F#BOOT04",1,0,0))
+    ActionOverride("Aruma_Chest_01",CreateItem("F#RTHFJ2",1,0,0))
+    SetGlobal("NEWITEM_AR5201","AR5201",1)
+END

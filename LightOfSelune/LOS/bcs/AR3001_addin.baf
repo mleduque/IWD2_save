@@ -1,0 +1,10 @@
+
+
+IF
+  Global("NEWITEM_AR3001","AR3001",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Heap",CreateItem("F#RTHFD1",1,0,0))
+    
+    SetGlobal("NEWITEM_AR3001","AR3001",1)
+END

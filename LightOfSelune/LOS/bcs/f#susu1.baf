@@ -1,0 +1,12 @@
+// f#susu1.baf
+
+IF
+	NumTimesTalkedTo(0)
+	See([PC],0)
+THEN
+	RESPONSE #100
+		SetDialogueRange(200)
+		Dialogue(LastMarkedObject)
+END
+
+

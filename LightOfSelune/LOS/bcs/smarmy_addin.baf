@@ -1,0 +1,8 @@
+
+IF
+    Global("F#MakeSmarmy","MYAREA",0)
+THEN
+    RESPONSE #100
+        CreateCreature("f#smarmy","f#smarmy",[415.567],0)  // need new coordinates for the Weeping Widow Inn, first floor
+        SetGlobal("F#MakeSmarmy","MYAREA",1)
+END

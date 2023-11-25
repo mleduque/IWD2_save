@@ -1,0 +1,9 @@
+
+IF
+  Global("NEWITEM_AR6103","AR6103",0)
+THEN
+  RESPONSE #100
+    ActionOverride("TreasurePile5",CreateItem("F#RTHFW2",1,0,0))
+    SetGlobal("NEWITEM_AR6103","AR6103",1)
+END
+

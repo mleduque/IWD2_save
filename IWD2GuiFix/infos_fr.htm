@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html slick-uniqueid="3" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>IWD2 GUI Fix - Infos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="fr" />
+
+<style type="text/css">
+body {
+    background-color: #E8F0FD;
+    margin-left: 1em;
+    font: normal 9pt verdana, helvetica, arial, sans-serif;
+}
+
+h1 {font: italic 10pt Verdana, Arial, sans-serif;  color: blue;}
+h2 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12.0pt;
+	letter-spacing: normal;
+	background-color: #e4e4e4;
+	color: #9c9c9c;
+	text-align: center;
+	
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 18pt;
+	margin-bottom: 12pt;
+	
+	padding-left: 8pt;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: none;
+	border-right: none;
+}
+.note {font-size:0.8em; font-style:italic;}
+.couleur {color:brown}
+code {color:gray; font-size:1.0em;}
+ul.ul1 {margin-left: 15px; list-style-type:none; margin-top:-0px;}
+</style>
+
+</head>
+<body>
+
+<h2>IWD2 GUI Fix | Icewind Dale II &mdash; Amélioration des interfaces pour Widescreen<br />
+<span style="font-size:0.8em;">v.1.04c - novembre 2020</span></h2>
+<p>IWD2 GUI Fix modifie l'interface principal d'Icewind Dale 2. Il vient en complément du mod <a href="http://forums.gibberlings3.net/index.php?showforum=136">Widescreen</a> développé par <i>the bigg</i>, et nécessite donc d'être installé après lui. <br />
+Certains problèmes d'affichage existants avec Widescreen, comme par exemple le mauvais affichage de l'interface du jeu lorsqu'il est réduit à la seule barre des PJ, ne sont pas corrigés par ce mod. <br />
+</p>
+<p>Les fichiers de l'interface ont été retravaillés afin qu'ils soient correctement centrés, sans zones noires. Seules certaines résolutions sont actuellement disponibles&nbsp;:</p>
+<ul>
+
+<li>1280x720</li>
+<li>1280x800</li>
+<li>1280x960</li>
+<li>1280x1024</li>
+<li>1360x768 | 1366x768 *</li>
+<li>1440x900</li>
+<li>1600x900</li>
+<li>1600x1200</li>
+<li>1680x1050</li>
+<li>1920x1080</li>
+<li>1920x1200</li>
+</ul>
+<p class="note">Si vous voulez utiliser une résolution de 1366x768, utilisez ces dimensions lors de l'installation de Widescreen, puis utilisez les fichiers de la résolution 1360x768, ils fonctionneront très bien dans le jeu.</p>
+<h2>Installation</h2>
+<h1>sous Windows</h1>
+<p>J'ai joint un fichier setup.exe qui permet de faire une installation rapide. Le programme d'installation remplace automatiquement les fichiers suivants...</p>
+<pre><code>    GACTN118.mos
+    COMM118.mos 
+    GCOMM128.mos 
+    GMWDMMB0.mos 
+    GMWDSLB0.mos 
+    GUCONTB0.mos 
+    GUDEATH0.mos 
+    GUWBTP30.mos 
+
+    GUIW10.chu </code></pre>
+...qui se trouvent dans le dossier <code>\Override</code> d'IWD2, selon la résolution que vous aurez choisie. <ul class="ul1">
+<li>&mdash; une copie de ces fichiers est créée dans le dossier <code>\GUIFix\backup</code> d'Icewind Dale II.</li>
+<li>&mdash; une entrée dans le registre <code>[HKLM\Software\Wow6432Node\IWD2 GUIFix]</code>, est créée, afin de stocker le répertoire d'installation et la version installée.</li></ul>
+
+<h1>sous Linux | Mac OS</h1>
+L'installation se fait manuellement, désolé ! <ul>
+<li>si vous souhaitez faire une copie de sauvegarde, copiez les fichiers indiqués ci-dessus, présents dans le dossier <code>override</code> d'IWD2 vers un emplacement de votre choix.</li>
+<li> copiez les fichiers .mos contenus dans le dossier <code>\mos\[sous dossier correspondant à la largeur de la résolution]</code> vers le dossier <code>override</code> du jeu.</li>
+<li> copiez le fichier <i>GUIW10.chu</i> contenu dans le dossier <code>\chu\[sous-dossier correspondant à la résolution]</code> toujours vers le dossier <code>override</code> du jeu. </li>
+</ul>
+
+<h1>Désinstallation</h1>
+Pour désinstaller automatiquement le mod ou installer une nouvelle résolution, il suffit de lancer à nouveau le <i>setup.exe</i>. Les fichiers copiés dans le backup sont restaurés, et les entrées dans le registre supprimées.<br />
+Pour une désinstallation manuelle, il suffit de recopier les fichiers dont vous aurez fait une sauvegarde dans un répertoire à part vers ceux du dossier <i>Override</i> et de les écraser.
+
+<h2> Problèmes connus / non-résolus</h2>
+La meilleure démarche à suivre, avant d'installer IWD2 GUI Fix, est de s'assurer que tout fonctionne déjà bien avec Widescreen : installez Widescreen dans la résolution de votre choix, et assurez-vous que les différents écrans d'interface fonctionnent bien dans le jeu. Si tout marche bien, installez ensuite le mod. <br /><br />
+
+Pour autant, certains problèmes inhérents à Widescreen ne sont pas corrigés par ce mod :<br />
+<p><b>1.</b> Certaines résolutions sont incompatibles avec des formats d'écran, cela tient aux contraintes de Widescreen et/ou du moteur du jeu, que le IWD2 GUI Fix soit installé ou non. Dans ce cas, le jeu ne se lancera tout simplement pas ! <br />
+Résolutions concernées : <br /></p><ul>
+<li>1280 x 854 (3/2) sur un écran 16/9 </li>
+<li>1600 x 1200 (4/3) sur un écran 16/9 </li>
+<li>1920 x 1200 (16/10) sur un écran 16/9 </li> </ul>
+Si vous indiquez une résolution dans Widescreen et que le jeu ne se lance pas, essayez-en une autre dans un premier temps, parmis celles qui sont adaptées à votre écran. 
+
+<p><b>2.</b> Dans la plupart des résolutions, un problème d'affichage se produit avec l'interface principal du jeu, lorsqu'on le réduit (touche Y par défaut) au seul bandeau des icones des PJ: une zone figée apparait, de hauteur variable selon la résolution utilisée, totalement disgracieuse, et qui empêche de jouer. Il faut simplement se résoudre à ne pas utiliser l'interface dans cette disposition...<br />
+Ce problème vient de Widescreen, je n'ai pas réussi à le contourner. Je l'ai évoqué sur le forum depuis quelque temps déjà, mais sans aucun retour.<br />
+Résolutions concernées : toutes sauf 1360x768 et 1280x720 (dans ce dernier cas, le bandeau n'apparait pas, le problème est réglé !)
+</p>
+
+<p><b>3.</b> Lorsqu'on lance un jeu en réseau, le jeu passe automatiquement en mode fenêtré. Il suffit d'appuyer sur ALT + Enter pour passer successivement en mode fenêtré /mode plein écran</p>
+
+<h2> Crédits / Remerciements</h2>
+<font size="0.9em"><b>Ce mod n'est ni développé ni avalisé par Interplay, Black Isle ou Bioware.</b> <br/>
+Il a été créé dans le seul but d'améliorer le plaisir de jouer à Icewind Dale 2. Il ne réalise ni ne cherche à réaliser aucun profit. Vous pouvez le distribuer librement, en respectant ce principe, et avec l'accord de son auteur, Luren.
+</font>
+<p>
+Merci à <font color="brown">the bigg</font> pour son excellent mod <font color="brown">Widescreen</font>, qui permet de jouer à Baldur's Gate et Icewind Dale sur les &quot;nouveaux&quot; écrans 16/9 et 16/10 !<br />
+</p>
+<h1>Merci aux créateurs de ces programmes de modding, sans qui les meilleurs projets de modding ne resteraient qu'à l'état de vaines ambitions :</h1>
+<font color="brown"><i>Avenger</i></font> pour DLTCEP <br />
+<font color="brown"><i>Glenn Flansburg</i></font> pour MOSWorkshop <br />
+<font color="brown"><i>Jon Olav Hauglid</i></font> et <font color="brown"><i>Argent77</i></font> pour Near Infinity <br />
+
+<h1> Informations - Contact</h1>
+Vous trouverez d'autres informations et des mises à jours de ce mod sur le blog <a href="http://havredest.eklablog.fr/interface-pour-widescreen-1920x1200-a42876917">Retour à Havredest</a> <br />
+Contact : <b>Luren</b> - havredest@sfr.fr
+<hr />
+ <pre><span style="font-size:0.90em">Historique :
+
+ 03.08.2020 - v.1.04b
+- corrections mineures 
+
+ 28.07.2016 - v.1.04
+- prise en charge de l'anglais dans le setup.exe
+
+ 01.04.2013 - v.1.03
+- résolutions en 1280x720, 1360x768 prises en charge
+- corrections mineures du <i>setup.exe</i>
+
+ 16.02.2012 - v.1.02
+- ajout de l'interface 1280x1024
+
+ 02.02.2013 - v.1.01
+- ajout de l'interface pour les résolutions en 1680x1050
+
+ 24.11.2012
+- correction d'une erreur dans les paramètres d'installation du setup.exe
+
+ 21.11.2012 - v.1.00
+- interface 1600x900 &amp; 1600x1200
+- ajout d'un setup.exe pour une installation automatique
+
+ 01.11.2012
+- interface 1440x900
+
+ 15.10.2012
+- interface 1280x800 &amp; 1280x960
+
+ 04.03.2012
+- interface 1920x1200 &amp; 1920x1080
+</span></pre>
+</body>
+
+
+</html>

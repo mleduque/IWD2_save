@@ -1,0 +1,18 @@
+// f#smarm1 (chatter script)
+
+
+IF
+	!TimerActive(18)
+THEN
+	RESPONSE #15
+		FloatMessage(Myself,@1) // "Damned goblins are no better than those pirates in Luskan."
+		StartRandomTimer(18,15,20)
+	RESPONSE #15
+		FloatMessage(Myself,@2) // "Barkeep, another ale!"
+		StartRandomTimer(18,15,20)
+	RESPONSE #15
+		FloatMessage(Myself,@3) // "You needs to sell anything all quiet like, see me."
+		StartRandomTimer(18,15,20)
+	RESPONSE #255
+		StartRandomTimer(18,15,20)
+END

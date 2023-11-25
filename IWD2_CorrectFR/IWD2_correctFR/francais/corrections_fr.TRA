@@ -1,0 +1,1820 @@
+@1000079  = ~Massacre-Trolls, Épée longue +1, +5 contre les trolls~
+@1000183  = ~Nous avons parlé à Dereth Chanteprintemps, le Druide du Shaengarne. Nous lui avons expliqué que nous cherchions un chemin pour atteindre le gué du Shaengarne. Il nous a indiqué que c'était désormais impossible. La rivière a été prise par les prêtres Malarites et ils ont bloqué le chemin. Ils ont également capturé sa femme, Sabrina, pour s'assurer qu'il n'aiderait personne à le trouver. Mais Dereth accepte de nous aider si nous libérons sa femme des Malarites. Nous avons accepté son offre.~
+@1000319  = ~Silence, gamin. Donne-moi tout ce que tu as caché: pièces d'or, nourriture… et ne raconte ça à personne ou tu es mort.~
+@1000389  = ~Vous avez expliqué à Elytharra que le traître était Phaen, en lui révélant le nom de son maître.~
+@1000406  = ~Comptoir Gallaway~
+@1000465  = ~Ces anneaux d'argent et d'ébène étaient portés par les suivants d'un mage charismatique nommé Aramite du Vent du Nord. Il y a de cela plusieurs centaines d'années, Aramite avait établi un culte qui révérait les adorateurs de l'antique Néthéril. Désireux de recréer la culture néthérisse, Aramite et ses suivants s'embarquèrent dans une campagne de fouilles de ruines dans tout Féérûne. Aramite parvint à retrouver de nombreux écrits néthérisses et autres artefacts, depuis longtemps considérés comme perdus à jamais. La rumeur dit que la reine-liche néthérisse Larloch mit un point final aux recherches d'Aramite et de ses adeptes. Ces anneaux sont les seuls signes encore tangibles de la réalité de leur confrérie.
+
+PARAMÈTRES :
+
+Bonus de parade : +3
+Résistance : 2/- en Résistance à la magie
+Poids : 0,5 ~
+@1000526  = ~Ce morceau de poisson difficilement reconnaissable sert de porte-bonheur dans tout Targos depuis près de 20 ans. L'histoire de cet objet commence avec le jeune Ned de Bois Isolé. Au cours de l'une de ses sorties de pêche, sa barque se retourna près de la rive du Maer Dualdon. Il réussit néanmoins à conserver sa prise du jour, une truite "incroyablement énorme", même s'il fut pourchassé par un ours affamé dès qu'il mit pied sur la plage. L'ours parvint néanmoins à emporter avec lui la plus grosse partie du poisson, ne laissant à ce pauvre Ned que la tête. Ned retourna à Targos à pied et conserva la tête de la truite comme preuve de sa mésaventure. Avec le temps, Ned attribua à la truite la chance qu'il eut dans sa carrière de pêcheur. Le brigand Marg la tremblote "gagna" le porte-bonheur de Ned au cours d'une partie de cartes "honnête". Amer, Ned se résigna, ne voulant pas se confronter au malfrat. Ce dernier vendit le fétiche un peu plus tard, pour acheter des provisions pour son départ hâtif de Targos. L'acheteur la conserva quelques mois avant d'en faire cadeau à un de ses amis des docks. Depuis ce temps, le "porte-bonheur de la Truite" a été vendu, donné ou prêté à près d'une douzaine de personnes à Targos et même, une fois, à un habitant de Bremen.
+
+PARAMÈTRES :
+
+Bonus au jet de sauvegarde : +1 à tous les jets de sauvegarde
+Poids : 0
+~
+@1000539  = ~Il s'agit d'un fétiche d'argent, en forme de tête de loup, du style de ceux confectionnés par les chamans rashemen de la tribu du loup. En serrant fort ce fétiche et en hurlant à la lune, on invoque un loup gris. De tels fétiches sont de plus en plus ternis au fur et à mesure que leurs charges sont consommées. Ils finissent en poussière argentée lorsqu'ils n'ont plus d'énergie.
+
+PARAMÈTRES :
+
+Invocation de loup x 3
+Poids : 0,5
+~
+@1000551  = ~Fiole de Braehg~
+@1000567  = ~tueur de géants déchu~
+@1000568  = ~Tueur de géants déchu~
+@1000613  = ~Cette lame argentée a été enchantée avec la larme de l'esprit de la Veuve éplorée. Il semble qu'une partie de la tristesse de l'esprit soit restée dans la larme, et que cette émotion ait imprégné la lame elle-même. Lorsqu'elle touche sa cible, la lame a une chance de lui transférer sa mélancolie.
+
+PARAMÈTRES :
+
+Dégâts : 1d4 + 1, +2 contre les mort-vivants spectraux
+Bonus d'attaque : +1, +2 contre les mort-vivants spectraux
+Enchantement : +2
+Type de dégâts : perforants
+Spécial : 5% d'infliger 1 point supplémentaire de dégâts magiques
+Poids : 0
+Compétence : Arme courante, petite lame
+Type d'arme : à une main ~
+@1000615  = ~Pergad Mains Rouges était un célèbre guerrier barbare du 11e siècle, CV. Les batailles de sa tribu contre des hordes d'Orques, de Gobelins et de Géants sont légendaires dans tout le nord. Malheureusement pour Pergad, les autres tribus de la région décidèrent de s'installer au sud ou de rejoindre les villes du nord plutôt que de combattre sans cesse. La tribu de Pergad, celles des Arbres morts, fut la dernière à rester. Malgré les nombreuses victoires de Pergad, sa tribu s'affaiblissait au fur et à mesure que la horde d'ennemis grandissait. A la bataille de Surbrin, en 1014 CV, la tribu de Pergad périt sous l'avalanche de gourdins orques et de pierres de géants. La légende dit que Pergad, voyant la fin de son peuple, planta sa lance dans le lit de la rivière, maudissant tous les Gobelins qui la traverseraient. Les chamans orques remarquèrent que la terre saigna pendant plusieurs jours à l'endroit de la blessure. Un an plus tard, deux tribus de Gobelins furent anéanties par une épidémie, alors qu'elles venaient de s'installer dans la vallée.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +1
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : perforants
+Poids : 1
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à 2 mains~
+@1000626  = ~Cette épée courte enchantée a été taillée dans un unique morceau de schiste, sa surface maculée de venin de serpent du désert. Le venin ne sèche jamais, d'où l'apparence perpétuellement humide de la lame.
+
+Cette arme est maléfique et responsable, au fil des ans, d'innombrables morts. Son nom provient de son dernier propriétaire, un flibustier du nom de Letto. On dit qu'il fut capturé par la tribu de la Grande Baleine quand son navire s'échoua sur un iceberg, pour finir découpé par les haches des barbares, tout l'équipage tué avec de la poix brûlante. Seuls quelques morceaux de bois subsistèrent et se mirent à dériver sur l'océan. L'un de ces morceaux fut utilisé dans la construction de l'une des chambres de l'étage supérieur de l'auberge de la Veuve éplorée. L'épée resta enfouie dans la poutre pendant près de 30 ans, attendant que quelqu'un vienne la remettre à nouveau en activité.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 + 1, +2 contre les créatures bonnes
+Bonus d'attaque : +1, +2 contre les créatures bonnes.
+Enchantement : +1
+Type de dégâts : tranchants
+Spécial : 10% de chances d'empoisonner la cible, -1 aux jets de Vigueur quand l'arme est tenue.
+Poids : 1,5
+Compétence : Arme courante, Petite lame
+Type d'arme : à une main ~
+@1000635  = ~Nous avons rencontré Braston le rôdeur dans la Forteresse de la Horde. Il nous a informés que le chef de la horde est un certain Guthma. Sa mort devrait semer le désordre dans la horde et ainsi soulager Targos et les Dix-Cités.~
+@1000749 = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1000777 = ~Élémentaire d'eau~
+@1000782 = ~Élémentaire de feu~
+@1000783 = ~Élémentaire d'eau~
+@1000784 = ~Élémentaire de terre~
+@1000816  = ~Panthère de combat~
+@1000817  = ~Panthère de combat~
+@1000955  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1001019  = ~Ces flèches ont été enchantées au cours de leur fabrication. Elles sont légèrement plus droites que leurs congénères normales, semblent devenir vivantes alors qu'elles quittent votre arc pour filer vers leur cible avec une précision diabolique.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +3
+Bonus d'attaque : +3
+Enchantement : +3
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : arc~
+@1001025 = ~Ces flèches ont été enchantées au cours de leur confection. Elles sont légèrement plus droites que leurs congénères normales, semblent devenir vivantes alors qu'elles quittent votre arc pour filer vers leur cible avec une précision diabolique.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +4
+Bonus d'attaque : +4
+Enchantement : +4
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : arc~
+@1001027  = ~Ces flèches ont été enchantées au cours de leur fabrication. Elles sont légèrement plus droites que leurs congénères normales, semblent devenir vivantes alors qu'elles quittent votre arc pour filer vers leur cible avec une précision diabolique.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +5
+Bonus d'attaque : +5
+Enchantement : +5
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : arc ~
+@1001070  = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +4
+Bonus d'attaque : +4
+Enchantement : +4
+Type de dégâts : tranchants
+Poids : 3,5
+Compétence : Arme de guerre, hache
+Type d'arme : à une main ~
+@1001072  = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +5
+Bonus d'attaque : +5
+Enchantement : +5
+Type de dégâts : tranchants
+Poids : 3,5
+Compétence : Arme de guerre, hache
+Type d'arme : à une main ~
+@1001153  = ~L'apparence humble de cette robe dissimule les pouvoirs qu'elle recèle. Cette robe était la propriété d'un magicien de Luskan, membre de la confrérie des arcanes. Il la créa afin de se protéger quand il partait à la recherche des ingrédients exotiques nécessaires à ses recherches. Cela ne suffit pas à le protéger, quand il eut une dispute avec un membre haut placé des Rats fiévreux, une guilde d'assassins au service de Talona. Presio acheta la robe à l'assassin quelques années plus tard.
+
+PARAMÈTRES :
+
+CA : 6
+Résistance magique : 3%
+Jet de sauvegarde : +3 aux jets de Vigueur
+Poids : 3
+~
+@1001230  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1001235  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1001240  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1001245  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1001248  = ~Panthère noire~
+@1001251  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées, de façon à améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure. De nombreux sortilèges ont été placés sur cette hallebarde pour qu'elle devienne plus efficace en combat.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 +3
+Bonus d'attaque : +3
+Enchantement : +3
+Type de dégâts : perforants
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à 2 mains~
+@1001254  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées, de façon à améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure. De nombreux sortilèges ont été placés sur cette hallebarde pour qu'elle devienne plus efficace en combat.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 +4
+Bonus d'attaque : +4
+Enchantement : +4
+Type de dégâts : perforants
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à 2 mains~
+@1001256  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées, de façon à améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure. De nombreux sortilèges ont été placés sur cette hallebarde pour qu'elle devienne plus efficace en combat.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 +5
+Bonus d'attaque : +5
+Enchantement : +5
+Type de dégâts : perforants
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à 2 mains~
+@1001372  = ~Votre ingratitude insulte le nom votre famille… et me blesse bien plus profondément que la lame d'un gobelin.~
+@1001505  = ~Les mercenaires du Collier de Fer ont indiqué qu'il y avait deux autres membres dans leur bande - un prêtre nommé Koluhm Tranchelos dont ils ont dit qu'il pouvait parler aux morts, et un autre, un mage vêtu de hardes, répondant au nom de Phaen.~
+@1001513  = ~C'est vous, les mercenaires du Collier de Fer ? Ils ont pris au piège des assaillants gobelins qui sont coincés dans un entrepôt, sur les quais. Ils ont besoin de votre aide pour les chasser.~
+@1001532  = ~Ça va te coûter la prochaine tournée, imbécile. Paye ou je t'y force à coups de poing !.~
+@1001576  = ~Les frondes existent depuis des temps presque immémoriaux. Elles se composent d'une corde de cuir ou de tissu et d'une bourse pour contenir le projectile. Cependant, celle-ci bénéficie d'un léger charme. On tient la fronde par l’extrémité des deux lanières et on la fait tourner au-dessus de sa tête pour donner de la puissance. Il suffit alors de relâcher une des lanières pour projeter la bille.
+
+PARAMÈTRES :
+
+Dégâts : +4 (projectile)
+Bonus d'attaque : +4
+Poids : 25
+Compétence : arme courante, projectile
+Type d'arme : à une main~
+@1001578  = ~Les frondes existent depuis des temps presque immémoriaux. Elles se composent d'une corde de cuir ou de tissu et d'une bourse pour contenir le projectile. Cependant, celle-ci bénéficie d'un léger charme. On tient la fronde par l’extrémité des deux lanières et on la fait tourner au-dessus de sa tête pour donner de la puissance. Il suffit alors de relâcher une des lanières pour projeter la bille.
+
+PARAMÈTRES :
+
+Dégâts : +5 (projectile)
+Bonus d'attaque : +5
+Poids : 25
+Compétence : arme courante, projectile
+Type d'arme : à une main~
+@1001631  = ~Sang-mêlé yuan-ti~
+@1001791  = ~Cessez de m'appeler "ma jolie". J'apprécierais que vous me témoigniez un peu plus de respect quand vous me parlez, Gohar.~
+@1001847  = ~Je... Ça ira pour cette fois, mais j’vous préviens, j’vous ai à l’oeil, maint’nant...~
+@1001876  = ~C'est vous, Grundwall ? Olap m'envoie pour voir où vous en êtes avec la cargaison de bois.~
+@1001928  = ~Plusieurs de ces caisses sont marquées de l'emblème du Comptoir Gallaway.~
+@1001939  = ~Le matériau dont est faite la lame de cette épée est d'un blanc pâle, légèrement translucide et semble luire dans la pénombre. Son tranchant terne ne paraît pas en mesure de trancher même la matière la plus tendre. Utilisée au combat, une lame de lune est néanmoins une arme incroyable qui traverse les armures, frappant directement ses victimes pour drainer leur énergie vitale et ne laissant aucune blessure visible, sauf contre les morts-vivants, à qui elle inflige de terribles dégâts. Leur substance semble presque fondre et ils subissent deux fois plus de dommages.
+Les lames de lune de Séluné sont les armes favorites de ses prêtresses. Elles ne sont généralement accordées qu'à celles qui servent le culte au-delà de ce que leur impose le devoir. Cette arme a été offerte à Emma Lamelune en reconnaissance de son dévouement constant.
+PARAMÈTRES :
+Dégâts : 1D8 + 2
+Bonus d'attaque : +2
+Enchantement : +4
+Type de dégâts : tranchants
+Spécial : Dommages doublés contre les morts-vivants
+Poids : 1
+Compétence : arme de guerre, grande épée
+Type d'arme : à une main~
+@1001975  = ~Eeehh ! Ça suffit !~
+@1002010  = ~AAHHRRGH ! Ça suffit !~
+@1002050  = ~Urrmph ! Ça pique !~
+@1002080  = ~Léopard des neiges~
+@1002115  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Ces deux éléments sont reliés par une courroie ou une chaîne. Cette arme a été améliorée par l'emploi de magie pour créer un lien entre celle-ci et celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1d8
+Type de dégâts : contondants
+Enchantement : +5
+Spécial :
+ De lumière : les attaques ne tiennent pas compte de la classe d'armure de la cible, ni de ses bonus de parade.
+ Sanglante : inflige 1 point de dégâts supplémentaire par round pendant 10 rounds (jet de vigueur pour annuler).
+ Infaillible : cette arme est considérée comme +5 pour les créatures qui requièrent une arme magique pour être touchées
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1002121  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Ces deux éléments sont reliés par une courroie ou une chaîne. Cette arme a été améliorée par l'emploi de magie pour créer un lien entre celle-ci et celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1d8
+Type de dégâts : contondants
+Enchantement : +5
+Spécial :
+ De flammes : +1d6 de dégâts du feu
+ Givre : +1d6 de dégâts du froid
+ Décharge : +1d6 de dégâts électriques
+ Infaillibile :  cette arme est considérée comme +5 pour les créatures qui requièrent une arme magique pour être touchées
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1002123  = ~Un râtelier de torture, agrémenté de taches de sang séché et de lambeaux de chair calcinée.~
+@1002126  = ~Ce mur s'orne de cadavres décapités et pendus à des crochets à viande. Les trous visibles au niveau de leurs talons indiquent vraisemblablement qu'on les a d'abord accrochés la tête en bas afin qu'ils se vident de leur sang~
+@1002142  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1002147  = ~Vous avez trouvé le moyen de dégager les rondins qui bloquaient le fleuve.~
+@1002196  = ~Je vous en serais reconnaissant.~
+@1002204  = ~Les rondins sont probablement bloqués contre les rochers le long d'une berge du fleuve, peut-être même des deux. Entamez-les avec votre lame. Ils se briseront et cela devrait tous les dégager.~
+@1002219  = ~Sabrina Justevenelle nous a informés que les Malarites construisaient un édifice important sur la rivière. Elle ne sait pas de quoi il s'agit. Elle a également mentionné un poste de guet dans les environs de la rivière. Nous devons détruire ce poste de guet pour les empêcher de prévenir le camp des Malarites de notre présence.~
+@1002446  = ~Vrek Griffesale a reconnu qu'il avait volé l'épée d'Emma Lamelune. Il s'en est emparé car c'est la seule arme dans le village qui puisse le blesser.~
+@1002488  = ~Je suis Gaernat Croc-Pointu. Je règne sur ce col et tous ceux qui l'habitent. Prosternez-vous devant moi, aventuriers, car je suis votre roi.~
+@1002500  = ~"AAAHHH ! C'EST DE LA FOLIE ! ÉPARGNEZ CE PAUVRE BARGHEST !"~
+@1002547  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Ces deux éléments sont reliés par une courroie ou une chaîne. Cette arme a été améliorée par l'emploi de magie, pour créer un lien entre celle-ci et celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +5
+Bonus d'attaque : +5
+Enchantement : +5
+Type de dégâts : contondants
+Spécial :
+ Feu : +1d6 de dégâts du feu
+ Froid : +1d6 de dégâts du froid
+ Sanglante : inflige 1 point de dégât supplémentaire par round pendant 10 rounds (jet de vigueur pour annuler)
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1002635  = ~Les quais ont été attaqués et Targos a de nouveaux citoyens : des gobelins assoiffés de sang.~
+@1002801  = ~C'est l’une des premières armes de l’humanité, qui n’est autre qu’un bout de bois dont l’une des extrémités a été taillée en pointe. L’apparition de la métallurgie a permis d’ajouter une tête de fer ou d’acier à la lance. Les expérimentations des forgerons entraînèrent ensuite la création de diverses variantes et l'apparition des armes d'hast. Cette lance doit sa particularité aux enchantements qui ont été lancés sur elle.
+
+PARAMÈTRES :
+
+Dégâts : 1d8
+Type de dégâts : perforants
+Spécial :
+ Sanglante : inflige 1 point de dégât supplémentaire par round pendant 10 rounds (jet de vigueur pour annuler).
+Poids : 2,5
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1002805  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées pour améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 + 1
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : perforants
+Spécial :
+ De flammes : 50% de chances d'infliger +1d6 de dégâts du feu
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1002831 = ~Élémentaire de l'air~
+@1002832 = ~Élémentaire de l'air~
+@1002845 = ~Élémentaire de l'air mineur~
+@1002847 = ~Élémentaire de l'air mineur~
+@1002848 = ~Élémentaire de l'air majeur~
+@1002849 = ~Élémentaire de l'air majeur~
+@1002850 = ~Élémentaire de terre mineur~
+@1002851 = ~Élémentaire de terre mineur~
+@1002853 = ~Élémentaire de terre majeur~
+@1002856 = ~Élémentaire de terre majeur~
+@1002867 = ~Élémentaire de terre~
+@1002871 = ~Élémentaire de terre~
+@1002873 = ~Élémentaire de feu~
+@1002874 = ~Élémentaire de feu~
+@1002876 = ~Élémentaire de feu majeur~
+@1002877 = ~Élémentaire de feu majeur~
+@1002878 = ~Élémentaire de feu mineur~
+@1002879 = ~Élémentaire de feu mineur~
+@1002959  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées pour améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 +4
+Bonus d'attaque : +4
+Enchantement : +4
+Type de dégâts : perforants
+Spécial :
+ Sort : 50% de chances pour que la cible soit frappée d'Horreur.
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1003087  = ~Des dizaines de truites pendent à ces râteliers. L'odeur de poisson mort est presque insupportable.~
+@1003109  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées pour améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure.
+
+PARAMÈTRES :
+
+Dégâts : 1d10
+Enchantement : +2
+Type de dégâts : perforants
+Spécial :
+ Maudite : +2d6 points de dégâts contre les créatures bonnes
+ Chaotique : +2d6 points de dégâts contre les créatures loyales
+ Imprécation : Bonus d'attaque de +2 contre les Elfes et +2d6+2 de dégâts contre les Elfes
+ Vampirique : 1d4 PV sont drainés de la cible et s'ajoutent à ceux du porteur (jet de vigueur pour annuler)
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1003216  = ~Plusieurs vases polis et lampes à huile sont éparpillés sur ce comptoir.~
+@1003341  = ~Ces paravents de cristal opaque adoucissent la lueur des torches qu'ils protègent.~
+@1004361  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées, de façon à améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 +5
+Bonus d'attaque : +5
+Enchantement : +5
+Type de dégâts : perforants
+Spécial :
+ Vitesse : 1 attaque supplémentaire par round de combat
+Poids : 7
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1005044  = ~Serpent des Steppes~
+@1005131  = ~Cet énorme bouclier est presque aussi grand que son porteur. Il s'agit plus ou moins d'un mur portatif servant à se protéger. Suivant la distance à laquelle vous vous en tenez, il peut vous protéger de toutes les attaques. Le pavois ne protège toutefois pas des sorts. Un lanceur de sorts peut vous en lancer un en visant le bouclier que vous tenez. Ce bouclier porte des runes qui luisent faiblement dans l'obscurité.
+
+PARAMÈTRES :
+
+Bonus de bouclier : +4
+Bonus à la CA : +1 contre les projectiles
+Malus de jet d'armure : -9
+Echec des sorts profanes : 50%
+Poids : 12,5~
+@1005738  = ~J'aimerais bien. Mais si je l'avais, je ne la rendrais pas à un cadavre desséché…~
+@1005741  = ~Ah... ma précieuse corne... enfin ! Sachez que Sordirsin récompense ses bienfaiteurs. Prenez ce que vous voudrez dans ma tombe, c'est à vous. Quant à cette corne, je l'emporte avec moi, là où reposent les guerriers. Adieu.~
+@1005784  = ~Ces flèches ont été enchantées au cours de leur fabrication. Ces flèches, légèrement plus droites que leurs congénères normales, semblent devenir vivantes alors qu'elles quittent votre arc pour filer vers leur cible avec une précision diabolique.
+
+PARAMÈTRES :
+
+Dégâts : 1d6
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : projectile (perforant)
+Spécial :
+ Décharge : +1d6 de dégâts d'électricité
+Poids : 0
+Lanceur : arc~
+@1005824  = ~Ces flèches ont été enchantées au cours de leur fabrication. Ces flèches, légèrement plus droites que leurs congénères normales, semblent devenir vivantes alors qu'elles quittent votre arc pour filer vers leur cible avec une précision diabolique.
+
+PARAMÈTRES :
+
+Dégâts : 1d6
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : projectile (perforant)
+Spécial :
+ Etourdissement : cible étourdie 2 rounds (jet de vigueur pour annuler)
+Poids : 0
+Lanceur : arc~
+@1006179  = ~Le seigneur Ulbrec nous a félicités pour nos hauts faits lors de la défense de Targos quand les gobelins ont attaqué la Palissade, mais nous a confié une autre mission. Un groupe de gobelins a pris le pont du Shaengarne au sud, que les renforts de Padhiver devaient emprunter pour rejoindre Targos. Il nous a chargés de reprendre le pont aux hordes goblinoïdes. Il espère que nous réussirons là où la Garde de Targos a échoué. Seul le temps dira s'il avait tort ou raison.~
+@1006340  = ~L'arc long est similaire à tout autre, si on exclut le fait qu'il soit à peu près aussi grand que l'archer et mesure généralement près de deux mètres. Ses deux avantages par rapport à l'arc court sont sa portée plus étendue et sa précision accrue. .
+
+PARAMÈTRES :
+
+Bonus d'attaque : +2
+Poids : 1,5
+Compétence : arme de guerre, arc
+Type d'arme : à deux mains ~
+@1006663  = ~Au premier abord, vous avez l’impression qu’il ne s’agit que d’une armure de cuir ordinaire, mais, lorsque vous effectuez une inspection plus approfondie, certains signes vous font penser qu’elle est enchantée. Les rivets servant à assembler les différentes pièces brillent comme s’ils avaient été polis. Le cuir est souple et doux au toucher, mais il devient rigide dès qu’un coup puissant est porté à l’armure. De plus, vous ne percevez pas les grincements et autres bruits habituels de ce genre d’armure lorsque vous la portez.
+
+PARAMÈTRES :
+
+Armure légère
+Bonus à la CA : +4
+Bonus max de Dextérité : +6
+Malus de jet d'armure : -0
+Echec des sorts profanes : 10%
+Poids : 5~
+@1006405  = ~Son ivrogne de grand-père, ce vieil asthmatique d’Ilmus, l’a envoyée à Targos pour qu’elle fasse ses preuves dans le Comptoir Gallaway. En attaquant Targos, les gobelins ont ruiné ses chances de réussir - et son nom par la même occasion. On pourrait presque entendre les pensées orageuses qui grondent dans sa tête.~
+@1006552  = ~Me suis crevé au Comptoir Gallaway pendant près de la moitié de ma vie et voilà que le vieux Rawleigh s'amène pour me demander une "dernière faveur" : mettre mes épaules et ma tête au service de sa fille Deirdre, pour l'aider à monter un magasin à Targos.~
+@1006673  = ~La cotte de mailles est faite d’anneaux de métal entrelacés. On la porte sur une tunique matelassée pour réduire les frottements et amortir l'impact des coups.~
+@1006679  = ~Le clibanion est une variante de l’armure à bandes sauf que les pièces métalliques sont fixées verticalement sur le support de mailles, de cuir ou le vêtement au lieu d’être maintenues horizontalement. Comme le torse humain ne peut pivoter aussi facilement qu’il ne s’incline vers l’avant ou l’arrière, le clibanion est plus gênant en combat que l'armure à bandes.~
+@1006712  = ~De loin l’arme d’hast la plus vielle et la plus couramment utilisée, la hallebarde est composée d’une lame de hache montée sur un manche en bois de 2 m de long. La lame est équilibrée grâce à un contrepoids et est surmontée d’une pointe de forme généralement carrée. Le contrepoids est parfois remplacé par un crochet pour désarçonner les cavaliers. La hallebarde peut être décrite comme le croisement entre la hache et la lance.~
+@1006742  = ~Cette appellation regroupe les épées à double tranchant, les épées de guerre ou encore les épées militaires. Dans la plupart des cas, l’épée longue ne possède qu’un seul tranchant. Il n’existe pas de modèle fixe d’épée longue ; la conception et la taille varient grandement et peuvent, au sein d’une même culture, différer en fonction de l’époque. Malgré tout, la longueur de l’arme est généralement la même et varie entre 95 et 140 cm. Dans ce dernier cas, la lame peut faire jusqu’à 120 cm. La plupart des épées longues possèdent une lame à double tranchant et une pointe aiguisée. Malgré cela, l’épée longue est faite pour effectuer des attaques de taille et non d’estoc.~
+@1006747  = ~L’épée courte est la première épée à avoir vu le jour. On peut la voir comme une dague dont la lame est tellement longue qu’on ne peut plus l’appeler une dague. Le terme épée courte n’existe pas dans la classification des épées. Toutefois, c’est ainsi que l’on décrit une lame à double tranchant dont la taille n’excède pas 60 cm. La pointe de la lame est généralement très aiguisée, ce qui fait que cette arme est idéale pour les attaques d’estoc.~
+@1006752  = ~L’espadon est un dérivé de l’épée longue. Les armuriers n’ont eu de cesse d’améliorer les armes existantes et dans le but de perfectionner l’épée longue, la lame fut allongée. Finalement, la poignée dut aussi être agrandie pour que l’épée puisse être correctement tenue à deux mains. La fonction primaire de l’épée à deux mains est de désarçonner les cavaliers et de rompre les formations de piquiers.~
+@1006782  = ~Un manuel de vitalité apporte généralement au lecteur des informations très utiles sur la médecine préventive, les soins de premiers secours et les exercices de tonification musculaire. Comme si cela ne suffisait pas, celui-ci a été enchanté pour augmenter la constitution du lecteur de 1 point. Il ne peut malheureusement être utilisé qu’une fois avant de disparaître.
+
+PARAMÈTRES :
+
+Constitution : Augmentation permanente d'1 point.
+Spécial : Ce livre disparaît après utilisation.
+Utilisation : Placer dans un emplacement d'objets rapides.~
+@1006804  = ~La calotte est le plus souvent faite en cuir ou en métal et se porte sur la tête, un peu comme un chapeau. La calotte de cuir est généralement portée avec une armure de cuir ou toutes autres protections légères.
+
+PARAMÈTRES :
+
+Bonus à la CA : protège des coups critiques
+Poids : 1~
+@1006818  = ~La rondache est généralement circulaire et se place sur l’avant-bras pour être tenue par la main libre du combattant. Elle est bien plus légère que l’écu et permet au porteur de tenir un autre objet dans la main bien que cela ne puisse être une arme.~
+@1006820  = ~Le pavois, aussi connu sous le nom de bouclier de siège, est un bouclier massif fait de métal ou de bois, d’une taille allant du menton au pied du porteur. Il ne procure cependant aucune protection contre les sorts, un mage ennemi pouvant vous toucher en prenant pour cible votre bouclier.~
+@1006855  = ~La morgenstern est faite d’un manche en bois surmonté d’une tête en métal couverte de pointes et mesure en général 1,20 m de long. La tête peut être ronde, ovale ou cylindrique et est souvent agrémentée de pointes acérées. Quel que soit le type de tête, la morgenstern possède le plus souvent une pointe plus grande que les autres pour effectuer des coups d’estoc.~
+@1006858  = ~Les arcs composites sont des arcs longs ou courts dont les corps sont composés de plusieurs matériaux. Cela leur confère une plus grande flexibilité et donc une meilleure portée. Ces arcs furent développés à la suite de la création des premiers arcs longs.~
+@1007229  = ~Protection contre les morts-vivants~
+@1007337  = ~Histoire des Sœurs de la Lumière et des Ténèbres :  
+
+Ce fut la naissance du monde et du paradis. Une fois l'Espace des Royaumes créé par le Seigneur Ao, il y eut une longue période de néant éternel avant que la lumière et l'obscurité ne deviennent des entités séparées dans ce royaume brumeux d'ombres. Au sein de ce sombre chaos se dressèrent 13 seigneurs de l'ombre, les Ombrevari. Personne ne savait s'ils venaient d'ailleurs ou s'ils étaient les enfants de l'ombre.
+
+Cette essence primordiale finit par donner naissance à deux merveilleuses déesses jumelles qui étaient chacune le yin et le yang de l'autre ; elles étaient si proches qu'elles estimaient ne former qu'un seul être. La Déesse aux Deux Visages créa les corps célestes de la sphère de cristal et leur insuffla la vie afin de former la Terre-Mère, Chauntéa. Bien que celle-ci ait depuis lors contracté son essence autour d'Abeir-Toril, elle incarnait à l'origine tout l'Espace des Royaumes. Ce nouvel univers fut éclairé par le visage de la déesse aux cheveux d'argent, dénommée Séluné, et assombri par les boucles accueillantes de la déesse aux cheveux de jais, Shar, mais ni la chaleur ni le feu n'existaient. 
+
+Chauntéa quémanda un peu de chaleur afin de pouvoir nourrir la vie et les êtres vivants des planètes qui constituaient son corps et ses membres. Et les deux soeurs-Qui-n'en-faisaient-qu'une se divisèrent, car pour la première fois elles étaient deux esprits. Séluné l'Argentée se querella avec sa soeur aux cheveux noirs pour savoir s'il fallait apporter plus de vie aux mondes. Les résidus de la bataille divine engendrèrent, entre autres, les dieux de la guerre, de la maladie, du meurtre et de la mort. A un moment donné, Séluné prit l'avantage et traversa le temps et l'espace pour atteindre un pays de feu éternel. Luttant contre la douleur des flammes qui la brûlaient atrocement, elle brisa un fragment de ce feu éternel et enflamma l'un des corps célestes pour qu'il se consume dans le ciel et réchauffe Chauntéa.
+
+Révoltée, Shar redoubla ses attaques contre sa soeur jumelle blessée et essaya de faire disparaître la lumière et la chaleur dans la sphère de cristal. Séluné se sacrifia encore. Elle arracha de son corps l'essence divine de la magie et la lança désespérément sur sa soeur pour protéger la vie dans la sphère. Elle manqua de mourir des blessures qu'elle s'infligea en libérant son énergie magique divine. Celle-ci se reconstitua derrière elle sous les traits de la déesse de la magie, Mystryl, aujourd'hui connue sous le nom de Mystra. Bien que Mystryl fût composée à la fois de magie blanche et de magie noire, elle donna la préférence à sa première mère Séluné. La déesse argentée put ainsi imposer une trêve à sa jumelle ténébreuse, pourtant plus puissante. Rongée par l'amertume après sa défaite, Shar jura éternelle vengeance.
+
+Les déesses jumelles se querellèrent pendant une éternité alors que la vie commençait péniblement à naître sur Toril et sur les autres planètes sous le regard vigilant de Chauntéa. Shar conservait sa puissance mais elle était amèrement seule. La puissance de Séluné avait des hauts et des bas et elle tirait souvent sa force de ses filles et fils alliés, ainsi que des divinités immigrantes animées des mêmes sentiments. Avec le temps, Shar retrouva ses forces, aidée par les Ombrevari qui préféraient la nuit à la lumière aveuglante et qui parcouraient les Royaumes, cherchant à fondre à nouveau la lumière et l'obscurité en un ténébreux chaos. Le plan de Shar visant à réformer le monde selon ses propres désirs fut déjoué par Azouth le Très-Haut, jadis le plus grand de tous les jeteurs de sort mortels et aujourd'hui époux de Mystra (l'incarnation de Mystryl). Il trouva le moyen d'emprisonner les Ombrevari dans une sphère de cristal de poche localisée au-delà des limites du monde en créant l'illusion d'un royaume des ombres. Les Seigneurs des Ombres furent appelés pour enquêter et, avant qu'ils ne parviennent à découvrir l'astuce, Azouth emprisonna les Ombrevari avec Etoilombre, une clé d'ombres forgée par Gond. Le Grand Seigneur jeta ensuite la clé dans les abysses insondables du cosmos, permettant à la vie de rayonner entre les mains aimantes de Chauntéa.~
+@1007347  = ~'Epée Sifflante'
+Au milieu des plaines du Shaar Oriental vivait un petit ferronnier humain, dont la petite taille ne faisait pas justice à sa grandeur d’âme. C’était un forgeron habile, mais il avait un autre don bien plus grand. Il pouvait siffloter une chanson avec tant de passion que même le plus endurci des hommes se mettait à pleurer comme un nouveau-né. La seule personne à apprécier la compagnie de ce petit homme était un mage vivant en ermite. Pour le reste de la population, la petite taille du ferronnier n’était rien de plus qu’une source de divertissement. Ils ne prêtaient aucune attention aux chansons du forgeron et leurs railleries devinrent rapidement un véritable tourment qui le poussa à quitter sa maison pour toujours. Avant de partir, il forgea cette arme pour son ami, qui l’enchanta durant sa création. Cette lame sifflote doucement à son porteur lorsqu’il la sort de son fourreau. Peu de temps après, le mage quitta lui aussi la petite ville, dégoûté par l’attitude de ses habitants. Il emporta évidemment l’arme avec lui au long de ses voyages.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +2
+Bonus d'attaque : +2
+Enchantement : +2
+Type de dégâts : perforants
+Poids : 1
+Compétence : arme courante, petite lame
+Type d'arme : à une main~
+@1007352  = ~Arbalète lourde de précision : 'Le Guide'
+Les arbalètes de ce type étaient l’une des armes de siège préférées du roi Shastir Longeve. Elles furent conçues spécialement pour éliminer les défenses qui se croyaient bien à l’abri derrière les créneaux de leur château. La grande majorité de ces armes fut malheureusement détruite lorsque l’armée du roi fut anéantie par une coalition de territoires soumis.
+
+PARAMÈTRES :
+
+Dégâts : +2 (projectile)
+Bonus d'attaque : +7
+Poids : 4,5
+Compétence : arme courante, arbalète
+Type d'arme : à 2 mains~
+@1007353  = ~'La Faucheuse d’armées'
+Un avant-poste humain de la Forêt Gelée déterra cette arme, ainsi que d’autres, dans les ruines d'un ancien village des Terres Gelées. Les colons se servirent de ces armes pour se défricher un grand territoire, sans jamais connaître le nom de leurs défunts bienfaiteurs. Au final, leur entreprise se révéla toutefois totalement inutile. Ils furent en effet complètement écrasés par des gobelins supérieurs en nombre et ils gagnèrent le même anonymat que les anciens.
+
+PARAMÈTRES :
+
+Dégâts : +1 (projectile)
+Bonus d'attaque : +3
+Spécial : 1 attaque supplémentaire par tour
+Poids : 2,5
+Compétence : arme courante, arbalète
+Type d'arme : à 2 mains~
+@1007354  = ~Tout comme les autres sacs magiques, celui-ci semble n’être qu’un sac de vêtements de 60 x 120 cm. Le sac sans fond s’ouvre sur un espace non dimensionnel dont les dimensions sont bien supérieures à celles du sac. Le poids de ce sac est constant, peut importe ce que vous y glissez.
+
+ PARAMÈTRES :
+
+ Poids : 2,5~
+@1007363  = ~Pendant près d’une génération, cet anneau resta entre les mains d’un maître voleur qui l’utilisa de manière effrontée sur tous les marchés d’Eauprofonde. Il n’hésitait pas à dévaliser les foules en plein jour et remplaçait les bourses des nobles par des sacs de sable afin que le vol passe inaperçu. On ne découvrit jamais son identité, mais ses victimes le maudissaient pourtant sous le nom de "Voleur de sable" qui lui fut attribué. On dit qu’il aurait pris sa retraite et qu’il vivrait aujourd’hui parmi les nobles qu’il dévalisait autrefois.
+
+PARAMÈTRES :
+
+Lance le sort Invisibilité 1/jour
+Poids : 0~
+@1007369  = ~Ces anneaux sont l’un des secrets les mieux gardés par les personnes pieuses. Afin d’obtenir tout leur pouvoir, ces anneaux doivent être bénis par tous les dieux connus. Ce n’est évidemment pas chose aisée, puisque certaines religions sont en conflit avec d’autres. De peur d’être persécutées par leurs propres frères, les personnes qui choisissent d’en porter un préfèrent donc ne pas en révéler l’origine.
+
+
+PARAMÈTRES :
+
+Sagesse : +5
+Poids : 0~
+@1007371  = ~Ce collier projette une petite boule d’énergie magique qui va immanquablement frapper sa cible.   Lorsqu’elle atteint sa cible, cette boule d’énergie explose dans un enfer de flammes qui brûle toutes les créatures se trouvant dans son rayon d’action.
+
+PARAMÈTRES :
+
+Portée : 35 m.
+Zone d'effet : rayon de 3 mètres
+Dégâts : 8d6 (jet de réflexes pour moitié)
+Poids : 0,5~
+@1007378  = ~Ces bottes ont reçu un enchantement permettant de détecter les missiles et elles aident donc leur porteur à les éviter. Blessé à plusieurs reprises par ses élèves inexpérimentés, l’instructeur d’une académie d’archers en demanda la fabrication.
+
+PARAMÈTRES :
+
+Bonus à la CA : +5 contre les projectiles
+Poids : 2~
+@1007380  = ~Les aventuriers portent généralement des bracelets pour mieux protéger leurs avant-bras ou pour avoir un meilleur support. Ces bracelets ont toutefois été enchantés pour conférer à leur porteur une protection équivalente à celle d’une armure, mais sans ses contraintes. Les bracelets de ce type sont très recherchés par les mages et les ensorceleurs dont les mouvements ne doivent pas être entravés s’ils veulent se servir de leurs pouvoirs magiques.
+
+PARAMÈTRES :
+
+Bonus à la CA : +4
+Poids : 1~
+@1007383  = ~Gantelets de dextérité : 'Les mains de rixe'
+Cette paire de gants fut confectionnée en Kara-Tur au profit d'un maître des arts martiaux. De nombreuses légendes relatent les exploits de ces hommes d'Extrême-Orient, bien qu'elles contiennent certaines incohérences.
+
+PARAMÈTRES :
+
+Dextérité : passe à 18
+Poids : 1~
+@1007410  = ~Ça fait des heures que je transperce cette barrique et il n'est toujours pas content.~
+@1007625  = ~Un puissant magicien enchanta cet anneau pour s'éviter d'être pétrifié par le souffle de ses chères gorgones. Zilzanzer le Magnifique élevait ces gorgones pour les vertus de leur sang, qu'il revendait au prix fort aux châtelains désireux d'empêcher les voyageurs éthérés d'atteindre leur demeure. Zilzanzer fut pétrifié des dizaines de fois, revenant à son état normal grâce aux bons soins de son assistant qui conservait toujours quelques parchemins de Transmutation de la pierre en chair. Le magicien décida toutefois de créer un objet pouvant lui éviter ce genre de désagréments et forgea donc l'Anneau de la Gorgone. Il faut croire que Beshaba avait décidé de s'amuser aux dépens de Zilzanzer car celui-ci fut immédiatement pétrifié lorsqu'il enfila son anneau. Son assistant eut une nouvelle fois recours à ses fidèles parchemins pour le libérer, mais Zilzanzer ne put supporter ce nouveau choc métabolique et mourut au cours du processus.
+
+PARAMÈTRES :
+
+Le porteur est pétrifié~
+@1007644  = ~Le Rebec de Guerre est l'un des seuls instruments de musique acceptés au sein de l'église de Tempus. Il est la création d'un luthier halfelin du nom de Relias Noiregraine et fut moult fois béni par les prêtres d'Arvoreen. Relias n'eut jamais l'intention de jouer de cet instrument et le vendit à un barde nommé Gallow Deely. Gallow était un homme mince et séduisant qui fréquentait nombre d'aventuriers, non pas pour les seconder au combat mais plutôt pour chanter leurs péripéties, un art dans lequel il était passé maître. Il suivait la Compagnie des Arbres Gelés lorsque celle-ci défit un jeune dragon vert en 1013 CV et la ballade qu'il composa pour l'occasion, "Le Combat des Treize Verts", est toujours jouée dans les tavernes du centre et de l'ouest du continent.
+
+PARAMÈTRES :
+
+Emotion : Espoir, centrée sur l'utilisateur.
+
+Poids : 1,5~
+@1007657  = ~Ces étagères s'ornent de centaines de livres, pour la plupart prêts à se désagréger. Il y a quelques espaces vides par endroits, comme si quelqu'un avait emprunté des ouvrages et oublié de les ramener.~
+@1007661  = ~Cette table est couverte de bouts de papier et autres livres ouverts. Quelqu'un devait étudier là.~
+@1007911  = ~Manteau de terreur (Invocation)
+Niveau : Prê 4, Baine 4
+Portée : lanceur
+Durée : 3 rounds
+Temps d'incantation : 6
+Zone d'effet : lanceur
+Jet de sauvegarde : Volonté, annule
+
+Manteau de terreur entoure le prêtre affecté d’une aura de terreur s’étendant à 1,50 mètre autour de lui.  Tous ceux qui l’approchent doivent réussir un jet de Volonté sous peine de s’enfuir, paniqués, pendant 1 round. En cas de succès, ils doivent continuer à effectuer deux jets de Volonté par round tant qu’ils restent dans la zone d’effet de Manteau de terreur.  Le sort n’affecte pas les morts-vivants.~
+@1007953  = ~Que vos matins soient doux autant que vos nuits, mes amis. Je suis Maxiel de Lunedargent. Etes-vous les renforts ?~
+@1008188  = ~C'est grâce à MES terribles créatures qui hantent la Forêt Maudite, à MES monstres ignobles qui infestent les Marais Froids et aux innombrables barbares du Corbeau Noir que MA magie a tués que ces méprisables ignorants sont en sécurité. C'EST MOI SEULE QUI PERMETS À CE VILLAGE D'EXISTER !~
+@1008213  = ~Ça ? C’est un totem de loup... un porte-bonheur. Le mari de ma cousine l’a perdu en croyant me battre à mon jeu favori ! Peut-être qu’un jour je croiserai enfin quelqu'un qui a l'estomac plus solide que le mien et alors je lui donnerai le porte-bonheur.~
+@1008246  = ~Cotte de mailles elfique de la Main +3~
+@1008337  = ~Ce tonneau recèle une eau on ne peut plus pure. Obtenue à partir de neige fondue, elle ne contient aucune des impuretés que l'on trouve dans la plupart des sources d'eau naturelle.
+
+Poids : 12,5~
+@1008556  = ~Le maillet est un marteau de forgeron de guerre, qui se manie à deux mains. Il mesure entre 90 et 120 centimètres et possède une lourde tête carrée. Il est réputé pour sa capacité à percer les lourdes armures. Le maillet est généralement utilisé contre des chevaliers descendus de leur monture par des troupes équipées d'armures légères.
+
+PARAMÈTRES :
+
+Dégâts : 2d4
+Bonus d'attaque : +1
+Type de dégâts : contondants
+Poids : 5
+Facteur de vitesse : 8
+Compétence : Marteau
+Type d'arme : à deux mains~
+@1008568  = ~"Vous allez acheter quelque chose ou rester plantés là à bayer aux corneilles ?"~
+@1008580  = ~"Des rivières hurlantes bâillonnées par le bois et la glace... une pierre, une pierre qui bat comme un coeur..."~
+@1008589  = ~"Pourquoi ce gobelours m'a... zzznn... cogné sur la tête ?"~
+@1008639  = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +1
+Bonus d'attaque : +1
+Enchantement : +5
+Type de dégâts : tranchants
+Spécial :
+ Energie intelligente : les attaques ne tiennent pas compte de la classe d'armure de la cible ni de ses bonus de parade.
+ Coup certain (infaillible) : Cette arme est considérée comme +5 pour ce qui est des créatures qui requièrent une arme magique pour être touchées
+Poids : 3,5
+Compétence : arme de guerre, hache
+Type d'arme : à une main~
+@1008712  = ~Cet arc appartenait à Kaylessa, maître d'armes de la Main de la Seldarine. Elle était particulièrement belle, habile à l’arc et se consacrait entièrement à améliorer les compétences de combat de tous les elfes sous ses ordres. S’il y avait ne serait-ce qu’un héros durant la bataille de la Main de la Seldarine, il s’agissait sans aucun doute d’elle. Elle fit preuve d’un courage exemplaire face à un désastre inévitable et mena son peuple affronter les orques et les gobelins. Même après la chute de la Main, elle resta très engagée dans les batailles et fidèle à son peuple. Sa dernière volonté était de mourir au cours d’une grande bataille.
+
+PARAMÈTRES :
+
+Dégâts : +3
+Bonus au toucher : +3
+Dextérité : bonus de +1
+Poids : 3
+Facteur de vitesse : 7
+Compétence : arc
+Type d'arme : à deux mains
+Force requise : 15~
+@1008728  = ~Ancienne propriété de Kaylessa, maître d'armes de la Main de la Seldarine. Elle était particulièrement belle, habile à l’arc et se consacrait entièrement à améliorer les compétences de combat de tous les elfes sous ses ordres. S’il y avait ne serait-ce qu’un héros Durant la bataille de la Main de la Seldarine, il s’agissait sans aucun doute d’elle. Elle fit preuve d’un courage exemplaire face à un désastre inévitable et mena son peuple affronter les orques et les gobelins. Même après la chute de la Main, elle resta très engagée dans les batailles et fidèle à son peuple. Sa dernière volonté était de mourir au cours d’une grande bataille.
+
+PARAMÈTRES :
+
+Bonus à la CA : 1
+Dextérité : bonus de +1
+Poids : 1,5~
+@1008836  = ~Cette grande chaise a été fabriquée à l'aide d'os et d'une peau d'animal tendue.~
+@1008841  = ~La hallebarde est composée d’une lame de hache montée à l’extrémité d’un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées, de façon à améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure. De nombreux sortilèges ont été placés sur cette hallebarde pour qu'elle devienne plus efficace en combat.
+
+PARAMÈTRES :
+
+Dégâts : 1d10
+Enchantement : +5
+Type de dégâts : perforants
+Spécial :
+ Coup certain (infaillible) : Cette arme est considérée comme +5 pour ce qui est des créatures qui requièrent une arme magique pour être touchées
+ Froid : +1d6 de dégâts de froid
+ Givre : +1d6 de dégâts de froid et 10% de chances d'infliger 1d10 de dégâts de froid supplémentaires
+Poids : 7
+Compétence : Arme de guerre, arme d'hast
+Type d'arme : à 2 mains~
+@1008866  = ~Ces flèches ont été enchantées au cours de leurs confection. Ces flèches, légèrement plus droites que leurs congénères normales, semblent devenir vivantes alors qu'elles quittent votre arc pour filer vers leur cible avec une précision diabolique.
+
+PARAMÈTRES :
+
+Dégâts : 1d6
+Type de dégâts : projectile (perforant)
+Spécial :
+ Boomerang : Les flèches reviennent à l'archer
+ Remarque : Elles ne possèdent pas d'autre propriété magique.
+Poids : 0
+Lanceur : arc~
+@1008870  = ~Ce symbole magique du dieu elfe, Corellon Larethian, était fourni à de nombreux guerriers de la Main de la Seldarine, pour leur rappeler la bataille épique ayant opposé Corellon à Gruumsh. Tout porteur de ce symbole voit son ardeur décuplée à combattre les orques.
+
+
+PARAMÈTRES :
+
+Bonus d'attaque : +2~
+@1009015  = ~Savoir ancien sur Séhanine Archelune
+Par Maître E. L. Boyd
+
+... Séhanine Archelune est la déesse de la lune, et plus précisément de la pleine lune. Les signes du destin sont de son ressort, de même que les sorts de divination et ceux qui protègent contre la folie. Elle veille sur les rêves des elfes, s'assurant qu'ils ne seront pas attaqués en songe, et leur envoie des signes les avertissant de dangers à venir. En tant que protectrice des morts, c'est également elle qui accompagne l'âme des défunts à Arvandor.
+... Séhanine, que l'on dit indifféremment fille ou épouse de Corellon, est la plus puissante des déesses elfes. Elle est identifiée à la puissance mystique de la lune, et l'on prétend que ses larmes auraient donné naissance aux elfes en se mêlant au sang de Corellon.
+
+Poids : 2~
+@1009171  = ~Cette charrette vous fait penser à la tête d'une ombre des roches. Ou d'un ankheg. Vous frissonnez involontairement.~
+@1009218  = ~Barud nous a informés de son intention de transformer l'avant-poste duergar en une base de laquelle il pourra lancer son assaut sur le Monastère du Corbeau Noir avec d'autres duergars qui viendront en renfort.~
+@1009322  = ~Cette fenêtre, qui semble avoir été brisée il y a longtemps, a été réparée sans trop de soins.~
+@1009558  = ~PALADIN :
+
+Un paladin est un guerrier intrépide et pur, un modèle de bonté et de loyauté. Comme le guerrier, le paladin est un homme de combat. Cependant, il vit pour des idéaux de droiture, de justice, d’honnêteté, de piété et de chevalerie. Il est un exemple vivant de ces vertus afin que les autres puissent profiter de ses actions et de son enseignement.
+
+REMARQUE : la Sagesse est la caractéristique qui détermine chez un paladin le niveau de magie maximal, le DD des jets de sauvegarde contre les sorts et le nombre de sorts supplémentaires.
+
+L'ordre auquel appartient un Paladin détermine et limite la classe de prédilection qu'il pourra éventuellement choisir pour se multiclasser :
+Paladin d'Ilmater : Prêtre
+Paladin de Heaum : Guerrier
+Paladin de Mystra : Magicien
+
+AVERTISSEMENT : les paladins multiclassés dans une classe autre que Paladin ou que la classe de prédilection de leur ordre ne pourront plus progresser dans la classe de Paladin.
+
+Points de vie par niveau : 1-10
+
+Avantages :
+* Compétent avec toutes les armes courantes et de guerre, les armures (légères, moyennes et lourdes) et les boucliers.
+* Modificateur de Charisme ajouté à tous les jets de sauvegarde.
+* Imposition des mains 1 fois par jour. L'imposition des mains soigne la cible d'un nombre de points de vie égal au modificateur de Charisme x niveau du paladin (minimum 1 point par niveau).
+* Les paladins sont immunisés contre toutes les maladies.
+* Niveau 2 : Châtiment du Mal. Une fois par jour, le paladin peut lancer ce sort dans une attaque au corps à corps normale. Il ajoute son modificateur de charisme (s'il est positif) à son jet d'attaque et inflige un point supplémentaire de dégâts par niveau.
+* Niveau 2 : Aura de bravoure. Les paladins sont immunisés contre la terreur et les alliés à moins de 3 m reçoivent un bonus de +4 aux jets de sauvegarde contre les effets de la peur.
+* Niveau 3 : Guérison des maladies. Le paladin peut soigner un autre personnage autant de fois par jour que son niveau divisé par 3.
+* Niveau 3 : Renvoi des morts-vivants. Lorsqu'il fait appel à ce pouvoir, le paladin tente d'invoquer le pouvoir de sa divinité pour terrifier un groupe de morts-vivants. Plus son niveau et son charisme sont élevés, plus il a de chances de réussir. Cette aptitude est similaire au renvoi des morts-vivants des prêtres, mais elle fonctionne comme si le paladin avait 2 niveaux de moins.
+* Niveau 4 : Incantation. Les paladins peuvent lancer des sorts.
+
+Désavantages :
+* Un paladin doit être d'alignement 'loyal bon' et doit choisir un ordre divin. Ce choix limite les possibilités de multi-classes pour les paladins.
+* Le paladin doit réagir aux mauvaises actions qui ont lieu en sa présence.~
+@1009559  = ~PRÊTRE :
+
+Le prêtre a pour devoir de répondre aux soins spirituels d’une communauté. C’est un protecteur et un guérisseur, même s’il n’est pas uniquement défensif.
+
+REMARQUE : la Sagesse est la caractéristique qui affecte chez les prêtres le niveau de magie maximal, le DD des jets de sauvegarde contre les sorts et le nombre de sorts supplémentaires.
+
+Un Prêtre se voue entièrement à un Dieu, ce qui lui confère des capacités spéciales et détermine les sorts qu'il connaîtra et pourra lancer.
+
+Point de vie par niveau : 1-8
+
+Avantages :
+* Compétent avec toutes les armures (simples, légères, moyennes et lourdes) et les boucliers.
+* Les prêtres peuvent lancer de puissants sorts offensifs et de soins.
+* Renvoi des morts-vivants. Lorsqu'ils font appel à ce pouvoir spécifique aux prêtres, ils tentent d'invoquer la puissance de leur divinité pour terrifier (alignement bon ou neutre) ou contrôler (mauvais) un groupe de morts-vivants. Plus le niveau et le charisme d'un prêtre sont élevés, plus il a de chances de réussir.
+* Les prêtres reçoivent des pouvoirs et des sorts spéciaux de leur divinité.
+* Incantation spontanée : les prêtres peuvent convertir leurs sorts pour soigner (alignement bon ou neutre) ou lancer (mauvais) des sorts du niveau le plus proche lorsque le joueur clique avec la touche Maj enfoncée sur un sort au moment de l'incantation. Le sort est immédiatement retiré de la liste mémorisée par le personnage et un sort de soins ou de dégâts de même niveau est lancé. Si aucun sort de ce type n'est disponible pour ce niveau, le sort le plus puissant de niveau inférieur est lancé.
+
+Désavantage :
+* Les prêtres n'ont pas accès à de nombreux sorts offensifs.
+* Au combat, les prêtres sont plus faibles que les guerriers, les rôdeurs, les paladins et les barbares.~
+@1009583  = ~CONSTITUTION (Con) :
+
+La constitution détermine la forme physique d’un personnage, sa santé et sa résistance physique à la douleur, aux blessures et aux maladies. La Constitution est une caractéristique importante pour tous les personnages, car elle influe sur les points de vie. Les magiciens et les ensorceleurs tirent grand bénéfice d’une forte Constitution qui leur permet d'éviter d'interrompre leurs sorts sous l'effet des coups qui leur sont portés lors d'un combat.
+
+La constitution influe sur les points de vie du personnage (combien de dégâts il peut encaisser avant de mourir), sur ses jets de Vigueur (résistance aux effets du poison, etc.) et ses chances de rester insensible à un coup susceptible d’interrompre le sort qu’il ou elle est en train de lancer (Concentration).
+
+Score : Points de vie/Modificateur jets de Vigueur
+1 : -5
+2-3 : -4
+4-5 : -3
+6-7 : -2
+8-9 : -1
+10-11 : 0
+12-13 : +1
+14-15 : +2
+16-17 : +3
+18-19 : +4
+20-21 : +5
+22-23 : +6
+24-25 : +7
+26-27 : +8
+28-29 : +9
+30 : +10~
+@1009587  = ~CHARISME (Cha) :
+
+Le Charisme détermine les qualités de persuasion d'un personnage, son magnétisme personnel et sa capacité à diriger. Le charisme est essentiel pour les paladins, les ensorceleurs et les bardes, et aide également les prêtres à repousser les morts-vivants.
+
+Le charisme affecte la puissance des sorts d'un barde ou d'un ensorceleur (difficulté de leurs cibles à résister), les prix dans les échoppes, la capacité d'un personnage à repousser les morts-vivants (voir le manuel pour les règles complètes), le niveau maximum et le nombre de sorts que peuvent lancer les ensorceleurs et les bardes quotidiennement et les compétences Empathie avec les animaux, Bluff, Diplomatie, Intimidation et Utilisation d'objets magiques. Le charisme influe également sur les réactions des autres personnages.
+
+Score : DD sort de barde ou d'ensorceleur/Modificateur de compétence*, Modificateur de prix, Niveau maxi de sort de barde & d'ensorceleur, Sorts supplémentaires de barde & d'ensorceleur (1er/2e/3e/etc.)
+1 : -5, +15%, Aucun, 0/0/0/0/0/0/0/0/0
+2-3 : -4, +12%, Aucun, 0/0/0/0/0/0/0/0/0
+4-5 : -3, +9%, Aucun, 0/0/0/0/0/0/0/0/0
+6-7 : -2, +6%, Aucun, 0/0/0/0/0/0/0/0/0
+8-9 : -1, +3%, Aucun, 0/0/0/0/0/0/0/0/0
+10 : 0, 0%, Aucun, 0/0/0/0/0/0/0/0/0
+11 : 0, 0%, 1er, 0/0/0/0/0/0/0/0/0
+12 : +1, -3%, 2e, 1/0/0/0/0/0/0/0/0
+13 : +1, -3%, 3e, 1/0/0/0/0/0/0/0/0
+14 : +2, -6%, 4e, 1/1/0/0/0/0/0/0/0
+15 : +2, -6%, 5e, 1/1/0/0/0/0/0/0/0
+16 : +3, -9%, 6e, 1/1/1/0/0/0/0/0/0
+17 : +3, -9%, 7e, 1/1/1/0/0/0/0/0/0
+18 : +4, -12%, 8e, 1/1/1/1/0/0/0/0/0
+19 : +4, -12%, 9e, 1/1/1/1/0/0/0/0/0
+20-21 : +5, -15%, 9e, 2/1/1/1/1/0/0/0/0
+22-23 : +6, -18%, 9e, 2/2/1/1/1/1/0/0/0
+24-25 : +7, -21%, 9e, 2/2/2/1/1/1/1/0/0
+26-27 : +8, -24%, 9e, 2/2/2/2/1/1/1/1/0
+28-29 : +9, -27%, 9e, 3/2/2/2/2/1/1/1/1
+30 : +10, -30%, 9e, 3/3/2/2/2/2/1/1/1
+
+* S'applique aux compétences Empathie avec les animaux, Bluff, Diplomatie, Intimidation et Utilisation d'objets magiques.~
+@1009632  = ~Je pense qu'une explication s'impose. Je croyais que c'était à moi qu'on avait loué cette maison, mais apparemment c'est à vous qu'elle appartient, puisque vous y faites irruption aussi bruyamment.~
+@1009665  = ~Ah... Il ne faut pas que j'oublie de crever les tympans de ces mercenaires la prochaine fois que je les verrai. Je leur avais pourtant dit de ne pas parler de mon passé, mais il semblerait qu'ils aient quelque peu compliqué les choses pour moi… et pour vous.~
+@1009832  = ~Nous avons rapporté un anneau à Nonin en pensant qu'il s'agissait du sien, mais ce n'était pas le cas. Non seulement nous avons pu garder l'anneau, mais il nous a récompensés pour notre honnêteté en nous donnant la clef de la remise du monastère. Nous y trouverons des potions dans une caisse.~
+@1009946  = ~Oui. C'est une série d'épreuves destinées à écarter ceux qui n'ont pas le talent ou la volonté nécessaires pour être dignes de notre ordre. Elles sont à l'étage inférieur et Morohem, le maître des Chambres, les entretient et surveille ceux qui souhaitent y accéder.~
+@1010084  = ~Poule enragée~
+@1010268  = ~Un gobelin pourrait se faufiler par là, alors prenez garde, personne n'est à l'abri en ces temps de troubles.~
+@1010309  = ~Il n'est pas possible de se reposer pour l'instant.~
+@1010580  = ~Je combattrai demain le coeur lourd, sachant que je pourrai ne pas survivre. C'est la vie, et bien des imbéciles ont risqué leur vie pour beaucoup moins d'or qu'il m'a été promis. Mais comme je ne supporte pas l'idée de perdre les trésors acquis au prix d'un dur labeur, je m'écris ce mot qui doit servir de mémento au cas où une blessure me priverait de mes facultés. Ce risque existe, lors d'un combat avec un mage.
+Quenash, ma belle sainte déchue, détient ma cape en souvenir de moi. Quant à mon heaume, je me fie à ma ruse pour le cacher. Il gît où tous gisent, en un lieu au nom prédestiné. La cape devrait être là aussi, mais c'est ce à quoi tout le monde s'attend, et je ne tiens pas à faciliter la tâche des voleurs.~
+@1010593  = ~Mais bien sûr ! Seulement, vous connaissez la règle... Buvez une cruche avec moi, sinon pas de réponses. Ça ne coûte que trois pièces d’or, après tout...~
+@1010604  = ~Nous buvons chacun une gorgée de braehg… C'est du sang de sanglier mélangé à du lait. Ça va vous chauffer l’arrière-train : une seule gorgée suffit à faire cracher ses tripes à un villageois. Vous pensez être à la hauteur ?~
+@1010661  = ~Vous voulez du braegh ? Ça vous tiendra chaud… le lait de sanglier fermenté, et tout…~
+@1010781  = ~Nous avons expliqué à Shawford que nous ne pouvions pas parler à Koluhm parce qu'il était mort accidentellement en voulant se frotter à nous. Nous n'avons pas utilisé ces termes, Shawford a déjà fort à faire et nous ne voudrions pas finir sur la potence. Il a bien pris la nouvelle et nous a confié une nouvelle mission : nous devons ramener les ivrognes de la bande du Collier de Fer à la Palissade, ce ramassis de soûlards qui ripaillent à la taverne du Loup de Mer.~
+@1010782  = ~Nous sommes revenus voir Shawford après avoir parlé à Koluhm et il nous a confié une nouvelle mission : nous devons ramener les ivrognes de la bande du Collier de Fer à la Palissade, ce ramassis de soûlards qui ripaillent à la taverne du Loup de Mer.~
+@1010814  = ~Si vous n'avez pas d’équipement, allez acheter ce dont vous avez besoin au Comptoir de Commerce Gallaway.~
+@1010894  = ~Très bien. Au revoir.~
+@1010938  = ~PRÊTRE :
+
+Le prêtre répond aux besoins spirituels d’une communauté. C’est un protecteur et un guérisseur, même s’il n’est pas uniquement défensif.
+
+REMARQUE : la Sagesse est la caractéristique qui détermine chez les prêtres le niveau de magie maximum, le DD des jets de sauvegarde contre les sorts et le nombre de sorts supplémentaires.
+
+Points de vie par niveau : 1-8
+Armes autorisées : gourdin, arbalète, fléau, marteau, masse, morgenstern, bâton, fronde, lance. ATTENTION : si vous multiclassez un prêtre, vous risquez de PERDRE DÉFINITIVEMENT les armes que vous aviez choisies de manier dans votre classe précédente.
+Armure autorisée : toutes
+
+Avantages :
+* Les prêtres peuvent lancer de puissants sorts défensifs et de guérison.
+* Renvoi des morts-vivants. Le prêtre qui fait appel à ce pouvoir invoque la puissance de sa divinité pour effrayer (alignement bon ou neutre) ou contrôler (mauvais) un groupe de morts-vivants. Plus le niveau et le charisme du prêtre sont élevés, plus il a de chances de voir son invocation réussir.
+
+Désavantages :
+* Les prêtres n'ont pas accès à de nombreux sorts offensifs.
+* L'incantation des sorts des prêtres est souvent plus longue que celle des sorts des magiciens.
+* Au combat, les prêtres sont plus faibles que les guerriers, les rôdeurs, les paladins et les barbares.~
+@1010939  = ~DRUIDE :
+
+Le druide sert la cause de la nature et de la neutralité ; il vit en osmose avec sa communauté. Il utilise ses pouvoirs spéciaux pour se protéger et préserver l’équilibre du monde.
+ATTENTION : les druides ne peuvent utiliser que les dagues (petites épées), les gourdins et bâtons (armes contondantes), les frondes et les fléchettes (armes à projectiles) et la lance (lances). Si vous vous multiclassez en druide, vous risquez de PERDRE DÉFINITIVEMENT les armes que vous aviez choisies de manier dans votre classe précédente.~
+@1010962  = ~Le personnage va être sauvegardé dans le dossier "CHARACTERS" (personnages) placé dans le répertoire Icewind Dale II. Ce personnage pourra être utilisé dans les parties multijoueur. Pour cela, utilisez le bouton Importer au bas de l’écran Création de personnage. L’exportation d’un personnage ne change en rien sa participation à la partie en cours.~
+@1011000  = ~ ... voilà où en est la situation. Les Orques et les Gobelins accroissent leurs forces à chaque nouvelle victoire. Personne ne sait qui leur a fourni les armes qu'ils utilisent, mais je suis persuadé que les Nains n'y sont pour rien. Nous sommes parvenus à les retenir, mais nous ne tiendrons pas très longtemps. Nous avons subi de lourdes pertes et nos forces s'amenuisent rapidement.
+
+Les négociations sont interrompues avec nos anciens alliés et nous sommes maintenant en guerre contre eux.Même si j'aime mon père, je dois admettre qu'il est seul responsable de cette situation. Depuis que nous avons trouvé ces armes entre les mains des hordes d'Orques et de Gobelins, mon père agit de façon tout à fait irrationnelle. Toutes les discussions qu'il a eu avec nos anciens alliés se sont terminées par des accusations et de l'animosité. Il est absolument persuadé que les Nains nous ont trahis et refuse d'écouter ce qu'ils ont à dire pour leur défense.
+
+Suis-je le seul à comprendre que nos deux peuples vont mourir dans d'atroces souffrances, si la situation n'évolue pas ? Père ne voit aucune raison d'oublier nos différends avec les Nains pour nous unir contre notre ennemi commun. Je lui ai proposé de nous rendre à Profondorn pour parler à nos anciens alliés, mais il est entré dans une grande rage et m'a ordonné de quitter l'astrolabe.
+
+Je m'apprête maintenant à me rendre par moi-même à Profondorn. Je sais au plus profond de mon cœur ce qui doit être fait, et c'est la seule manière. Je suis finalement peut-être aussi obstiné que mon père.~
+@1011198  = ~Si jamais vous venez ME voir la nuit, vous rejoindrez le Vieux Crâne plus tôt que prévu.~
+@1011203  = ~Le Vieux Crâne vient TOUJOURS plus tôt qu’on ne le pense, oui... Ce que vous dites est sage et je vous prie d’excuser mes paroles. Vous voulez bien ?~
+@1011332  = ~Une fois qu'elle est bue entièrement, cette potion étrangement trouble restitue 9 points de vie. Son effet est instantané et la potion est détruite dans le processus.~
+@1011352  = ~Ces boutons contrôlent la fréquence à laquelle les personnages de l'équipe parlent quand ils sont sélectionnés ou que l'on clique sur eux. Avec le choix " toujours ", un son est émis systématiquement ; " parfois ", correspond à 20% de la fréquence, et " jamais " désactive les sons de sélection.~
+@1011389  = ~Allez le trouver, voyez combien de flèches il lui faut, et allez ensuite les chercher au Comptoir de Commerce Gallaway. Revenez me voir quand Isherwood aura ce dont il a besoin. ~
+@1011475  = ~Trêve de bavardages, Isair… finissons-en une bonne fois pour toutes.~
+@1011549  = ~Qu'est-ce que vous préférez ? Venir avec nous et remplir votre contrat, ou attendre que les gobelins ou la Garde de Targos viennent vous faire la peau ?~
+@1011808  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Entre ces deux éléments se trouve une courroie ou une chaîne. Cette arme était au départ un outil pour battre le grain. Ce fléau est enchanté. Sa surface est recouverte de runes luisantes.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +5
+Toucher : +4
+Type de dégâts : contondants
+Bonus à la CA : 1
+Spécial :
+ 50% de chances d'infliger +2d3 de dégâts électriques
+ 10% de chances d'étourdir la cible.
+Poids : 7,5
+Facteur de vitesse : 7
+Compétence : fléau
+Type d'arme : arme à une main~
+@1011810  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Entre ces deux éléments se trouve une courroie ou une chaîne. Cette arme était au départ un outil pour battre le grain. Ce fléau est enchanté. Sa surface est recouverte de runes luisantes.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +5
+Bonus d'attaque : +5
+Enchantement : +4
+Type de dégâts : Contondant
+Spécial :
+ Explosion : +1d6 de dégâts du feu et 10% de chances d'infliger 1d10 de dégâts du feu supplémentaires
+Poids : 2,5
+Don requis : arme de guerre, fléau
+Type d'arme : arme à une main~
+@1012168  = ~Charme funeste 
+(Enchantement)
+Niveau : Bar 2, Ens/Mag 3, Baine 3
+Portée : portée de vue
+Durée : 20 rounds
+Temps d'incantation : 3
+Zone d'effet : 1 humanoïde de taille moyenne ou plus petite
+Jet de sauvegarde : Volonté, annule
+
+Ce sort est similaire à Charme-personnes. Cependant, la cible devient enragée et interdisant à quiconque de faire du mal à son maître (le lanceur du sort). Elle affronte donc les ennemis de ce dernier, qu'il s'agisse ou non d'anciens alliés. A l'instar de Charme-personne, ce sort est limité. Le sort n'affecte que des humanoïdes de taille moyenne ou inférieure. Ainsi, un guerrier de niveau 10 pourra être charmé, mais pas un ogre.  Un jet de Volonté réussi protège de ce sort.~
+@1012170  = ~Immobilisation de personne (Enchantement)
+Niveau : Bar 2, Prê 2, Ens/Mag 3, Heaum 2
+Portée : portée de vue
+Durée : 1 round par niveau
+Temps d'incantation : 3
+Zone d'effet : spéciale
+Jet de sauvegarde : Volonté, annule
+
+Ce sort fige 1-4 humains, demi-humains ou humanoïdes pendant 5 rounds ou plus. Le terme “personne” définit tout bipède humain, demi-humain ou humanoïde de taille inférieure ou égale à celle d'un homme (lutin, dryade, nain, elfe, gnoll, gnome, gobelin, demi-elfe, halfelin, demi-orque, hobgobelin, humain, kobold, homme-lézard, nixe, orque, pixie, esprit follet, troglodyte, etc.) Un guerrier de niveau 10 pourra donc être charmé, mais un ogre, non. Le sort affecte automatiquement les créatures les plus proches du point choisi. Celles qui réussissent leur jet de Volonté échappent à son emprise. Les morts-vivants ne sont jamais affectés. Les créatures immobilisées sont incapables de bouger ou de parler, mais elles restent conscientes de ce qui les entoure et peuvent utiliser leurs facultés mentales. Le cas échéant, le sort n’empêche pas leur condition de se détériorer (blessures, maladie, poison).  Un jet de Volonté réussi protège de ce sort.~
+@1012184  = ~Toile d'araignée (Invocation)
+Niveau : Ens/Mag 2
+Portée : portée de vue
+Durée : 15 rounds
+Temps d'incantation : 2
+Zone d'effet : 5 m de rayon
+Jet de sauvegarde : Réflexes, annule
+
+Ce sort fait apparaître un amas de fils gluants semblables à ceux d’une toile d’araignée, mais plus épais et infiniment plus résistants. Les créatures prises dans la zone d'effet doivent effectuer un jet de Réflexes, celles qui le ratent se retrouvant dans l'incapacité de se déplacer pour un round et souffrant d'un malus de –2 au jet d'attaque et de –4 à la Dextérité. Un personnage tentant de lancer un sort dans ces conditions doit réussir un jet de concentration.~
+@1012204  = ~Apaisement (Abjuration)
+Niveau : Prê 1
+Portée : proximité
+Durée : 10 minutes
+Temps d'incantation : 1
+Zone d'effet : 10 m de rayon
+Jet de sauvegarde : aucun
+
+Ce sort donne du courage à tous les alliés du personnage se trouvant dans la zone d’effet, ce qui annule les effets de la terreur magique et augmente leur moral autant que faire se peut. Les sujets sont par la suite immunisés contre la terreur jusqu'au terme de la durée indiquée.~
+@1012218  = ~Mur de feu (Evocation)
+Niveau : Dru 5, Ens/Mag 4
+Portée : portée de vue
+Durée : 5 rounds
+Temps d'incantation : 4
+Zone d'effet : mur de 6 m de long sur 1,5 m d’épaisseur
+Jet de sauvegarde : aucun
+
+Ce sort fait apparaître un rideau de flammes violettes.  Quiconque tente de les traverser subit 2d6 points de dégâts (feu), +1 par niveau du lanceur de sorts (jusqu’à un maximum de 2d6+20).  Un seul mur de feu peut exister simultanément.~
+@1012219  = ~Détection du Mal (Divination)
+Niveau : Prê 1, Rôd 2
+Portée : zone actuelle
+Durée : 1 tour
+Temps d'incantation : 1 round
+Zone d'effet : portée de vue
+Jet de sauvegarde : aucun
+
+Ce sort détecte les émanations maléfiques des créatures. Toute créature mauvaise à portée du sort rougeoie brièvement.~
+@1012634  = ~Plusieurs lettres adressées à Dolon Daemba, l'envoyé de Légion de la Chimère. Chacune porte le sceau de la Légion.
+
+L'une d'entre elles parle d'un complot pour perturber les activités du monastère en retournant Aruma Blane, l'archimandrite postulant, contre Ormis Dohor, l'actuel archimandrite, parti inspecter la Légion de la Chimère à la Main Coupée. Lorsque Ormis refusa de se ranger du côté de la légion de la chimère, Dolon reçut l'ordre de séduire et de corrompre Aruma et de s'assurer ensuite que le monastère n'interfère pas dans les affaires de la Légion.
+
+Poids : 0~
+@1012837  = ~Ensorceleur~
+@1013094  = ~Histoire de Valombre I~
+@1013095  = ~Histoire de Valombre II~
+@1013096  = ~Histoire de Valombre III~
+@1013097  = ~Histoire de Valombre IV~
+@1013098  = ~Histoire de Valombre V~
+@1013099  = ~Histoire de Valombre VI~
+@1013100  = ~Histoire de Valombre VII~
+@1013101  = ~Histoire de Valombre VIII~
+@1013102  = ~Histoire de Valombre IX~
+@1013103  = ~Histoire de Valombre X~
+@1013104  = ~Histoire de Valombre XI~
+@1013105  = ~Histoire de Valombre XII~
+@1013106  = ~Histoire de Valombre XIII~
+@1013122  = ~Histoire du Nord IV~
+@1013123  = ~Histoire du Nord V~
+@1013196  = ~Histoire d'Eauprofonde I~
+@1013197  = ~Histoire d'Eauprofonde II~
+@1013198  = ~Histoire d'Eauprofonde III~
+@1013199  = ~Histoire d'Eauprofonde IV~
+@1013200  = ~Histoire d'Eauprofonde V~
+@1013201  = ~Histoire d'Eauprofonde VI~
+@1013729  = ~Charger une partie~
+@1013730  = ~Sauvegarder une partie~
+@1013963  = ~Créer une partie~
+
+@1014116  = ~Destruction d'objet~
+@1014285  = ~Rayon de soleil (Evocation)
+Niveau : Dru 7, Lathandre 7
+Portée : portée de vue
+Durée : 4 rounds
+Temps d'incantation : 4
+Zone d'effet : 5 m de rayon
+Jet de sauvegarde : Réflexes, annule et 1/2 dégâts
+
+Ce sort permet d’invoquer un rayon de lumière éblouissante tombant du ciel. Les créatures prises dans le faisceau sont aveuglées et subissent 3d6 points de dégâts. Un jet de Réflexes réussi annule la cécité et réduit les dégâts de moitié. Les créatures mort-vivantes, les moisissures, vases, lichens et autres créatures similaires encaissent 1d6 points de dégâts par niveau du lanceur (maximum 20d6).~
+@1014479  = ~La hallebarde est composée d'une lame de hache montée à l'extrémité d'un bâton de près de deux mètres de long. Des propriétés magiques lui ont été conférées, de façon à améliorer ses performances en combat. Sa large lame a pour mission de trancher les chairs à la recherche des os de l'ennemi, alors que son crochet sert à découvrir les failles de son armure. De nombreux sortilèges ont été placés sur cette hallebarde pour qu'elle devienne plus efficace en combat.
+
+PARAMÈTRES :
+
+Dégâts : 2d8
+Toucher : -1
+Pénalité de CA : 2
+Type de dégâts : perforants
+Poids : 10,5
+Facteur de vitesse : 8
+Compétence : hallebarde
+Type d'arme : à deux mains
+Force requise : 18~
+@1014617  = ~En partie, oui. De nombreux habitants ont fui Targos après la première attaque des gobelins. Mais nous avions tellement besoin de bois que nous avons dû démonter nos maisons en ruines... et celles qui étaient abandonnées. Nous transformons Targos en un pâle reflet de ce qu’elle fût autrefois… Et c'est bien triste à voir !~
+@1014813  = ~En observant ces bottes de plus près, vous constatez qu'elles sont faites d'une matière corporelle inconnue. Le porteur de ces bottes devient sombre et prend presque l'apparence d'un fantôme. Le bruit des pas est plus étouffé et donne l'impression de venir de loin.
+
+PARAMÈTRES :
+
+Bonus à la CA : +1
+Spécial : +15% en Furtivité
+Poids : 2,5~
+@1014880  = ~L'espadon est une évolution de l'épée longue. En effet, les forgerons ont toujours cherché à améliorer les armes existantes. Dans ce but, la lame de l'épée longue s'est allongée. Il devint ensuite nécessaire d'agrandir la fusée, afin de pouvoir la saisir à deux mains, seul moyen de manier convenablement une telle lame. La fonction initiale de l'espadon était d'abattre les chevaliers et de briser les formations de piquiers. Celle-ci est particulièrement efficace car elle est dotée de certaines propriétés magiques.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 +4
+Toucher : bonus de +4
+Type de dégâts : tranchants
+Spécial :
+ 50% de chances d'infliger +2d3 de dégâts électriques
+ 25% de chances d'étourdir la cible
+Poids : 6
+Facteur de vitesse : 9
+Compétence : grande épée
+Type d'arme : à deux mains~
+@1014910  = ~Edion, un nécromancien mourant de Sembie, fut le dernier propriétaire de ce puissant anneau. Il le forgea pour son utilisation personnelle. Vers la fin de sa vie, il s'était tellement habitué à cet anneau qu'il ne l'ôtait presque jamais. Il le portait comme une alliance pour symboliser son mariage avec l'art des arcanes.
+
+PARAMÈTRES :
+
+Double le nombre de sorts de 5e niveau du porteur.~
+@1014999  = ~Écoutez… Nous pouvons vous aider tout de suite. Et si les gobelins attaquaient alors que la catapulte n'est pas encore réparée ?~
+@1015061  = ~Bon, très bien. Si c'est un affrontement qu'il veulent, ils vont l'avoir !~
+@1015135  = ~Choisissez cette option seulement si votre carte vidéo n'affiche pas des images miroir satisfaisantes.
+ 
+(Désactivée par défaut)~
+@1015141  = ~Cette option permet l'affichage de la transparence des sorts.
+ 
+(Activée par défaut)~
+@1015299  = ~Vous allez rester là, à bayer aux corneilles, ou vous allez dégommer ce tonneau ? Si vous abandonnez, dites-le à Gable.~
+@1015308  = ~Quel plaisir de voir enfin quelqu’un effacer ce sourire de chacal du visage de Gable ! Ça fait du bien de voir ça, croyez-moi ! Il est vraiment pénible, parfois...~
+@1015356  = ~Ça ? C’est un "cercle de dents", enfin… je crois que c’est comme ça qu’on dit. Ulbrec l’a fait construire en même temps que la Palissade.~
+@1015458  = ~J'en suis pas sûr... À mon avis, quelque part au nord-est, puisque c'est là que les combats ont été les plus violents. Si vous allez là-bas, prenez vos meilleures lames. Ça risque de grouiller de gobelins, là-dessous.~
+@1015462  = ~Ça ne me surprend pas, ces falaises sont truffées de tunnels, mais on raconte que la Garde de Targos en a condamné la plupart.~
+@1015479  = ~Ça devrait s'arranger sous peu. L'or semble tomber du ciel dans certains coins de Féerûne, en ce moment… Et ça doit être la même chose à Targos.~
+@1015481  = ~Ouais, pourquoi ? Ça vous surprend ?~
+@1015512  = ~J'ai toujours des pièces de rechange quand la saison bat son plein. Prenez cette roue et fixez-la sur la grue. Ça devrait fonctionner...~
+@1015521  = ~J'ai posé un petit piège sur un de mes coffres. Si un gobelin est assez crétin pour essayer de l'ouvrir, il sera asphyxié. Ça devrait lui retourner l'estomac et ça, ça vaut le coup d'oeil !~
+@1015942  = ~Equinoxe vernal~
+@1016175  = ~"Ça c'est du solide ! Mon père serait fier de moi !"~
+@1016274  = ~ Les bracelets sont de fines bandes de métal ou de cuir enroulées ou attachées autour de l'avant-bras de leur porteur. La magie dont ils sont dotés n'a généralement d'utilité que pendant les combats, car ils servent le plus souvent à protéger le porteur ou à augmenter ses chances de toucher son adversaire. Il existe des exceptions, mais elles sont, dans le meilleur des cas, très rares.
+
+PARAMÈTRES :
+
+ CA : 8
+
+ Poids : 1~
+@1016276 = ~La rondache est en général ronde. Elle se porte fixée sur l'avant-bras. Son faible poids par rapport aux grands boucliers permet une meilleure liberté de mouvement, tout en gardant un niveau de protection suffisant.
+
+PARAMÈTRES :
+
+Bonus à la CA : 2, pas de modificateur contre les armes à projectiles
+Poids : 1,5~
+@1016526  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Ces deux éléments sont reliés par une courroie ou une chaîne. Cette arme a été améliorée par l'emploi de magie, pour créer un lien entre celle-ci et celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +1
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : contondants
+Spécial :
+ Bonus de parade : +1
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1016530  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Ces deux éléments sont reliés par une courroie ou une chaîne. Cette arme a été améliorée par l'emploi de magie, pour créer un lien entre celle-ci et celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 + 2
+Bonus d'attaque : +2
+Enchantement : +2
+Type de dégâts : contondants
+Spécial :
+ Décharge : 50% de chances d'infliger +1d6 de dégâts électriques
+ Froid : 50% de chances d'infliger +1D6 de dégâts du froid
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1016532  = ~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Ces deux éléments sont reliés par une courroie ou une chaîne. Cette arme a été améliorée par l'emploi de magie, pour créer un lien entre celle-ci et celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 + 2
+Bonus d'attaque : +2
+Enchantement : +2
+Type de dégâts : contondants
+Spécial :
+ Venin : +2 points de dégâts du poison par seconde pendant 6 secondes (Jet de vigueur pour annuler)
+ Sanglante : inflige 1 point de dégât supplémentaire par round pendant 10 rounds (jet de vigueur pour annuler).
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1016619  = ~Disque incorrect dans le lecteur~
+@1016789  = ~Oui. Ils nous ont attaqué et nous avons dû les tuer.~
+@1016790  = ~Oui, nous les avons vus à l'extérieur d'un village, juste à l'ouest d'ici.~
+@1016915  = ~Cette note très endommagée par les flammes à été écrite avec soin sur un fin morceau de parchemin. Vous pouvez encore y lire :
+
+Thagro,
+
+Dès que vous aurez lu ce message, faites-le passer à vos ouvriers.
+
+Depuis quelque temps, la reine agit de manière étrange - je crois que la saison des amours approche pour elle. Aussi, ne laissez plus aucun homme l'approcher dès à présent et jusqu'à nouvel ordre. Faites-lui surveiller le barrage si vous le souhaitez.
+
+En ce qui concerne les hommes, qu'ils continuent de s'entraîner à creuser dans la glace. Nous devrons creuser de plus grandes zones pendant que Nickademus récupère toutes ses forces. Il pourra ainsi construire des avant-postes de Légionnaires. Ayez toujours à l'esprit de faire en sorte qu'ils soient reposés et bien alimentés; autrement ils ne nous seront d'aucune utilité et pourraient même nous causer de sérieux problèmes. N'hésitez pas à entraîner l'un d'eux au combat ou à vous suivre si vous pensez avoir besoin de protection.
+
+De plus, mes PRECIEUX golems de cristal coûtent assez cher et ne sont PAS conçus pour votre divertissement ! Si je surprends encore l'un de vos vents de glace en train de leur lancer des rochers vous devrez en répondre personnellement !
+
+Une dernière chose - restez sur vos gardes ! D'après Sherincal, ces satanés Malarites nous ont manqués sur le fleuve Shaengarne, alors ils pourraient attaquer d’un moment à l’autre.
+
+Au nom d'Aurile,
+
+Oria.
+
+Poids:  0~
+@1016984  = ~Ça suffit ! Arrête de penser, il est temps pour toi d'agir ! Tu sais très bien ce qui arrivera si tu échoues une nouvelle fois. Et ce n'est pas seulement ta tête qui risque de finir au bout d'une lance de ta légion… Isair et Madae pourraient aussi me tenir pour responsable. Et cela, je ne le permettrai pas.~
+@1017012  = ~Hein… quoi ? COMMENT ÊTES-VOUS ENTRÉS ICI ? Bon, assez parlé. VOUS ALLEZ MOURIR !~
+@1017239  = ~Un traité de compréhension contient une analyse très sobre, voire succincte, des batailles juridiques, des évènements historiques, de la politique, des traités philosophiques et des théories sur la magie et la métaphysique. Bien qu'il intéresse rarement des personnes autres que le public bien instruit auquel il est destiné, on dit que ce genre de livre a déjà permis d'ajouter de la Sagesse à un demi-ogre. Une telle merveille, cependant, est le fruit d'un puissant enchantement lancé sur le livre lors de sa rédaction. Malheureusement, le même enchantement fait disparaître le livre après avoir été utilisé.
+
+PARAMÈTRES :
+
+Sagesse : augmentation permanente de 1 point.
+Spécial : ce livre disparaît après utilisation.
+Utilisation : placer dans un emplacement d'objet rapide.~
+@1017258  = ~La poule, oiseau domestique incapable de voler, est appréciée pour sa chair délicate, mais aussi pour ses oeufs, que l'on déguste souvent au petit déjeuner dans les fermes et les villes de la Côte des Epées.~
+@1017648  = ~Les aventuriers portent généralement des bracelets pour mieux protéger leurs avant-bras. Ces bracelets ont toutefois été enchantés pour conférer à leur porteur une protection équivalente à celle d'une armure, mais sans ses contraintes. Les bracelets de ce type sont très recherchés par les mages et les ensorceleurs dont les mouvements ne doivent pas être entravés s'ils veulent faire appel à leurs pouvoirs magiques.
+
+PARAMÈTRES :
+
+Bonus à la CA : +2
+Poids : 1~
+@1017649  = ~Les aventuriers portent généralement des bracelets pour mieux protéger leurs avant-bras. Ces bracelets ont toutefois été enchantés pour conférer à leur porteur une protection équivalente à celle d'une armure, mais sans ses contraintes. Les bracelets de ce type sont très recherchés par les mages et les ensorceleurs dont les mouvements ne doivent pas être entravés s'ils veulent faire appel à leurs pouvoirs magiques.
+
+PARAMÈTRES :
+
+Bonus à la CA : +3
+Poids : 1~
+@1017715  = ~Cette très belle arme appartenait à Edley Roncier, un guerrier-voleur halfelin. Certains le considéraient comme un vaurien, mais pour de nombreuses personnes il était un véritable héros. Même si la plupart des halfelins affirment publiquement qu'il n'est qu'un scélérat ayant une mauvaise influence sur leur culture, bon nombre d'entre eux lui vouent une grande admiration. Certaines chansons populaires de Waren Sombroiseau content les frasques et les aventures d'Edley chez les Humains et les Elfes.
+
+PARAMÈTRES :
+
+Dégâts : +2 (projectile)
+Bonus d'attaque : +3
+Poids : 0
+Facteur de vitesse : 4
+Compétence : arme à projectile
+Type d'arme : à une main~
+@1017848  = ~Cet énorme bouclier est presque aussi grand que son porteur. Il s'agit plus ou moins d'un mur portatif servant à se protéger. Suivant la distance à laquelle vous le tenez, il peut vous protéger de toutes les attaques. Le pavois ne protège toutefois pas des sorts. Un lanceur de sorts peut vous en toucher en visant votre bouclier. Celui-ci porte des runes qui luisent faiblement dans l'obscurité.
+
+PARAMÈTRES :
+
+Bonus de bouclier : +2
+Bonus à la CA : +1 contre les armes à projectiles
+Spécial :
+ Résistance : 1 de résistance à la magie
+Malus de jet d'armure : -9
+Echec des sorts profanes : 50%
+Poids : 12,5~
+@1017883  = ~Cet énorme bouclier est presque aussi grand que son porteur. Il s'agit plus ou moins d'un mur portatif servant à se protéger. Selon la distance à laquelle vous le tenez, il peut vous protéger de toutes les attaques. Le pavois ne protège toutefois pas des sorts. Un lanceur de sorts peut vous en toucher en visant votre bouclier. Celui-ci porte des runes qui luisent faiblement dans l'obscurité.
+
+PARAMÈTRES :
+
+Bonus de bouclier : +3
+Bonus à la CA : +1 contre les armes à projectiles
+Spécial :
+ Résistance : 2 de résistance à la magie
+Malus de jet d'armure : -9
+Echec des sorts profanes : 50%
+Poids : 12,5~
+@1018004  = ~Cette option active l'affichage des animations du décor de la scène.
+
+(Activée par défaut)~
+@1018005  = ~Importer un personnage~
+@1018006  = ~Ne choisissez cette option que si votre carte vidéo fait apparaître du vert autour des sprites.
+
+(Désactivée par défaut)~
+@1018007  = ~N'activez cette option que si des anomalies graphiques apparaissent dans le jeu.
+
+(Désactivée par défaut)~
+@1018008  = ~Ce curseur permet de régler le volume des sons d'ambiance de la scène.~
+@1018009  = ~Ce curseur permet de régler le volume des effets sonores, comme ceux des  sorts et des enchantements.~
+@1018010  = ~Ce curseur permet de régler le volume des dialogues et des voix des personnages.~
+@1018012  = ~Ce curseur permet d'ajuster le volume des vidéos.~
+@1018016  = ~Ces boutons permettent de choisir la fréquence à laquelle les personnages réagiront aux ordres qu'ils reçoivent.
+" Toujours " : le personnage émettra un son chaque fois qu'il reçoit un ordre. 
+" Parfois " : le personnage ne réagit qu'au moment où, étant sélectionné, il reçoit son premier ordre. 
+" Jamais " : Aucun son n'est joué en réponse aux ordres reçus.~
+@1018017  = ~Ce curseur règle le délai à l'issue duquel une info-bulle apparaît au-dessus d'une commande, du plus bref au plus long. 
+
+- Une valeur minimale correspond à un affichage instantané.
+- Une valeur maximale désactive les info-bulles.~
+@1018020  = ~Ce curseur contrôle le niveau de difficulté à appliquer dans les combats. 
+Le niveau du milieu (Normal) correspond aux vraies règles de D&D, pour lesquelles ce jeu est conçu. 
+Les niveaux plus difficiles et plus faciles affectent les dégâts infligés par les monstres, ainsi que les jets de toucher et de sauvegarde.~
+@1018021  = ~Activez cette option si vous souhaitez qu'un personnage apparaisse toujours en tranparence lorsqu'il est masqué par un objet du décor. 
+Si cette option est désactivée, le personnage n'est transparent que lorsque le pointeur de la souris se trouve sur lui ou son portrait. Autrement, il n'apparaît pas du tout à l'écran.~
+@1018296  = ~Lancer une partie~
+@1018561  = ~Une panthère douée de parole nous a informés de la présence d'une secte dans les collines. Elle affirme qu'elle est dirigée par un dénommé Beodaewn et laisse entendre que ses membres sont mi-hommes, mi-bêtes.~
+@1018793  = ~Les bottes sont généralement faites à la main par un artisan bottier. La plupart sont conçues à l’aide d’un patron mais les meilleures sont faites sur mesure. Ces bottes ont été conçues avec la peau d'un Yeti.
+
+PARAMÈTRES :
+
+Résistance : 1/- de résistance au froid
+Poids : 2~
+@1018851  = ~Nous sommes tombés inconscients lorsque l'aéronef s'est écrasé, et nous avons été réveillés en sursaut par les attaques importunes de scarabées qui nous avaient pris pour cible. À ma grande surprise certains, au lieu de combattre, se sont enfuis en emportant dans leurs mandibules du matériel d'Oswald. Nous devrions récupérer cet équipement.~
+@1018914  = ~Une fois notre équipement rassemblé, Oswald nous a emmenés vers la Passe Occidentale. Mais à son approche, les tempêtes et les vents se sont levés, rudoyant l'aéronef...~
+@1019256  = ~Nous avons rencontré Nickademus, l'archimage qui a construit le temple de glace pour les Grandes Prêtresses d'Aurile : Lysara, Oria et Cathin. En échange d'un service à lui rendre plus tard, il nous a aidés à réparer l'aéronef en lançant le sort de réparation d'Oswald. L'aéronef est toujours endommagé, mais Oswald nous a affirmé que la magie était à l'oeuvre et qu'il faudrait du temps avant d'en constater les effets. ~
+@1019320  = ~Ces caisses ont été marquées.  On peut lire " Commerce Gallaway - Caer-Dinival - Bryn Shander."~
+@1019509  = ~Hum. Vous savez, je dis ça simplement parce que, heu… Il est fort possible que nous ne puissions pas revenir à Targos. Du moins, pendant quelque temps... ~
+@1020129  = ~Ugh... Mes blessures ont besoin d'être pansées.~
+@1020186  = ~Souhaitez-vous vraiment partir ? Selon l'archimandrite Ormis, ceux qui battent en retraite ne gagnent jamais. ~
+@1020620  = ~Cette option gère l'affichage ou le non-affichage de la transparence de l'ombre des créatures. 
+
+(Activée par défaut)~
+@1020882  = ~Cette arme richement décorée mais mal équilibrée a été trouvée près du corps de Balduran.
+
+PARAMÈTRES :
+
+Dégâts : 2d4
+Type de dégâts : tranchants
+Poids : 6
+Facteur de vitesse : 8
+Compétence : grande épée
+Type d'arme : à une main~
+@1021399  = ~Ce heaume solide fait de bandes de métal est cabossé et marqué par les batailles. Des symboles runiques nains sont inscrits sur le front.
+
+PARAMÈTRES :
+
+Bonus à la CA : Aucun
+Spécial : Protège des coups critiques
+Poids : 1 ~
+@1021472  = ~Tourbillon
+(Evocation)
+Niveau : Dru 8, Talos 6
+Portée : portée de vue
+Durée : 10 rounds
+Temps d'incantation : 9
+Zone d'effet : spéciale
+Jet de sauvegarde : Réflexes, partiel
+
+Ce sort génère un petit tourbillon à proximité du personnage, qui peut l’envoyer n’importe où dans son champ de vision. Le lanceur est immunisé contre son sort, ainsi que les élémentaires et autres créatures de très grande taille. Si une créature est prise dans le cyclone, elle subit 2d8 points de dégâts contondants et doit réussir un jet de Réflexes sous peine d'être étourdie pendant 2 rounds. Les créatures à 2 DV ou moins sont automatiquement tuées par ce sort. Le cyclone touche un maximum de 8 créatures avant de disparaître. ~
+@1021491  = ~Les sceptres de châtiment sont des armes peu courantes, même si elles peuvent se révéler très utiles contre certains ennemis. Le dernier propriétaire de celui-ci était Débian d'Urmlaspyre, un prêtre de Gond. Débian était un aventurier excentrique qui avait décidé, pour on ne sait quelle raison, d'enquêter sur tous les types de golems existants. À de nombreuses reprises, le créateur des golems lança ses créatures à la poursuite de Débian pour lui apprendre à ne pas se mêler des affaires des autres, mais il s'en sortit généralement sans blessures sérieuses. Malheureusement pour Débian, sa chance le quitta alors qu'il explorait l'antre du Machiniste, une liche étrange qui avait créé des golems et d'autres créatures. Il ne fut pas à la hauteur de l'épreuve que représentait un laboratoire rempli de golems de fer, comme celui du Machiniste.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 +3
+Bonus d'attaque : +3
+Spécial : 4/11 points de dégâts supplémentaires contre les golems et 5% de chances de les détruire. 5% de chances d'infliger 8/24 points de dégâts supplémentaires aux créatures des plans extérieurs.
+Type de dégâts : contondants
+Poids : 1
+Facteur de vitesse : 2
+Compétence : gourdin
+Type d'arme : à une main ~
+@1021617  = ~Il existe un petit nombre de robes rouge et or de valeur comme celle-ci qui circule dans les Royaumes, et toutes sont la création d'un abjurateur nommé Delgam aux Nombreuses Mains. Plutôt que de conférer un pouvoir offensif ou diverses capacités magiques à ses créations, Delgam préférait se concentrer sur l'élément auquel les abjurateurs attachent la plus grande importance : la protection. Ses robes étaient si réputées que des mages venaient du monde entier pour lui demander de leur en fabriquer pour eux. Delgam préféra disparaître plutôt que de satisfaire ces hordes de mages assoiffés de pouvoir. Ces robes sont les plus connues de ses créations.
+
+PARAMÈTRES :
+
+Bonus à la CA : +7
+Spécial : +10% de résistance aux attaques perforantes, contondantes, tranchantes, perforantes et aux projectiles.
+Poids : 2,5 ~
+@1021769  = ~BIENVENUE, MORTELS ! ÊTES-VOUS LÀ POUR ÉTANCHER MA SOIF ?~
+@1021897  = ~La grande prêtresse Oria ? Si vous voulez être sûrs de la trouver, elle passe le plus clair de son temps au premier, dans sa chambre ou dans son laboratoire de recherche, quand elle ne s’amuse pas à utiliser les immondes objets que lui prépare son mage dément. ~
+@1022063  = ~Le froid qui me déchire le coeur est pire que le plus terrifiant souffle d’Aurile. Mes soeurs sont mortes... et ma vengeance n’en sera que plus TERRIBLE, plus... GLACÉE !~
+@1022139  = ~Oui, nous sommes des aventuriers. Quant à la Viciscamera, elle est déjà détruite.~
+@1022141  = ~Cette cape projette une sphère d'énergie qui protège son porteur des projectiles et ralentit également les armes de corps à corps.
+
+PARAMÈTRES :
+
+Spécial : +5 au bonus d'armure contre les armes à projectiles
+Spécial : +1 au bonus d'armure contre les autres armes
+Durée : 1 tour
+Nombre de charges : inconnu
+Poids : 2 ~
+@1022239  = ~Si jeune pour combattre, mais non pour mourir,
+Furnebol, mon fils, ici s'en vint périr. ~
+@1022240  = ~Islanne, ma femme, je t'aime encore.
+Ce que contraint j'ai tué n'est que ton corps.~
+@1022241  = ~Oh, Kiel, Prince de cette sombre tour,
+Tu as fait de ta mort ton plus grand jour.~
+@1022311  = ~Métamorphose provoquée (Altération)
+Niveau : 4
+Portée : portée de vue
+Durée : permanente
+Temps d'incantation : 4
+Zone d'effet : 1 créature
+Jet de sauvegarde : Vigueur, annule
+
+Ce sort affecte de façon permanente la forme de la cible. Les caractéristiques mentales ne sont pas affectées et la cible ne reçoit aucune des capacités innées propres à sa nouvelle forme. En revanche, toutes les caractéristiques physiques sont modifiées pour correspondre à la nouvelle forme. Il s'agit ici d'une version spécifique du sort qui transforme la cible en écureuil, à moins qu'elle ne réussisse un jet de Vigueur. La transformation est instantanée et permanente, à moins qu'un sort de Dissipation de la magie ne soit utilisé. Les modes d'attaque naturels de la nouvelle forme deviennent disponibles et les vêtements et équipements que portait la cible s'adaptent à cette dernière.
+ ~
+@1022319  = ~Oui, nous sommes des aventuriers. Quant à la Viciscamera, elle est déjà détruite. ~
+@1022443  = ~Intéressant. Nous allons jeter un coup d'oeil dans les environs maintenant. Au revoir. ~
+@1022749  = ~Oinchack'olp s'est mis en colère quand nous avons refusé de lui rendre sa pierre. Il nous a prévenus que ce refus nous vaudrait de terribles souffrances, puis il a disparu. ~
+@1022794  = ~.oO J’apprécie la proximité du bassin chaud. Ça fait du bien à ma peau. Les cavernes des driders sont pleines de toiles et trop sèches. Je ne les aime pas. Allez, maintenant. Oo.~
+@1022954  = ~Contrairement aux autres portes, celle-ci semble bloquée par le gel. ~
+@1022969  = ~La lutte fut féroce, mais quand nous avons tué la reine rémorhaz, les protubérances de son dos sont devenues si chaudes que la barrière de glace a fondu.~
+@1023050  = ~Ce livre volumineux décrit en détail les dogmes de Tempus, Dieu de la Guerre. Vous y trouvez les principes de l'ordre :
+
+"Tempus ne gagne pas les batailles - Tempus aide ceux qui le méritent à gagner la bataille. La guerre est juste en ce qu'elle opprime chaque camp de la même manière et dans chaque bataille, un mortel peut y perdre la vie ou devenir un grand chef parmi ses compagnons. La guerre ne doit pas inspirer la peur, mais être perçue comme une force naturelle, une force humaine, l'orage que toute civilisation engendre du simple fait de son existence."
+
+Le pouvoir de ce livre s'accroît lorsqu'un prêtre de Tempus en lit des passages à voix haute, et il permet au prêtre de faire appel au pouvoir qu'il contient et de l'utiliser au nom de la guerre.
+
+PARAMÈTRES :
+Sort : Lance le sort Bénédiction une fois par jour.
+Poids : 0,5 ~
+@1023378  = ~Le sabre et le cimeterre ont en commun une longue lame incurvée à simple tranchant. Ils ont toutefois été créés dans des régions différentes de Féérune. Alors que le sabre était plutôt destiné aux cavaliers, principalement en raison de sa grande versatilité, le cimeterre a lui des origines orientales qui le destinent au combat au corps à corps. Le "Shamshir", comme on le nommait autrefois, a une lame plus large et plus incurvée, et se termine par une longue pointe affilée. Il est par conséquent légèrement plus lent, mais se révèle plus efficace et mortel au combat. Cette arme spéciale a été améliorée magiquement afin d'augmenter l'adresse de celui qui la manie.
+
+PARAMÈTRES :
+
+Dégâts : 1D8 +1
+Toucher : +1
+Type de dégâts : tranchants
+Poids : 1,5
+Facteur de vitesse : 4
+Compétence : arme de guerre, grande épée
+Type d'arme : à une main ~
+@1024028  = ~Cette statue représente une femme portant une robe de cérémonie blanche comme la glace, avec des reflets bleus. Une large ceinture en argent à laquelle sont attachés différents objets religieux retient sa robe au niveau de la taille. Un anneau en argent est posé sur sa tête. Ses mains et sa tête sont levées comme si elle priait le ciel. Sur le socle vous pouvez lire " Lysara ". ~
+@1024130  = ~Des runes naines sont inscrites sur cet autel : Laduguer, l’Exilé, le Protecteur Gris, le Maître des Artisans, le Maître des Esclaves, le Contremaître, le Sévère.~
+@1024155  = ~Nous avons parlé à Lysara, l'une des trois grandes prêtresses du temple. Elle se vantait d'avoir maintenu la température du glacier en sacrifiant des prisonniers à sa déesse Aurile. ~
+@1024156  = ~Nous avons lu le journal de Lysara, l'une des trois grandes prêtresses du temple, où elle explique qu'elle maintenait la température du glacier en sacrifiant des prisonniers à sa déesse Aurile. ~
+@1024178  = ~N'a-t-il pas dit que nous n'étions qu'une bande de mercenaires sans foi ni loi venant des Dix-Cités ? ~
+@1024218  = ~Cette amulette se compose d’une chaîne métallique noire, coupante, reliée à un pendentif en acier de la taille d’un poing. Seuls deux yeux verts pleins de haine contrastent avec le noir profond du pendentif.
+
+Poids : 0,5 ~
+@1024241  = ~Donc, vous avez besoin de 300 flèches ? Quelque chose me dit que Deirdre ne va pas du tout aimer ce chiffre… ~
+@1024259  = ~Quinze fois vingt… trois cents, je crois. C'est ça, trois cents. ~
+@1024337  = ~La porte de cette maison a été clouée pour en condamner l'accès.~
+@1024435  = ~Cette petite fiole contient un liquide ressemblant à du lait. Toute personne avalant ce poison dormira du sommeil des défunts. La victime se réveillera toutefois au bout de quelque temps, en ne subissant que peu d’effets nocifs - voire aucun.
+
+Poids : 0,5 ~
+@1024711  = ~Vous avez donné à Ormis l'antidote et il vous a assuré de son aide pour combattre.~
+@1024823  = ~Une forte odeur, ainsi que la présence de plusieurs poils gris, portent à croire qu'il y avait récemment un loup dans ce bâtiment. ~
+@1024831  = ~Des centaines de traces révèlent la présence récente d'une troupe de gobelins dans les environs. Certaines traces laissent penser qu'une bataille s'est déroulée ici, il y a peu. On dirait que les gobelins ont attaqué un groupe d'insectes géants. À en juger par la profondeur des traces, les gobelins devaient être affaiblis et affamés au moment du combat. ~
+@1024852  = ~On trouve beaucoup d'écailles vertes sur les murs et le sol de cet étage. Il y a également quelques écailles plus petites, d'un jaune bilieux. Elles dégagent une puanteur insoutenable. De temps en temps, vous trouvez de très grandes écailles d'un jaune iridescent, sans pouvoir imaginer à quelle créature elles ont appartenu. Celles-là sentent le soufre.~
+@1024859  = ~Le sol gelé vous révèle que des humains se sont récemment enfuis précipitamment, tandis que des créatures reptiliennes résident toujours dans les environs. ~
+@1025015  = ~Vous aurez besoin d’outils de mineur si vous voulez dégager le passage. ~
+@1025113  = ~Vous êtes dans votre bon droit. Comme récompense pour avoir rendu la paix à l’âme de cette femme, je veux bien ajouter une somme de ma poche au prix de départ. Sept cents pièces d’or vous conviendraient-elles ? ~
+@1025159  = ~Tueur de géants ~
+@1025188  = ~tueur de géants ~
+@1025225  = ~MÉTAMORPHE : ces druides sont les maîtres de la transformation. Les métamorphes surpassent les autres dans ce domaine et s'entraînent continuellement pour améliorer leurs pouvoirs.
+
+Avantages :
+* Tous les pouvoirs de transformation habituels des druides.
+* 9e niveau : transformation en sanglier arctique.
+* 11e niveau : transformation en panthère noire.
+* 13e niveau : transformation en tertre errant.
+
+Désavantage :
+* N'acquiert pas l'Immunité aux poisons.
+* N'acquiert pas l'Eternelle jeunesse. ~
+@1025358  = ~Défense contre les mort-vivants~
+@1025665  = ~Cette construction bancale en bois semble avoir servi à attacher des individus en croix. Vu la quantité de sang qui macule cet objet, il est fort probable que des sacrifices aient été pratiqués ici. ~
+@1025701  = ~M-m-m-merci pour la bouteille, les amis, hé… ça… hé hé hé ! Ça m'a bien r-r-réchauffé à l'intérieur... et p-pas qu'un peu !~
+@1025862  = ~Nous avons reçu un laissez-passer. Il nous permet de circuler sans encombre dans la Main Tranchée. ~
+@1026057  = ~Nous avons rencontré Roga Thulc, l'assistant du contremaître des ouvriers. L'une de ses ouvrières, Vylu Prehv, a disparu. Apparemment, elle s'amuse à faire des farces avec l'aide d'élémentaires de la terre avec lesquels elle prétend avoir des liens de parenté. ~
+@1026058  = ~Roga Thulc nous a demandé de convaincre Vylu d'arrêter ses manigances. Nous avons accepté. Nous la trouverons au premier étage de la Main Tranchée, dans la pièce attenante à la bibliothèque. Oh, et... il ne veut pas que nous lui fassions du mal. ~
+@1026048  = ~Merci pour votre soutien sans faille. Nos vivres sont entreposés dans la salle, là-bas. Si vous vous cachez dans l’ombre de cet échafaudage, vous pourrez peut-être surprendre le voleur.~
+@1026591  = ~Drothan nous a parlé d'un artefact, le Globe d'Essence. Il contient la force de vie de trois démons particuliers. Tant que le globe est intact, les démons ne peuvent être vaincus. ~
+@1026611  = ~J'ai trouvé le journal du prêtre Garuk. Il y parle de sa promotion à vos dépens. ~
+@1026668  = ~Ce chevalet est couvert de sang et de morceaux de chair vous indiquant qu’il était souvent utilisé. ~
+@1026800  = ~Et soudain, l'image d'une statue apparut reflétée dans les myriades de facettes. Il s'agissait manifestement d'un monument, représentant un elfe et un nain assis, côte à côte, sur deux trônes joints.~
+@1026826  = ~Impossible de quitter cette zone tant qu'un joueur à distance se trouve sur l'écran d'inventaire.~
+@1026864  = ~Paladins et clercs attaquent agressivement les morts-vivants. S'il est d'un niveau suffisant, le personnage s'y essaie lui aussi régulièrement. ~
+@1027036  = ~Cette magnifique épée large est de conception inhabituelle. La lame est en effet d'un métal noir inconnu, alors que son tranchant est fait de l'argent le plus pur, d'impressionnantes runes rouges en parcourant toute la longueur. Un examen minutieux révèle qu'elles semblent d'ailleurs animées d'une vie propre. Quant au manche et à la garde, ils ont tout simplement été taillés dans un gigantesque rubis.
+
+Cette arme est l'ennemi juré de certaines créatures des plans inférieurs : la lame inflige en effet double dégâts aux Baatezu et aux Tanar'ri, et son utilisateur profite par ailleurs d'un bonus de +4 au toucher et aux dégâts. Tenue en main, l'épée accorde également une certaine résistance au feu.
+
+PARAMÈTRES :
+
+Dégâts : 1D8 (2D8 +4 contre les Baatezu et les Tanar'ri)
+Bonus d'attaque : 0 (+4 contre les Baatezu et les Tanar'ri)
+Type de dégâts : tranchants
+Bonus à la résistance :
+ +20% de résistance au feu
+Poids : 2,5
+Facteur de vitesse : 5
+Compétence : grandes épées
+Type d'arme : à une main ~
+@1027058  = ~Nous avons parlé au prêtre Eradru à l'infirmerie. Nous lui avons demandé des soins, mais il a refusé. Nous devons obtenir un laissez-passer de Xavier, le ministre des Affaires Étrangères. Il va falloir nous en occuper. ~
+@1027060  = ~Nous avons parlé au prêtre Eradru à l'infirmerie. Nous avons voulu nous reposer, mais il a refusé. Nous devons obtenir un laissez-passer de Xavier, le ministre des Affaires Étrangères. Il va falloir nous en occuper. ~
+@1027073  = ~Un sauf-conduit diplomatique. Sans lui, cet étage vous est interdit. Je vous suggère de retourner au rez-de-chaussée pour en parler au ministre, Xavier. Il peut vous procurer un laissez-passer. ~
+@1027108  = ~Stupide créature, tout n'est ici que souffrance, tout est rouge sang. En fait, je vais m'assurer que votre sang recouvre aussi les chaînes de cette pièce. Je ne peux pas laisser partir un sujet robuste comme vous sans lui avoir fait goûter aux subtils délices de mon art. Mes chers acolytes... saisissez-les !~
+@1027142  = ~Cette grande branche de bois noueux provient du grand arbre de Kuldahar, un chêne mythique situé au sud-est de Targos. Le grand chêne est supposé être un présent du Dieu de la Nature, Silvanus ; son sommet semble toucher le ciel et une vague de chaleur baigne les alentours du grand arbre, protégeant les habitants de la ville des rigueurs du climat. Cet arbre est le symbole de l'harmonie entre la civilisation et la nature et il est vénéré par tous les druides de Féérûne.
+
+Au cours de l'Année de l'Ame Froide, vers 1281 CV, la ville de Kuldahar fut assiégée par une armée démoniaque descendue des hauteurs de l'Epine Dorsale du Monde ; le grand arbre fut malmené par des vents violents et de fréquentes tempêtes et le cercle de chaleur dont il est l'origine se retrouva fortement diminué, certaines de ses branches les plus hautes s'étant brisées. Ces branches furent alors rassemblées par les habitants une fois Kuldahar sauvée, et conservées dans les demeures comme symbole de la résistance de la ville face aux épreuves et à l'adversité. Certaines de ces branches furent même retrouvées dans les Dix-Cités, où elles dispensent toujours leur chaleur et les enchantements du grand chêne - ce qui en fait de puissantes armes.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +1
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : contondants
+Spécial :
+ Résistance : 2/- en résistance au froid
+Poids : 1,5
+Compétence : arme courante, masse
+Type d'arme : à une main ~
+@1027314  = ~Cette petite amulette d'obsidienne et d'adamantite dipose d'un anneau près de son sommet, par lequel passe un ruban pourpre et rose. La surface de l'amulette porte les armes de la Maison Despana, une flèche avec un hexagone ; c'est en effet Malavon Despana qui la forgea pour son frère Ilmryn. La légende veut que Malavon dût affronter son frère devenu Maître d'Armes de la Maison Despana lorsque ses alliés de l'église de Vhaeraun et lui-même attaquèrent le matriarcat de Lolth. Le combat fut épique et, alors qu'Ilmryn allait l'emporter, Malavon chuchota un mot de commande secret qui activa l'amulette offerte à son frère ; Ilmryn fut aussitôt entouré d'une barrière magique de protection. La résistance à la magie naturelle d'Ilmryn ne put s'y opposer, l'amulette dispensant un effet bénéfique pour lui. Et lorsque le Maître d'Armes émergea de la sphère qui le protégeait, il se retrouva face à une dizaine des plus puissants tanar'ri qu'il ait jamais vu. Il mourut en hurlant, maudissant le nom de son frère.
+
+PARAMÈTRES :
+
+Sort : Flou 1/jour
+Sort : Flèche acide de Melf 1/jour
+Sort : Sphère d'isolement d'Otiluke 1/jour
+Poids : 0,5 ~
+@1027377  = ~Tous les érudits de Féérûne connaissent l'histoire de l'ascension de Baine, Bhaal et Myrkul, respectivement dieux de la haine et des querelles, du meurtre et de la mort. La plupart des théologiens ignorent en revanche tout du sort du malheureux dieu qui dut céder sa place au trio infernal avant leur rencontre avec Jergal. Tout ce que l'on sait, c'est qu'une infime partie de l'essence du dieu mort se retrouva dans le Plan Astral où elle se fondit en une minuscule île. C'est un enchanteur du nom de Merdros qui en prit possession plusieurs siècles après les événements ; ses serviteurs duergars l'utilisèrent pour créer une arme destinée au plus puissant allié du magicien. Les propriétaires successifs de cette lame prétendirent tous pouvoir ressentir les dernières pensées du dieu disparu lorsqu'ils la tenaient en main.
+
+PARAMÈTRES :
+
+Dégâts : 2D4 +4, +5 contre le bien
+Bonus d'attaque : +4, +6 contre le bien
+Spécial :
+ Emotion : Terreur 3/jour
+ Symbole de douleur 1/jour
+Poids : 2
+Facteur de vitesse : 2
+Compétence : grande épée
+Type d'arme : à une main~
+@1027445  = ~Bien, ça veut dire que nous faisons notre travail. Le Comptoir de Commerce Gallaway s’est développé au fil des années. Mon grand-père Ilmus avait des caravanes qui commerçaient avec les Dix-Cités, y compris Bois Isolé et Havre du Levant.~
+@1027585  = ~J’ai déjà entendu parler de cette pratique, mais la maladie s’est abattue sur lui soudainement. ~
+@1027591  = ~Nous avons trouvé le capitaine du port, Magdar Shenlen, dans l'un des entrepôts sur les quais. Il sait qu'il y a un stock de potions de soin dans une des barriques ou des caisses de l'entrepôt, mais il ignore laquelle. La plupart des marchandises entreposées sont sous la protection du Comptoir de Commerce Gallaway, mais avec l'attaque des gobelins, il les a mises à notre disposition et nous a dit de prendre ce dont nous avons besoin.~
+@1027640  = ~Je comprends votre position, mais sans flèches, Targos tombera au prochain assaut des gobelins.~
+@1027665  = ~Trois cents flèches. ~
+@1027680  = ~Hé hé. Quelqu’un a l’air de vous tenir la bride serrée. Qui est-ce ? Shawford ? Ulbrec ? Les deux, peut-être ?~
+@1027760  = ~L’endroit est régulièrement balayé et nettoyé, malgré les poudres et les liquides renversés. L’air est chargé de l'odeur des clous de girofle et autres épices. Une légère odeur de sueur et d’urine se dégage du mur au nord, c’est celle d’un animal effrayé.~
+@1027761  = ~Vous remarquez de nombreuses traces dans la clairière : des bottes de peau portées par des humains, de grands loups, des arachnides et des griffes d'humanoïdes, sans doute des trolls. Le plus étrange, ce sont ces empreintes osseuses, celles des morts-vivants. Il y a d’étranges ornières dans les environs, comme si quelqu’un avait traîné des arbres morts.~
+@1027764  = ~Cette caverne est certainement le repaire d’un couple de dragons. À en juger par le climat et les dégâts sur les murs de la caverne, il ne peut s’agir que de l’espèce des "Draco Rigidus Frigidus", les dragons chromatiques blancs. Il n’y a aucune autre trace, si ce n’est celles de petits insectes qui se nourrissent des charognes trop petites pour intéresser les dragons. Un léger tintement irréel résonne dans le gouffre, à l’est de la caverne.~
+@1027769  = ~Cet endroit est régulièrement et soigneusement entretenu. De nombreuses odeurs étranges se font sentir : la pierre mouillée, le soufre, le métal chaud, l’huile de lampe, parmi tant d'autres... De nombreux bruits tout aussi étranges résonnent également alentour. ~
+@1027806  = ~Vous n'avez jamais vu Sa Seigneurie quand elle se fâche. Ce n'est pas beau à voir. Je vais être abattue, comme la plupart des ouvriers. Pour elle, nous ne valons rien et nous pouvons être remplacés...~
+@1027838  = ~Ce qui paraît surprenant pour une ville portuaire de la taille de Targos, c’est que les quais ne semblent pas avoir été très fréquentés, même si de nombreuses caisses d’outils ont été débarquées et traînées sur le sol vers la grue, au nord des quais. Plusieurs bateaux du port ont été ramenés sur la plage et les quais sont entourés de carcasses de maisons. On dirait que certaines ont été démolies pour récupérer du bois, d’autres semblent avoir été incendiées et abandonnées. Vous remarquez des empreintes de gobelins dans la neige. La plupart des empreintes semblent venir du nord-est des quais et se dirigent vers le phare de Targos, au sud-est.~
+@1027843  = ~Vous remarquez les empreintes de deux gobelins sur le sol de cette pièce, comme s’ils s'étaient rués sur le seul occupant de la maison avec une hache sans lui laisser le temps de se défendre. L'attaque de ces gobelins a certainement été fulgurante. Maintenant que l’endroit est sûr, il constitue un bon abri pour se reposer. ~
+@1027845  = ~Les passages étroits vous font penser à des tunnels de contrebandiers, vous sentez l'odeur du soufre et la puanteur des gobelins. Sur le sol, vous remarquez des empreintes de gobelins, ce qui est plutôt étrange, car cela signifie qu’ils sont sortis et rentrés par un autre accès que l’entrepôt. Les vieilles torches sur le mur semblent ne pas avoir servi depuis des années. Elles ont probablement été abandonnées par les derniers contrebandiers qui ont emprunté ces tunnels. Vous remarquez de la poussière ou de la fumée dans l’air, ce qui vous laisse penser à un effondrement ou un incendie récent.~
+@1027877  = ~Hum… Je ne sais pas pourquoi, mais je vous crois. Ça ne veut pas dire que je vous fais confiance. Ceci étant, Targos a besoin de fines lames pour lutter contre cette vermine souterraine.~
+@1027955  = ~La recherche de traces devrait être facile sous ce climat humide, mais les fréquentes pluies et l’abondance de créatures rendent l’opération délicate. Vous remarquez des traces autour des lianes, avec de nombreuses empreintes de pas humains. Les traces d’animaux sont fréquentes dans la région, mais leur espacement et leur profondeur indique que les créatures se sont enfuies très vite de cette partie de la jungle.~
+@1027969  = ~Mais ça, c'est rien ! Toi, tu n'as pas usé tes bottes jusqu'à la corde à courir partout en ville pour trouver des potions de soins. Je jure par les dieux que c'était comme si tous les gardes de Targos étaient tombés malades ce jour-là. ~
+@1028099  = ~Merci. En fait, nous en aurons bien besoin avec toutes nos allées et venues. Au revoir. ~
+@1028177  = ~"Si j'avais la force d'un ogre, j'arracherais un de ces poteaux pour m'en servir de gourdin. Rharrr !"~
+@1028260  = ~Oui, bien sûr. Thomas, tu peux nous emmener jusqu'aux quais ?~
+@1028263  = ~Nous te raconterons une autre fois, Thomas, pas maintenant. Au revoir.~
+@1028265  = ~Mes pieds chantent déjà. Maintenant, tu peux nous emmener jusqu'aux quais ?~
+@1028315  = ~Vous devez affronter chaque épreuve sans le moindre concours extérieur. Vous devez donc abandonner ici compagnons et matériel. Adressez-vous à Nonin, à l'étage, si vous avez besoin de laisser votre équipement quelque part... ~
+@1028388  = ~Le Havre du Levant a gagné une certaine notoriété suite aux terribles événements survenus en 1281 DR, l’année de l’Âme Froide. Et ce sont les évènements qui ont tourmenté cette ville qui ont attiré dans la région historiens, prophètes et mages, à la recherche d’informations sur les Dix-Cités et le Nord. Ce grimoire n’a pas la prétention d’être un guide exhaustif sur les Dix-Cités ou de décrire les terribles évènements de l’année de l’Ame Froide. Il a été rédigé dans le seul but de familiariser le lecteur avec les habitants du Havre du Levant et leur quotidien.
+
+La cité du Havre du Levant est l’une des Dix-Cités de la région de Val de Bise. Le terme cité est peut-être mal choisi pour parler d’une petite communauté frontalière telle que Havre du levant, du moins si l’on se réfère aux critères méridionaux. Même si elle a connu une forte croissance au cours des dernières années, la cité du Havre du Levant se limite à quelques modestes demeures regroupées sur les rives du lac gelé Dinneshere. Le Havre du Levant tire principalement ses ressources des exportations de Cornedentelle, une matière très recherchée, obtenue à partir d’arêtes de truite. Les visiteurs ne devraient donc pas s’étonner de constater que le village se résume à un petit village frontalier enneigé, habité par des pêcheurs. Le bois est la principale matière première utilisée pour construire les bâtiments et l’atmosphère de la ville reflète les sentiments des habitants. Presque tout a un aspect dur et dépouillé, mais semble assez solide pour résister au climat très rude de la région. En traversant la ville, vous ne pouvez manquer de trouver filets, bateaux et étalages de poissonniers qui abondent dans les rues et ne laissent aucun doute sur l’activité première des habitants.
+
+Le Havre du Levant a dû être reconstruit après les terribles évènements de l’année de l’Ame Froide. Le Temple de Tempus a été reconstruit, mais les reliques entreposées au sous-sol ont été déplacées plus au sud, comme le demandaient les Grands prêtres de Tempus. Les chasseurs de trésors qui se rendent au Havre du Levant en espérant trouver les reliques perdues ou des objets magiques seront sans aucun doute déçus car la neige a déjà été nettoyée par les mages et les voleurs qui sont passés par là au cours des vingt ou trente dernières années. Tout érudit ou explorateur se rendant dans la région ne doit pas manquer de se rendre à Kuldahar pour voir le Grand Chêne dans toute sa splendeur.
+
+On prétend que des elfes marins vivent dans les profondeurs du lac Dinneshere, mais malgré les nombreuses tentatives pour les localiser, il n’existe aucune preuve tangible de leur existence. Ces elfes marins ne sont à mon avis rien de plus que l’un des mythes locaux destinés à attirer marchands et colons dans la région. ~
+@1028390  = ~Le Coeur de l'Hiver ~
+@1028452  = ~Vous avez démasqué Garradun qui était un doppleganger. ~
+@1028641  = ~Puis-je vous offrir cette potion d'expl… heu, d'excellents "soins" ? Je l'ai trouvée sur le vaisseau de mon ami Oswald. Elle devrait bien vous "réchauffer"~
+@1028723  = ~Ces cargaisons appartiennent au Comptoir de Commerce Gallaway, mais ne craignez rien, il s'agit d'une urgence. Prenez ce dont vous avez besoin et nous règlerons cela plus tard.~
+@1028757  = ~"Comptoir de Commerce Gallaway"~
+@1028946  = ~J'aimerais bien que vous le retrouviez, Sheemish est mon unique fiston, après tout... et puis il a déjà tellement souffert à cause de ces serpents... J'pourrais même vous faire un prix sur tout ce que vous voyez là si vous m'aidez ! Ça vous tente ?~
+@1029450  = ~Mon travail consiste à tuer des ensorceleurs. Et vous êtes le plus puissant des environs. ~
+@1029183  = ~Vous mettez un certain temps avant de réaliser que cet objet très lourd et assez complexe est une sorte d’arbalète. L’arc est fait d’un alliage métallique flexible et le fût est couvert de pignons, de leviers, de ressorts et de clous. Un boîtier cylindrique en cuir rigide et un arbre métallique rotatif sont montés à l’extrémité de l’arme et vous vous demandez comment il est possible d’armer cette arme.~
+@1029583  = ~Vous avez réussi à donner la chair de poule au barghest Yquog avec votre horrible collection de choses mortes. Il est parti terrorisé.~
+@1029632  = ~Il semblerait que l'étrange créature que nous avons rencontrée soit le voleur de nourriture. Au lieu de discuter inutilement, nous avons décidé de la tuer. Elle ne volera plus jamais rien.~
+@1030047  = ~Le manche de cette hallebarde est doté d'une barre de fer en son centre pour le renforcer, et l'arme semble avoir été conçue pour agripper un navire ennemi en prévision d'un abordage. Elle est très légère et le crochet dont s'orne son extrémité permet de l'accrocher un peut partout. Elle ne paraît pas très utile au combat, mais elle est idéale pour attaquer des gobelins de loin.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 + 1
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : perforants
+Poids : 5
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains ~
+@1030092  = ~Il s’agit d’un épais collier de cuir, conçu à peu près de la même manière qu’une ceinture. Il s’en différencie d’ailleurs uniquement par les pointes qui y sont disposées à intervalles réguliers. On peut le passer autour du cou d’un animal pour empêcher les ennemis ou les autres animaux de le saisir par son cou vulnérable.
+
+PARAMÈTRES :
+
+Poids : 0 ~
+@1030295  = ~Mais oui bien sûr ! Mais j'ai besoin d'autres ingrédients... et je dois garder mon vaisseau... ou plutôt ce qu'il en reste. Mais pendant que je garde le vaisseau vous, vous pourriez aller chercher les ingrédients, non ? J'ai tout noté dans ce livre, là-bas. Est-ce que ça vous intéresse ? ~
+@1030474  = ~Cette tour délabrée semble avoir mal résisté au temps et à la croissance de l’arbre qui se trouve derrière.~
+@1030489  = ~Nous n'avons pas encore vaincu les trois prêtresses, mais Zack Boosenburry nous a aidé à profaner les autels utilisés pour leurs rituels.~
+@1030492  = ~Nous avons vaincu les trois prêtresses et Zack Boosenburry nous a aidé à profaner les autels utilisés pour leurs rituels.~
+@1030525  = ~Il ne reste plus qu’à faire disparaître ce temple et le glacier. Même si aucun renfort n’arrive de Padhiver ou de Luskan, les Dix-Cités ont besoin que le col de l’ouest soit rouvert pour reprendre le commerce avec le monde extérieur.~
+@1030528  = ~Les mots "EMBRASSEZ LES OMBRES" ont été gravés sur cette porte fermée.~
+@1030532  = ~Jeune Barghest~
+@1030544  = ~LES MORTELS DE CETTE CONTRÉE SONT DEVENUS TROP AUDACIEUX, TROP SÛRS D’EUX ! IL EST TEMPS POUR EUX DE RÉAPPRENDRE À CRAINDRE LES DIEUX DE LA FUREUR !~
+@1030547  = ~C’EST SANS IMPORTANCE ! D’AUTRES FINIRONT PAR LES REMPLACER, ENCORE ET TOUJOURS ! J’AI TOUTE L’ÉTERNITÉ DEVANT MOI POUR LIVRER CETTE GUERRE !~
+@1030864  = ~Très bien, il y a une porte verrouillée derrière le moulin. La passe des montagnes se trouve derrière. Tenez, voici la clef de la porte. Adieu, les amis.~
+@1030921  = ~Séquence d’accès erronée.~
+@1030965  = ~Après avoir détruit la barrière de neige et de glace dans le glacier, nous avons rencontré un chevalier démon et, grâce aux robes d'Aurile, nous l'avons convaincu que nous étions des membres de la congrégation. Si nous n'attirons pas l'attention sur nous, nous devrions pouvoir explorer le temple sans encombre. ~
+@1031106  = ~En ruines... Tout est en ruines... Oh, pardonnez-moi. Je n'avais pas vu que vous étiez là. Je suis Myson, l'apothicaire. En quoi puis-je vous aider ?~
+@1031218  = ~Vous ne vous "abaissez" pas à de simples duels, mais vous n'échappez pas pour autant à la couardise…~
+@1031231  = ~Trop impétueuse ? TROP IMPÉTUEUSE ? Tu n'essaierais tout de même pas de me donner des ordres, Inhatri ? Tes intrigants n'ont pas plus d'importance que mon Croc de Vipère ! Si tu refuses d'écraser ces moucherons, je le ferai. Chers élèves, tuez-les ! ~
+@1031345  = ~J'ai quelques questions... ~
+@1031596  = ~Cette étrange arme d’hast ressemble à un croisement entre une hallebarde et une pique, avec une quadruple tête de marteau et un long manche.
+
+On la doit à une erreur commise lors d’une commande d’arme effectuée par Lodur le Brave (également surnommé le Téméraire ou le Sot), prêtre puissant mais guère intelligent. Ce dernier avait entendu des rumeurs évoquant un marteau à long manche, qui aurait appartenu à un héros appelé Lucerne, à moins que ce nom ne soit celui de l’endroit où l’arme avait été créée. Quoi qu’il en soit, ce marteau était lié à un pays, un roi ou un dieu appelé Souisse, ou quelque chose d’approchant.
+
+Lodur demanda également que l’arme soit bénie, afin qu’elle puisse faire exploser les morts-vivants au moindre contact.
+
+La réputation d’homme coléreux qui accompagnait le prêtre et les nombreux sacs d’or qu’il avait avec lui convainquirent le forgeron Nain qu’il avait contacté d’accepter la commande. Renvoyant Lodur chez lui, l’artisan lui promit l’arme dans un délai de deux mois. Il consulta aussitôt le gardien du savoir, ce qui lui permit d’apprendre qu’une telle arme existait bel et bien, et qu’elle était arrivée de Sigil, apportée par un individu habitué à se déplacer entre les plans. Le forgeron recopia fidèlement les schémas dont il disposait, ajoutant quelques runes magiques au manche de l’arme afin d’obtenir les pouvoirs requis par Lodur.
+
+Quand ce dernier vint chercher son fabuleux marteau, il se retrouva en présence d’une arme perforante, que sa religion lui interdisait d’utiliser. Fou de rage, il protesta tant et plus, avant de s’en aller sans un regard en arrière, laissant là tout son argent et son "marteau de Lucerne" qui n’avait en fait rien d’un marteau.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 + 1
+Bonus d'attaque : +1
+Enchantement : +1
+Type de dégâts : perforants
+Spécial :
+ Disruption : tous les morts-vivants et extérieurs touchés doivent réussir un jet de vigueur sous peine d’être détruits
+Poids : 7,5
+Compétence : arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1031634  = ~Disparaissez de ma vue. Sinon je vais regretter de ne pas vous avoir tué au Loup de Mer...~
+@1031638  = ~Nous avons rencontré Yquog, un barghest. Il semblait désespéré au sujet d'un message important envoyé par ses "maîtres" qu'un gobelin nommé Kruntur refusait de lui remettre. En échange d'un objet magique, il nous a demandé de trouver une manière pacifique de reprendre ce message pour le lui donner. Il a ajouté que le mot de passe pour passer ses gardes était "Xvim". Il est étrange de voir un être aussi maléfique se soucier de la vie d'une autre créature, mais il a peur de ses maîtres et du châtiment qu'ils lui infligeraient s'il attaquait une fois de plus un autre membre de sa horde...~
+@1031639  = ~Nous avons rencontré Yquog, un barghest. Il semblait désespéré au sujet d'un message important envoyé par ses "maîtres" qu'un gobelin nommé Kruntur refusait de lui remettre. Il nous a donné une paire de bracelets enchantés à offrir à Kruntur en échange de son message.~
+@1031658  = ~Nous avons rencontré Yquog, le barghest dont Kruntur nous avait parlé. Il nous donnera les bracelets à condition que nous revenions avec le message que Kruntur conserve. Il est évident que ce message a une grande importance, surtout s'il vient des commandants en chef de la horde des envahisseurs.~
+@1031704  = ~Eh bien, c’est un peu bête, en fait. Comme je vous l’ai dit, je suis un jeune barghest. En temps normal, nous venons dans ce plan afin de dévorer des créatures vivantes et absorber leur énergie vitale, ce qui nous rend plus forts.~
+@1031708  = ~Venez-en au fait. ~
+@1031788  = ~Si vous ne me rendez pas les bracelets, je les prendrai de force.~
+@1031802  = ~Un gobelin, Kruntur, nous a demandé de retrouver des bracelets magiques. De toute évidence, il y a un barghest dans les galeries dont nous sortons, qui est en possession de ces bracelets. Nous avons répondu à Kruntur que nous allions chercher ce Yquog pour lui reprendre les bracelets.~
+@1031877  = ~Non, nous n'avons pas trouvé de bracelets... je ne vois pas de quoi vous parlez.~
+@1032030  = ~Je ne cherchais pas à venger mon frère, c’était un idiot de toute façon. Mon seul problème était de récupérer les bracelets, de préférence sans avoir à me battre. Aussi minable que soit ce barghest, lui et ses servants sont beaucoup trop puissants pour mon petit clan. En outre, il a un lien privilégié avec les maîtres.~
+@1032050  = ~Masquer l'interface ~
+@1032135  = ~Sans les fidèles d'Aurile, vous êtes seul. Nous, de notre côté, nous avons des compagnons, qui eux-mêmes ont des armées... ~
+@1032195  = ~"Je souffre pour toi, Ilmater, car les griffes des impurs et des injustes ont capturé les âmes des faibles et des blessés..."~
+@1032254  = ~Riki nous a informés qu'Isair et Madae s'étaient alliés à une divinité du nom de Iyachtu Xvim. Elle pense que le fait de briser leurs liens avec elle pourrait les affaiblir sérieusement. Nous devons trouver un prêtre d'Ilmater emprisonné dans la Tour de Guerre et lui parler d'un rituel de purification. ~
+@1032267  = ~Quand qu’Yquog a mangé mon frère, les maîtres nous ont explicitement interdit de nous battre, sous peine d’être atrocement torturés. Au lieu de m’attaquer, Yquog a imposé un blocus nous empêchant d’avoir accès à la nourriture, à l’eau et à tout ce dont nous avons besoin pour survivre.~
+@1032280  = ~À travers cette porte, vous parvenez à voir une salle dans laquelle se trouvent un tableau accroché au mur et un escalier descendant à l'étage inférieur. ~
+@1032319  = ~Comment avez-vous réussi à venir jusqu'ici sans être reconnus ? Vous êtes aussi silencieux que les ailes de Sseth, intrus... mais la protection des ombres ne vous sera plus d'aucun secours ! ~
+@1032410  = ~Contrôle des morts-vivants (Nécromancie)
+Niveau : Ens/Mag 7
+Portée : portée de vue
+Durée : 1 minute par niveau
+Temps d'incantation : 7
+Zone d'effet : 10 m de rayon
+Jet de sauvegarde : Volonté, annule
+
+Ce sort permet de prendre le contrôle de 1-4 morts-vivants compris dans la zone d’effet.  Un jet de Volonté réussi permet de résister au sort.  Les morts-vivants restent sous le contrôle du mage pour la durée indiquée, à moins que Dissipation de la magie ne les libère prématurément de son emprise. ~
+@1032554  = ~Je m’appelle Zack, Zack Boosenburry... Prêtre/illusionniste de Baervan Ermiterrant. Avez-vous... Excusez-moi un instant. Aocha ? Aocha ? AOCHA !~
+@1032632  = ~Une bille est tout simplement une pierre ronde bien équilibrée.
+
+ PARAMÈTRES :
+
+ Dégâts : 1d4
+
+ Type de dégâts : projectile (contondant)
+
+ Poids : 0
+
+ Arme utilisée : Fronde~
+@1032639  =~L'armure de cuir, contrairement aux idées reçues, n'est pas souple. Son cuir est différent de celui utilisé pour les bottes ou les robes. En effet, ce dernier n'offrirait pas plus de protection que des habits normaux.
+
+PARAMÈTRES :
+
+Armure légère
+Bonus à la CA: +2
+Bonus max de Dextérité : +6
+Malus de jet d'armure : 0
+Echec des sorts profanes : 10%
+Poids : 7,5~
+@1032640  =~L'armure de cuir cloutée a peu de points communs avec sa cousine, l'armure de cuir. Alors que cette dernière se compose de cuir durci, l'armure cloutée est faite de cuir souple percé de milliers de rivets métalliques. Ils sont si proches les uns des autres qu'ils constituent une carapace de métal flexible qui peut ainsi détourner les attaques de taille. En fait, le cuir ne sert à rien d'autre que maintenir les rivets en place.
+
+PARAMÈTRES :
+
+Armure légère
+Bonus à la CA: +3
+Bonus max de Dextérité : +5
+Malus de jet d'armure : -1
+Echec des sorts profanes : 15%
+Poids : 10~
+@1032641  =~Cette armure est une cotte de mailles, mais des plaques de métal ont été rajoutées pour protéger les zones vitales. Des boucles et des sangles servent à assembler le tout et à répartir le poids, mais le harnois tient quand même mieux en place.
+
+PARAMÈTRES :
+
+Armure lourde
+Bonus à la CA: +7
+Bonus max de Dextérité : +0
+Malus de jet d'armure : -7
+Echec des sorts profanes : 40%
+Poids : 25~
+@1032650  =~Cet énorme bouclier est presque aussi grand que son porteur. Il s'agit plus ou moins d'un mur portatif servant à se protéger. Suivant la distance à laquelle vous vous en tenez, il peut vous protéger de toutes les attaques. Le pavois ne protège toutefois pas des sorts. Un lanceur de sorts peut vous en lancer un en visant le bouclier que vous tenez.
+
+PARAMÈTRES :
+
+Bonus de bouclier : +2
+Bonus à la CA : +1 contre les projectiles
+Malus de jet d'armure : -10
+Echec des sorts profanes : 50%
+Poids : 12,5~
+@1032657  =~Le fléau se compose d'une hampe de bois dur à l'extrémité de laquelle est attachée une barre métallique cloutée ou une boule, également cloutée, en métal. Entre ces deux éléments se trouve une courroie ou une chaîne. Cette arme était au départ un outil pour battre le grain.
+
+PARAMÈTRES :
+
+Dégâts : 1d8
+Type de dégâts : contondants
+Poids : 2,5
+Compétence : arme de guerre, fléau
+Type d'arme : à une main~
+@1032668  = ~De loin la plus ancienne et la plus répandue des armes d'hast, la hallebarde se compose d'une lame identique à celle d'une hache, montée sur un manche d'environ 180 centimètres. L’équilibre de la tête de la hallebarde est assuré par l’ajout d’un barbillon à l’opposé de la lame et d’une pointe acérée au sommet de l’ensemble. Le barbillon est parfois remplacé par un crochet servant à désarçonner les cavaliers. Pour la décrire plus simplement, disons que la hallebarde est un croisement entre une hache et une lance.
+
+PARAMÈTRES :
+
+Dégâts : 1d10
+Type de dégâts : perforants
+Poids : 7,5
+Compétence : Arme de guerre, arme d'hast
+Type d'arme : à deux mains~
+@1032683  = ~L'espadon est un dérivé de l'épée longue. En effet, les forgerons ont toujours cherché à améliorer les armes existantes. Dans ce but, la lame de l'épée longue s'est allongée. Il devint ensuite nécessaire d'agrandir la fusée, afin de pouvoir la saisir à deux mains, seul moyen de manier convenablement une telle lame. Les espadons sont principalement destinés à pourfendre les chevaliers à cheval et à briser les formations de piques.
+
+PARAMÈTRES :
+
+Dégâts : 2d6
+Type de dégâts : tranchants
+Poids : 7,5
+Compétence : arme de guerre, espadon
+Type d'arme : à deux mains~
+@1032684  = ~Vous avez vaincu Isair et Madae, la Légion de la Chimère et sauvé les Dix-Cités. Vos noms resteront à jamais gravés dans les légendes du Val de Bise.~
+@1032707  = ~Les bonus de caractéristiques ne s'ajoutent pas. Il est préférable de lancer un seul sort puissant pour améliorer la force d'un personnage, au lieu de plusieurs sorts de plus faible niveau.~
+@1032708  = ~Seuls les bonus d'armures les plus élevés s'appliquent à un personnage (armure, bouclier, dextérité et parade). Le cinquième type de bonus, générique, est la seule exception à cette règle.~
+@1032714  = ~Il y a un petit barghest dans les terriers, au sud d’ici, probablement ces mêmes terriers dont vous venez. Ce morveux s’appelle Yquog et il possède quelque chose qui m’appartient et qui m’est très cher.~
+@1032716  = ~C’est une paire de bracelets qui appartenait à mon frère, Krunbar. Yquog a mangé mon frère et s’est emparé des bracelets, ceux-là mêmes dont je suis censé hériter !~
+@1032738  = ~Cet anneau a été taillé dans un noeud de chêne lisse mais marqué d'une tache sombre. Deux fins liserés d'or entourent ce qui ne ressemble aucunement à un anneau magique. Il appartenait autrefois à Harshom, membre de la Confrérie des Arcanes de Luskan, qui s'était autoproclamé Seigneur des Bêtes.
+
+PARAMÈTRES :
+
+Le porteur bénéficie en permanence de la Liberté de mouvement.
+Poids : 0,5~
+@1032824  = ~Vous ne doutiez pas que je réussirai, n’est-ce pas ? Aurile ne sera pas contente, mais cela lui apprendra à ne pas interférer avec les bénédictions du grand Baervan Ermiterrant ! ~
+@1033180  = ~Les rôdeurs au service d'Aurile sont fort heureusement rares, mais ils constituent un danger permanent pour le Nord. Echolia était l'une d'entre eux. Pendant plus de deux ans, elle s'attaqua à quiconque osait s'approcher des Lacs de Glace, utilisant son arc et ses flèches pour faire régner sa loi dans les environs. Finalement, un groupe de druides des Hautes Landes décida de se charger d'elle. Malgré les problèmes qu'elle leur posa, ils finirent par la tuer, mais plusieurs d'entre eux y laissèrent la vie. L'arc d'Echolia fut récupéré et confié à un rôdeur de Mailikki, qui périt une dizaine d'années plus tard dans le marais de Chélimbre.
+
+PARAMÈTRES :
+
+Dégâts : +1 (projectile)
+Bonus d'attaque : +1
+Résistance : 1/- de résistance au froid
+Poids : 1,5
+Compétence : arme de guerre, arc
+Type d'arme : à deux mains ~
+@1033181  = ~Percelièvres~
+@1033187  = ~Les rôdeurs au service d'Aurile sont fort heureusement rares, mais ils constituent un danger permanent pour le Nord. Echolia était l'une d'entre eux. Pendant plus de deux ans, elle s'attaqua à quiconque osait s'approcher des Lacs de Glace, utilisant son arc et ses flèches pour faire régner sa loi dans les environs. Finalement, un groupe de druides des Hautes Landes décida de se charger d'elle. Malgré les problèmes qu'elle leur posa, ils finirent par la tuer, mais plusieurs d'entre eux y laissèrent la vie. L'arc d'Echolia fut récupéré et confié à un rôdeur de Mailikki, qui périt une dizaine d'années plus tard dans le marais de Chélimbre.
+
+PARAMÈTRES :
+
+Dégâts : +3 (projectile)
+Bonus d'attaque : +3
+Résistance : 3/- de résistance au froid
+Poids : 1,5
+Compétence : arme de guerre, arc
+Type d'arme : à deux mains ~
+@1033241  = ~Cette arme ne tire pas son nom de son utilisateur, mais de l'individu contre qui elle a servi. Makavail était un escroc manipulateur qui opérait près de la cité de Port-Ponant, sur la rive du Lac des Dragons. Parmi les nombreux ennemis qu'il s'était fait, on comptait un soldat de Teziir, Ricarl de la Marque, qui voulait que Makavail ait des ennuis sans pouvoir se douter de l'identité de celui à qui il les devait. Alors que l'escroc quittait Port-Ponant aux commandes d'un chariot empli d'objets volés, Ricarl tira un carreau dans la patte de l'un des chevaux de l'attelage. L'animal rua et le chariot se renversa. Les gardes intervinrent aussitôt et comprirent que le contenu du chariot n'appartenait pas à Makavail. Ce dernier fut aussitôt jeté au cachot, où il périt moins d'un an plus tard, sans jamais savoir ce qui avait causé sa chute.
+
+PARAMÈTRES :
+
+Dégâts : +2 (projectile)
+Bonus d'attaque : +2
+Poids : 2,5
+Compétence : arme courante, arbalète
+Type d'arme : à deux mains ~
+@1033242  = ~Cette arme ne tire pas son nom de son utilisateur, mais de l'individu contre qui elle a servi. Makavail était un escroc manipulateur qui opérait près de la cité de Port-Ponant, sur la rive du Lac des Dragons. Parmi les nombreux ennemis qu'il s'était fait, on comptait un soldat de Teziir, Ricarl de la Marque, qui voulait que Makavail ait des ennuis sans pouvoir se douter de l'identité de celui à qui il les devait. Alors que l'escroc quittait Port-Ponant aux commandes d'un chariot empli d'objets volés, Ricarl tira un carreau dans la patte de l'un des chevaux de l'attelage. L'animal rua et le chariot se renversa. Les gardes intervinrent aussitôt et comprirent que le contenu du chariot n'appartenait pas à Makavail. Ce dernier fut aussitôt jeté au cachot, où il périt moins d'un an plus tard, sans jamais savoir ce qui avait causé sa chute.
+
+PARAMÈTRES :
+
+Dégâts : +2 (projectile)
+Bonus d'attaque : +2
+Vitesse : +1 attaque par round de combat
+Poids : 2,5
+Compétence : arme courante, arbalète
+Type d'arme : à deux mains ~
+@1033530  = ~Eh bien, cessez de me regarder comme un rat fixe le faucon. Sniff ! Attendez un peu... Je sens l’odeur du sang de jeune gobelin ! Vous avez tué Ilquog et Tequog, n’est-ce pas ? Qu’est-ce qui ne tourne pas rond chez vous ? Tuer des hordes d’orques, de gobelins, d’animaux des bois et tout ce qui vous regardait de travers… cela ne vous suffisait pas ? Hum, votre essence vitale pourrait faire de moi un barghest adulte. Slurp ! Allons, approchez-vous d’Yquog !~
+@1033641  = ~Oui, la forteresse de la horde, celle-là même que vous avez si brillamment rasée ! J'admire votre style en la matière, mais vous n'avez pas exterminé TOUTE la horde.~
+@1033695  = ~Il faut croire que vous n'étiez pas sur la bonne voie ! Les mortels s'étaient trompés ! Mais l'erreur qui vous coûtera le plus cher est de m'avoir trahi ! Je n'aurais jamais dû faire confiance à un mortel ! Assez parlé ! Votre heure est venue !~
+@1033800  = ~J'ai dû faire quelques concessions à Isair et Madae pour maintenir un semblant d'équilibre. Je les ai ainsi aidés à bâtir un bassin de renouveau. ~
+@1033827  = ~Oui, mais ce ne fut pas chose aisée. J'ai dû ponctionner une partie de la puissance du mythal qui protège la Main. Je crains que cet épisode de ma vie ne revienne me hanter un jour...~
+@1033959  = ~"Je dévorerai votre âme !"~
+@1034228  = ~Nous avons désactivé la barrière magique piégée, créée par les rôdeurs Aurilites, qui fermait l'arche menant à leur hameau d'Andora. La voie semble maintenant sûre.~
+@1034319  = ~L'une des ouvrières semble souffrir d'une sorte de maladie mentale. Pensez-vous pouvoir l'aider ?~
+@1034656  = ~Cet instrument a appartenu à une sainte d'Ilmater. Bien que barde, Séphica d'Ordulin ne vénérait pas Milil le seigneur des chants, préférant vouer sa vie à composer des odes parlant des souffrances endurées par les fidèles d'Ilmater. Elle voyageait en compagnie d'un groupe de pèlerins quand ils furent attaqués par des brigands qui tuèrent et blessèrent la plupart des fidèles d'Ilmater présents et coupèrent les cordes de la harpe de Séphica lorsque celle-ci essaya de venir en aide aux malheureux. Après le départ des malandrins, Séphica pria Ilmater. Quand elle ramassa les cordes de sa harpe sans avoir rouvert les yeux, les notes de musique s'enchaînèrent d'elles-mêmes, soignant quiconque les entendait. Le lendemain, les marauds revinrent et tuèrent Séphica pour la punir d'avoir soigné les pèlerins. Mais ces derniers perpétuèrent le miracle réalisé par la jeune femme et firent tout leur possible pour qu'elle soit reconnue comme sainte d'Ilmater. Ils y parvinrent en 1218 CV.
+
+PARAMÈTRES :
+
+Cette harpe lance le sort Guérison suprême ou Résurrection (1/jour). Seul un barde exceptionnellement vertueux, sage et talentueux peut en jouer.
+
+Sagesse requise : 13 (minimum)
+Poids : 1,5~
+@1034781  = ~Vous sentez votre corps se dématérialiser, comprenant soudain que vous venez d'entrer dans un fragment du royaume éthéré qui était confiné à cet étage du temple.~
+@1034936  = ~Et, et… est-ce que vous saviez que le limon sur ces murs était un puissant aphrodisiaque ? SI, JE VOUS JURE ! Je… J'ai essayé, mais aucune femme ne s'est jamais approchée à moins de vingt mètres de moi. Ça marche, je le sais... Je sais tout !~
+@1035029  = ~Nous avons rencontré le commandant Grishum à la tête d'un groupe de yuan-ti et d'hommes-lézards. Il nous a prévenus que nous aurions du mal à nous frayer un chemin dans l'Oeil du Dragon, car son peuple améliore depuis des années ses défenses dans l'éventualité d'une intrusion.~
+@1035173  = ~ Tout mon plan repose sur la racine de mandragore modifiée que j'avais confiée à Mandal. Je vous en supplie, dites-moi que vous l'avez trouvée sur lui… ou au moins son épée.~
+@1035233  = ~N'êtes-vous pas un peu jeune pour que le mal émane de vous avec autant d'énergie ? Qui êtes-vous, ou plutôt quelle créature êtes-vous ?~
+@1035251  = ~La grande ensorceleuse Izbelah a essayé de nous tuer, sur vos ordres à n'en pas douter. Vous êtes le chef de ces yuan-ti, n'est-ce pas ?~
+@1035282  = ~Je me soucie des états d'âme de vos reptiles comme d'une guigne. J'ai une mission à terminer et vous êtes clairement en travers de ma route.~
+@1035301  = ~Ça fait plaisir de voir un aut' nain sur les rives du Maer Duaidon, surtout avec ces satanés gobelins dans le coin... où qu'on aille, y sont partout. Qui êtes-vous ? Vous venez mettre votre hache et votre marteau au service de Targos ?~
+@1035445  = ~Il y a là un tunnel dans lequel, à priori, seuls des serpents pourraient passer. Mais, a posteriori, il semble qu’une personne pourrait s’y faufiler.~
+@1035448  = ~VOUS AVEZ TROUBLÉ MA CONCENTRATION ! Rien que pour cela, je devrais vous étriper à mains nues et vous pendre avec vos propres entrailles !~
+@1035462  = ~Le mécanisme d’ouverture de cette large porte métallique fonctionne par l’intermédiaire d’une minuterie. Mais vous avez le sentiment qu’il peut être désactivé, à condition de disposer des outils et des aptitudes adaptés.~
+@1035474  = ~Hache des Âmes~
+@1035477  = ~Voleuse d'Âmes~
+@1035499  = ~Cela ressemble plus ou moins à une sorte de boutique, mais l’entrée a été condamnée, et l’une des planches porte la mention "FERMÉ".~
+@1035555  = ~POURQUOI ME RACONTEZ-VOUS TOUT CELA !? JE M'EN MOQUE ÉPERDUMENT !~
+@1035556  = ~Je n'ai rien à faire de vos asticots ! Tout ce que je veux savoir, c'est OÙ SONT ISAIR ET MADAE ! ?~
+@1035570  = ~Allez, prenez la "chose" et partez. C'est étrange, je me sens comme dépouillé...~
+@1035855  = ~Vous remarquez une corniche offrant une vue dégagée de la zone et de ses deux sorties. Un grand trône incrusté de pierres précieuses est perché au sommet de la corniche. Cette corniche semble être un poste de garde.~
+@1035925  = ~Les orques m'ont gardée prisonnière assez longtemps. J'ai eu le temps de les voir fabriquer puis poser leur piège.~
+@1035979  = ~Mon village est une communauté de modestes bûcherons. Il y a un mois environ, les orques sont venus de la Passe Septentrionale. Ils ont pris possession de notre scierie et nous ont obligés à y travailler...~
+@1035980  = ~Pourquoi ? Pourquoi les orques ont-ils besoin de bois ?~
+@1035996  = ~Vous ne pouvez rien pour l'instant. À bientôt.~
+@1036038  = ~Elle est morte d'un coup la nuit dernière en essayant de s'échapper de la cage de Lothar, en tout cas c'est ce qu'on dit. Le roi Lothar fait respecter la loi dans ce pays.~
+@1036051  = ~Salutations. Je suis l'ambassadeur Jasper. Bienvenue à l'ambassade. Je vous prie de bien vouloir excuser le désordre. Je rentre de voyage et je n'ai pas eu le temps de faire le ménage. En quoi puis-je vous aider ?~
+@1036153  =~AMBIDEXTRIE :
+
+Le personnage est aussi doué pour utiliser sa main gauche que sa main droite.
+
+Conditions : Dex 15+.
+
+Avantage : le personnage ne subit aucune pénalité lorsqu'il utilise sa main secondaire. Il n'est ni droitier, ni gaucher.
+
+Normal : tout personnage ne disposant pas de ce don subit une pénalité de -4 sur sa "mauvaise" main lors d'une attaque à deux armes.
+
+~
+@1036161  =~TIR RAPIDE :
+
+Le personnage utilise ses armes à distance à une cadence stupéfiante.
+
+Conditions : Dex 13+
+
+Avantage : le personnage a droit à une attaque supplémentaire par round avec son arme à distance. Cette attaque se fait avec son bonus maximum, mais chaque attaque (la supplémentaire et les attaques normales) subit une pénalité de -2. 
+REMARQUE : ce don n'améliore pas le temps de réarmement des arbalètes.~
+@1036288  = ~PORT D'ARMURE (INTERMEDIAIRE) :
+
+Le personnage peut porter des armures intermédiaires.
+
+Conditions : port d'armure légère
+
+Avantage : si le personnage est compétent dans le type d'armure portée, la pénalité d'armure qui lui est imposée ne s'applique qu'aux jets de Déplacement silencieux, de Discrétion et de Vol à la tire.
+
+Spécial : les guerriers, barbares, paladins, rôdeurs, prêtres, druides et bardes disposent automatiquement de ce don. Ce n'est pas le cas des magiciens, ensorceleurs, roublards et moines qui n'en disposent pas automatiquement.~
+@1036362  = ~Nous avons rencontré un certain Myson qui était prisonnier d'une bande d'orques. Après l'avoir interrogé, nous avons découvert qu'il est en partie à l'origine des barils explosifs qui sont en possession des orques. Il les leur a donnés pour éviter de se faire tuer. Les orques l'ont gardé en vie, pensant qu'il pouvait en fabriquer d'autres. Apparemment ce n'était pas le cas. Les orques ont détruit son laboratoire et les ingrédients nécessaires pour en fabriquer de nouveaux.~
+@1036380  = ~Ils allaient me tuer ! Je devais gagner du temps, alors je leur ai montré que je pouvais fabriquer les barils et que je pourrai en faire davantage. Ils ne savaient pas que je n'avais plus d'ingrédients, et je n'allais pas le leur dire !~
+@1036388  = ~Pas la peine de... Vous ai-je dit que j'étais un apothicaire de grand renom et un alchimiste talentueux ? Seule ma grande connaissance de l'alchimie m'a évité une mort certaine !~
+@1036393  = ~Une minute, je vous prie. Je croyais qu'ils allaient me tuer ! Je devais gagner du temps... pour m'enfuir ensuite. Je ne voulais plus leur en faire d'autres ! De toutes façons je ne pouvais pas, ils avaient tout détruit !~
+@1036488  = ~*Bragak !* Qu'est-ce-que vous faites ? Allez tuer les monstres que vous avez ramenés !~
+@1036521  = ~Ah, je vois que avez l'âme d'un marchand. Eh bien, songez un peu aux avantages que vous pourriez tirer en faisant partie du petit groupe de personnes qui aura apporté une résolution pacifique à ce conflit. Votre nom sera connu dans tous les Royaumes. Une telle réputation n'a pas de prix...~
+@1036805  = ~"Apportez-moi la tête du grand prêtre Thorasskus, quel que soit son état. Brûlez tout ce qui se met en travers de votre route."~
+@1036825  = ~"Oh ! Comme une avalanche mon coeur se précipite vers le sol ! Je... je vais peut-être demander une audience PRIVÉE avec lui demain matin."~
+@1036845  = ~TOUT À FAIT ! En fait, nous allons présenter une pièce romanesque intitulée "La flamme éternelle". Est-ce que ça vous intéresse ?~
+@1036850  = ~"J'AI BESOIN D'ENTRETIEN."~
+@1036945  = ~Cette étrange peinture représente un ensemble abstrait de courbes colorées offrant un résultat assez esthétique~
+@1036985  = ~Nous avons débattu ensemble du cas de Zaem Astyr. C'est une affaire intrigante, pour le moins. Nous devrions peut-être nous y intéresser de plus près.~
+@1037131  = ~Vous n'avez aucune preuve. Portez la main sur moi et c'est l'enclave tout entière qui se retournera contre vous !~
+@1037135  = ~Je n'en ai pas encore fini avec vous. Faites vos prières…~
+@1037140  = ~C'est ce que nous verrons, Cédrin. À bientôt.~
+@1037141  = ~Aujourd'hui, nous avons découvert qui volait la nourriture. Il s'agit de la plus étrange des créatures. Elle était incroyablement rapide et impossible à suivre du regard. En tout cas, nous l'avons convaincue de ne plus voler la nourriture des esclaves. Ce ne fut pas difficile, en fait. La créature semblait regretter sincèrement ses actes.~
+@1037142  = ~Nous avons compris que le voleur de nourriture était en fait la création de Zaem Astyr. Nous lui avons brièvement parlé de la mort de Zaem. Notre conversation nous a convaincus que cette créature n'était pas responsable de la mort de Zaem.~
+@1037151  = ~Je sais que vous volez de la nourriture. Et je n'ai pas l'intention de vous laisser continuer. Préparez-vous à mourir…~
+@1037250  = ~ENCHAINEMENT :
+
+Le personnage peut porter une série de coups puissants.
+
+Conditions : Force 13+, don Augmentation des dégâts. Remarque : pour acquérir le deuxième niveau de ce don, il faut impérativement disposer d'un bonus de base à l'attaque d'au moins +4.
+
+Avantage : si le personnage inflige des dégâts suffisants pour tuer son ennemi avec une arme de corps à corps, il disposera d'une autre attaque immédiate contre une autre créature à proximité. Il ne peut pas se déplacer avant de porter cette attaque, qui est portée avec la même arme et bénéficie des mêmes bonus que pour la première créature tuée. Ce don peut être utilisé à deux reprises pour obtenir le don de Succession d'enchaînements, qui permet d'être utilisé à chaque round sans limitation.~
+@1037286  = ~DILEMME INFERNAL :
+
+Conditions : 1 niveau de barde, capacité de lancer des sorts profanes, 4 niveaux en Estimation, Alchimie ou Connaissances (mystères).
+
+Avantage : le barde peut proposer une énigme à une créature intelligente. Cette énigme trouble tellement la cible que celle-ci entre dans une rage de berserker pendant 5 rounds. Utilisable 3/jour.~
+@1037380  = ~Vous ne pouvez pas. À bientôt.~
+@1037383  = ~Aujourd'hui, nous avons rencontré Jaebrilla, la bien-aimée de Zaem Astyr. Elle semblait sincèrement affligée par sa mort.~
+@1037463  = ~Nous avons reçu un laissez-passer. Il nous permet de circuler sans encombre dans la Main Tranchée.~
+@1037478  = ~Quels crétins ?~
+@1037551  = ~Je vois… Eh bien je pourrais éventuellement vous inscrire au calendrier protocolaire, mais sachez dès à présent que mes maîtres sont en voyage officiel.~
+@1037569  = ~Voici les notes de la magicienne Imphraili, spécialiste de l’école de transmutation. Elles abordent très largement le concept théorique du Sanguis Anima (un fluide alchimique qu’elle utilise pour animer des Golems de Chair), le présentant comme un moyen d’améliorer la santé ou la durée de vie d’une créature vivante.
+
+Imphraili mentionne très clairement l’extrême dangerosité d’une telle procédure et précise que seul un spécialiste de la transmutation peut parvenir à un résultat. Il faut pour cela que le Sanguis Anima (un poison normalement mortel pour tout humanoïde), une fois absorbé et véhiculé dans le sang du sujet, subisse une altération magique.
+
+Pour peu qu’il dispose de ces notes, des produits chimiques appropriés (en particulier le Sanguis Anima), et de l’accès à un laboratoire d’alchimie, un transmutateur compétent et téméraire pourrait très probablement réussir cette expérience.
+
+Poids : 0,5~
+@1037610  = ~Pairi, une jeune femme, nous a informés que des hommes étaient passés récemment dans le village, avant de continuer vers l'est dans la forêt. On ne les a jamais revus. Pairi nous a expliqué que peu après, un fantôme en colère avait commencé à hanter les terrains de chasse à l'ouest.~
+@1037612  = ~BLUFF (Cha) :
+
+Cette compétence permet de faire croire aux propositions les plus extravagantes. Elle regroupe tout ce qui tend à abuser, fourvoyer ou escroquer les autres. On peut s'en servir pour semer la confusion, créer une diversion ou se faire passer pour ce que l'on n'est pas.
+~
+@1037769  = ~"Ô infamie ! Une telle trahison ébranle mon esprit gelé ! C'est la fin !"~
+@1037996  = ~Comme demi-orque, vous avez l'air plutôt robuste. Je me réjouis de voir un membre de mon espèce d'apparence aussi flatteuse : une armure rutilante, de grosses armes reluisantes... et cette exquise odeur de sang frais... Que c'est charmant ! Mais entrez donc, soyez les bienvenus dans mon splendide atelier.~
+@1037842  = ~"Ainsi… vous revenez enfin. Ma patience et celle de mes maîtres étaient presque à bout."~
+@1037887  = ~Le sol est couvert de plusieurs traces se dirigeant dans les deux sens. Ce sont celles de soldats en patrouilles, et beaucoup de traces vont de l'entrée vers une grande salle au nord. Il fait bien plus chaud à l'intérieur qu'à l'extérieur.~
+@1038001  = ~Le temps et la mort sont de notre côté. Nous avons déjà tué beaucoup de leurs partisans et seule une poignée me résiste encore, barricadée derrière ses murs comme des enfants apeurés. J'ai déjà relevé leurs victimes et même leurs ancêtres ! Ils ne me résisteront pas longtemps.~
+@1038147  = ~Garde de Heaum~
+@1038251  = ~<CHARNAME>, VIRTUOSE DE LA TERREUR, ÉCOUTEZ-MOI ! LE FILS DE BAINE EN APPELLE À VOTRE COEUR SOMBRE !~
+@1038263  = ~AU NOM DE TOUS LES DÉMARQUES, <CHARNAME>, ÉCOUTEZ-MOI ! LE FILS DE BAINE EN APPELLE À VOTRE COEUR SOMBRE !~
+@1038271  = ~<CHARNAME>, SEIGNEUR DES TEMPÊTES, ÉCOUTEZ-MOI ! LE FILS DE BAINE EN APPELLE À VOTRE COEUR CHAOTIQUE !~
+@1038273  = ~ÉCOUTEZ-MOI, <CHARNAME> ! LE FILS DE BAINE EN APPELLE À VOUS !~
+@1038548  = ~Convocation de monstres II (Invocation)
+Niveau : Bar 2, Prê 2, Ens/Mag 2
+Portée : portée de vue
+Durée : 3 rounds + 1 round/niveau
+Temps d'incantation : 6
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Ce sort appelle un monstre, déterminé aléatoirement, qui sert le personnage jusqu’au terme de la durée indiquée.  Le monstre appelé est plus puissant que celui que convoquent les versions moindres du sort.~
+@1038624  = ~Hrnn... pas grave. Je pensais pouvoir quitter la ville... revenir avec des renforts... mais Tordviolon a tenu promesse, hé ! Ça va aller... juste besoin de me reposer...~
+@1038719  = ~Heaum nous apprend que les blessures sont le prix à payer pour survivre, gardien. Laissez la magie d'une de ses sentinelles vous aider.~
+@1038737  = ~Les astres d'argent de Séluné sont à leur aise à la lumière de la lune, Myrkulite, et vos paroles sont empreintes de mensonge... ni moi, ni personne de mon ordre ne vénérons votre dieu.~
+@1038771  = ~Ilmater nous enseigne qu'il n'y a aucun progrès dans la guerre, sinon le prolongement de la souffrance. J'espérais qu'une évolution dans les croyances de Tempus pourrait le détourner de son penchant naturel pour la guerre, mais il n'a fait que l'affirmer.~
+@1038897  = ~Il y a quelques jours, nous avons envoyé Gerbash, l'aubergiste de l'Ombre du Soir, pour tenter de prévenir les habitants de la ville de l'approche des morts-vivants. Avec la bénédiction de Tymora, il aurait pu quitter Kuldahar et trouver de l'aide, mais on ne l'a jamais revu. J'aurais dû y aller moi-même, il n'avait aucune chance.~
+@1038924  = ~Et comme si cela ne suffisait pas, les yuan-ti de l'Oeil du Dragon hantent les environs, taillant dans les racines du grand chêne pour tenter de distraire Iselore de sa garde de la gemme Coeur de Pierre. Cette "Légion de la Chimère" est constituée de lâches et de fourbes qui ne sont capables que d'escarmouches et fuiraient à la moindre opposition un peu sérieuse.~
+@1038942  = ~Je suis heureux de vous revoir en bonne santé. Les yuan-ti nous ont laissés tranquilles, vous y êtes sans doute pour quelque chose. Nous avons verrouillé la tour de garde et grâce aux dieux, nous devrions bientôt rentrer à Kuldahar. Cette tour et les délires de Nathaniel vont me faire perdre la raison !~
+@1038952  = ~Après que Nathaniel nous ait informés de sa présence, nous avons rencontré un esprit dans un bâtiment calciné de la Passe de Kuldahar. L'esprit de cette femme semblait à la recherche de ses deux enfants disparus.~
+@1038953  = ~L'esprit est en fait celui d'Egenia, celle-là même qui a élevé Isair et Madae et qui les aime toujours comme ses enfants.~
+@1038955  = ~Egenia nous a expliqué que la vie d'Isair et de Madae était liée à un miroir brillant qui se troublait dès que quelqu'un le touchait. Elle a ajouté que c'est là que nous devons les attaquer, sinon ils nous détruiront.~
+@1038989  = ~- Madae la passionnée - 
+- Détentrice du symbole d'Ilmater - 
+- La souffrance est son savoir - 
+- Mais elle ne le sait pas -~
+@1039013  = ~- Lorsque vous verrez mes petits -
+ - Je vous en supplie -
+ - Faites preuve de compassion -
+ - Ne les laissez pas souffrir -~
+@1039038  = ~La justice doit être rétablie dans le Nord.~
+@1039062  = ~- Leurs vies ne leur appartiennent plus -
+ - Elles ruissellent d'un miroir chatoyant -
+ - Qui se brise quand on le touche -~
+@1039063  = ~- Ce miroir est leur faiblesse -
+ - Frappez à cet endroit -
+ - Et vous toucherez leurs deux coeurs -
+ - Il n'y a pas d'autre alternative -~
+@1039074  = ~Nathaniel nous a expliqué que maintenant que nous avions rencontré l'esprit d'Egenia, nous pourrions la voir dans sa maison.~
+@1039078  = ~Nous avons vu Nathaniel pour lui dire que nous avions trouvé la clef de la tour de guet qui était en possession de Gerbash. Il nous a conseillé de prévenir Jermsy sans plus attendre.~
+@1039125  = ~Cette maison est hantée... je crains que les actes de nécromancie dont nous avons été témoins ces temps-ci n'aient réveillé des esprits qui n'ont pas leur place ici. L'esprit de Mère Egenia ne doit certainement pas reposer en paix, croyez-moi. J'ai entendu sa complainte, sa peine d'avoir perdu les jumeaux... et cela m'a touché.~
+@1039219  = ~"Étrange. Peu importe... pourrais-je examiner ces parchemins ?"~
+@1039396  = ~J'apprécierais énormément que vous parveniez à ouvrir cette cage.~
+@1039407  = ~PALADIN D'ILMATER :
+
+Les paladins d'Ilmater vénèrent le dieu de la souffrance. Ils subissent volontairement d'horribles blessures dans toutes les batailles afin d'éviter aux autres cette souffrance. Ils sont connus pour leur humilité.
+
+Limite de Classe : peut être multiclassé comme Prêtre - Noble martyr d'Ilmater sans perdre la possibilité d'évoluer dans la classe des Paladins.
+
+AVERTISSEMENT : les paladins multiclassés dans une classe autre que paladin ou que la classe de prédilection de leur ordre ne pourront plus progresser dans la classe des paladins.~
+@1039408  = ~PALADIN DE HEAUM :
+
+Les paladins de Heaum suivent les enseignements du dieu des gardiens. Ils se consacrent à la défense des plus faibles et protègent les régions fortement peuplées des assauts ennemis.
+
+Limite de Classe : peut être multiclassé comme Guerrier sans perdre la possibilité d'évoluer dans la classe des Paladins.
+
+AVERTISSEMENT : les paladins multiclassés dans une classe autre que paladin ou que la classe de prédilection de leur ordre ne pourront plus progresser dans la classe des paladins.~
+@1039409  = ~PALADIN DE MYSTRA :
+
+Les paladins de Mystra s'assurent que les pouvoirs de la Déesse des Mystères ne sont pas utilisés à des fins maléfiques. Ils traquent les lanceurs de sorts malveillants dans tout Féerûne. Leur but est de protéger la civilisation et les mages inoffensifs des conséquences d'une mauvaise utilisation de la magie.
+
+Limite de Classe : peut être multiclassé comme Magicien sans perdre la possibilité d'évoluer dans la classe des Paladins.
+
+AVERTISSEMENT : les paladins multiclassés dans une classe autre que paladin ou que la classe de prédilection de leur ordre ne pourront plus progresser dans la classe des paladins.~
+@1039544  = ~Vous dégagez la bûche des rochers situés sur ce côté du fleuve.~
+@1039565  = ~Statistiques : À distance~
+@1039654  = ~À 2 mains~
+@1039772  = ~"Un groupe de mercenaires de Luskan a semé une sacrée pagaille entre ici et Targos. En fait, les trois soeurs sont très agitées."~
+@1039938  = ~"QU'EST-CE QUE C'EST QUE ÇA ?! Vous espionniez ma conversation ?! C’était votre dernière erreur !"~
+@1040386  = ~Ça ? C'est là qu'Egenia a élevé Isair et Madae. Elle y est toujours enterrée, mais les villageois ont brûlé sa maison.~
+@1040434  = ~À ta guise.~
+@1040500  = ~La fatigue ronge mon esprit telle une louve affamée.~
+@1040605  = ~Ça suffit.~
+@1040792  = ~Pauvres sots, vous ne me tuerez pas !~
+@1041004  = ~<CHARNAME> ?! Vous en avez mis un temps ! Nathaniel m'a prévenu que vous viendriez nous libérer, mais le Maître des Clefs n'attend pas !~
+@1041098  = ~Sortie de l'Œil du Dragon~
+@1041165  = ~HORS DE MON CHEMIN, MISÉRABLE RACAILLE – ou c'est de mon marteau que vous allez goûter !~
+@1041166  = ~JE VOUS AI DONNÉ UN AVERTISSEMENT !~
+@1041193  = ~Je vous en prie, inquisiteur, dites-nous ce que vous avez découvert.~
+@1041226  = ~Hsss ! Aucun initié ne poserait une telle quessstion ! DES INTRUS ! SSETHSAR, DÉFENDEZ LE TEMPLE !~
+@1041296  = ~Quoi ? Qui êtes-vous ? Non, ce n'est pas possible ! DES NON-CROYANTS ! DES NON-CROYANTS ONT PÉNÉTRÉ DANS LE TEMPLE !~
+@1041315  = ~Bois de Padhiver~
+@1041333  = ~Toutes ces potions et autres tubes remplis de liquide bouillonnant laissent à penser qu’il s’agit d’une sorte de laboratoire à potions.~
+@1041364  = ~CE N'EST PAS LE MOMENT DE DISCUTER, PAUVRES IDIOTS ! DÉFENDEZ VOTRE VIE !~
+@1041366  = ~COMMENT POUVEZ-VOUS ÊTRE AUSSI STUPIDES ! ? FERMEZ-LA ET BATTEZ-VOUS !~
+@1041380  = ~Épée... ÉPÉE !~

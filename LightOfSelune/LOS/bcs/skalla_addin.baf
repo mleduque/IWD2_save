@@ -1,0 +1,9 @@
+
+IF
+    Global("F#MakeSkalla","MYAREA",0)
+THEN
+    RESPONSE #100
+        CreateCreature("f#skalla","f#skalla",[312.191],0)  // need new coordinates for Gallaway's Trading Post.  100,100 should put him in the same place as Ribald was in his little mod.
+        SetGlobal("F#MakeSkalla","MYAREA",1)
+END
+

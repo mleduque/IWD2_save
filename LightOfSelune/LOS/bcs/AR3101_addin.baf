@@ -1,0 +1,13 @@
+
+IF
+  Global("NEWITEM_AR3101","AR3101",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Weapon Rack 3",CreateItem("60RTHF04",1,0,0))
+    
+    SetGlobal("NEWITEM_AR3101","AR3101",1)
+END
+
+
+
+

@@ -1,0 +1,11 @@
+
+IF
+  Global("NEWITEM_AR6101","AR6101",0)
+THEN
+  RESPONSE #100
+    ActionOverride("ArmoryChest1",CreateItem("F#MACE04",1,0,0))
+    SetGlobal("NEWITEM_AR6101","AR6101",1)
+END
+
+
+

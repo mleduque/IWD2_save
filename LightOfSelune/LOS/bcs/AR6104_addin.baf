@@ -1,0 +1,9 @@
+
+IF
+  Global("NEWITEM_AR6104","AR6104",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Stash",CreateItem("F#RTHFW3",1,0,0))
+    ActionOverride("TreasurePile5",CreateItem("00AX2H94",1,0,0))
+    SetGlobal("NEWITEM_AR6104","AR6104",1)
+END

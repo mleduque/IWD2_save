@@ -1,0 +1,11 @@
+
+IF
+  Global("NEWITEM_AR6051","AR6051",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Treasure Table 7",CreateItem("F#RTHFV4",1,0,0))
+    ActionOverride("Ojaiha's Chest 2",CreateItem("F#RTHFV1",1,0,0))
+    ActionOverride("Ojaiha's Chest 2",CreateItem("F#RTHFV2",1,0,0))
+    SetGlobal("NEWITEM_AR6051","AR6051",1)
+END
+

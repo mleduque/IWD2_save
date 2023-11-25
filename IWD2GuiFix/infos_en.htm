@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html slick-uniqueid="3" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>IWD2 GUI Fix - Infos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="fr" />
+
+<style type="text/css">
+body {
+    background-color: #E8F0FD;
+    margin-left: 1em;
+    font: normal 9pt verdana, helvetica, arial, sans-serif;
+}
+
+h1 {font: italic 10pt Verdana, Arial, sans-serif;  color: blue;}
+h2 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12.0pt;
+	letter-spacing: normal;
+	background-color: #e4e4e4;
+	color: #9c9c9c;
+	text-align: center;
+	
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 18pt;
+	margin-bottom: 12pt;
+	
+	padding-left: 8pt;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: none;
+	border-right: none;
+}
+.note {font-size:0.8em; font-style:italic;}
+.couleur {color:brown}
+code {color:gray; font-size:1.0em;}
+ul.ul1 {margin-left: 15px; list-style-type:none; margin-top:-0px;}
+</style>
+
+</head>
+<body>
+
+<h2>Icewind Dale II GUI fix for Widescreen <br />
+<span style="font-size:0.8em;"> version 1.04c - november 2021</span></h2>
+<p>This mod changes the main GUI of Icewind Dale 2. It works with the <b>Widescreen <a href="#note1">*</a></b> mod developed by <i>the bigg</i>, and therefore needs to be installed after him.  <br />
+Some existing display problems knowns with Widescreen, such as the bugged drop away interface panels of the main interface, are not fixed by this mod. <br />
+</p>
+<p>I reworked the GUI files of the main interface so that they are properly centered, without black areas. The most common resolutions are currently available.</p>
+<ul>
+
+<li>1280x720</li>
+<li>1280x800</li>
+<li>1280x960</li>
+<li>1280x1024</li>
+<li>1360x768</li>
+<li>1440x900</li>
+<li>1600x900</li>
+<li>1600x1200</li>
+<li>1680x1050</li>
+<li>1920x1080</li>
+<li>1920x1200</li>
+</ul>
+
+<h2>Installation</h2>
+<p>This installation setup automatically replaces the following files :</p>
+<pre><code>    GACTN118.mos
+    COMM118.mos 
+    GCOMM128.mos 
+    GMWDMMB0.mos 
+    GMWDSLB0.mos 
+    GUCONTB0.mos 
+    GUDEATH0.mos 
+    GUWBTP30.mos 
+    Guiw10.chu </code></pre>
+...located in the IWD2 <code>\Override</code> folder, according to the resolution you choose.<ul class="ul1">
+<li>&mdash; A copy of these files is created at the path <code>\GUIFix\backup</code> of Icewind Dale II.</li>
+<li>&mdash; An entry in the registry <code>[HKLM\Software\Wow6432Node\IWD2 GUIFix]</code>, is created to store the installation directory and the installed version.</li></ul>
+<h1>Uninstall</h1>
+To automatically uninstall the mod or install a new resolution, simply run the setup.exe again. The files copied into the backup folder are restored, and the entries in the registry deleted.
+
+<h2> Knowns / Unsolved problems</h2>
+The best thing to do, before installing this mod, is to make sure that everything is allright with Widescreen: install Widescreen in the resolution of your choice, and make sure that the various interface panels work well in the game. If everything works fine then install my mod.<br /><br />
+
+However, certain problems inherent to Widescreen are not corrected by this mod:<br />
+1.Some resolutions are not compatible with some screen formats, this is due to the constraints of Widescreen and maybe the game engine, whether the IWD2 GUI Fix is installed or not. In this case, the game will simply not launch !<br />
+Resolutions concerned : <br /><ul>
+<li>1280 x 854 (3/2) with a 16/9 screen </li>
+<li>1600 x 1200 (4/3) with a 16/9 screen  </li>
+<li>1920 x 1200 (16/10) with a 16/9 screen  </li> </ul>
+If you specify a resolution in Widescreen and if the game does not start, try a different one first, among those that are suitable for your screen.
+
+<p>2.In most resolutions (except 1360x768 and 1280x720), a display problem occurs with the main interface of the game, when some panels are hidden (by default, pressing Y key will make the character and action button panel on the main screen drop away) : a frozen area appears, of variable height according to the resolution used, totally unsightly, and which prevents well playing. You just have to resolve not to use the interface as it, and press Y to use another disposition...<br />
+This problem comes from Widescreen, I couldn't get around it. I have mentioned it on the forum for some time now, but without any feedback.<br />
+
+</p>
+<p>3. When you launch a network game, the game automatically switches to windowed mode. Just press ALT + Enter to switch successively to windowed / full screen mode.</p>
+
+<h2> Credits</h2>
+<font size="0.9em"><b>This mod is neither developed nor endorsed by Interplay, Black Isle and Bioware.</b> <br/>
+It was created for the sole purpose of improving the pleasure of playing Icewind Dale 2. It makes nor seeks to make any profit. You can distribute it freely, respecting this principle, and with the agreement of its author, Luren.
+</font>
+<p>
+<font color="brown">Thanks to <b>the bigg</b></font> for his excellent mod <font color="brown">Widescreen</font>, which allows to play Baldur's Gate and Icewind Dale on the &quot;new&quot; screens 16/9 and 16/10 ! <br />
+</p>
+<h1>Many thanks to the authors of these modding programs, without which such modding projects would be nothing else than unrealizable ones :</h1>
+<font color="brown"><i>Avenger</i></font> for DLTCEP <br />
+<font color="brown"><i>Glenn Flansburg</i></font> for MOSWorkshop <br />
+<font color="brown"><i>Jon Olav Hauglid</i> and <i>Argent77</i></font> for Near Infinity<br />
+
+<h1> Informations - Contact</h1>
+You can find more information and updates of this mod on this blog :<br />
+<b>Retour à Havredest</b> - http://havredest.eklablog.fr/ <br />
+Contact : <b>Luren</b> - havredest@sfr.fr
+<p>
+<a name="note1" id="note1">  <span class="note">* :http://gibberlings3.net/forums/index.php?s=7d3644ffd6344a0e9e87375546806364&amp;showforum=136</span> </a>
+
+</p>
+</body>
+
+
+</html>

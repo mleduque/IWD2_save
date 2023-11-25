@@ -1,0 +1,19 @@
+// f#bowy1 (chatter script)
+
+
+IF
+	!TimerActive(18)
+THEN
+	RESPONSE #15
+		FloatMessage(Myself,@1) // "I hope that Carynara is safe."
+		StartRandomTimer(18,15,20)
+	RESPONSE #15
+		FloatMessage(Myself,@2) // "Praise be to Mielikki."
+		StartRandomTimer(18,15,20)
+	RESPONSE #15
+		FloatMessage(Myself,@3) // "Susu, stay away from the fire."
+		StartRandomTimer(18,15,20)
+	RESPONSE #255
+		StartRandomTimer(18,15,20)
+END
+

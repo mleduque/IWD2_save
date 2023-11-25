@@ -1,0 +1,8 @@
+
+IF
+  Global("NEWITEM_AR5100","AR5100",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Nest",CreateItem("F#RTHFH4",1,0,0))
+    SetGlobal("NEWITEM_AR5100","AR5100",1)
+END

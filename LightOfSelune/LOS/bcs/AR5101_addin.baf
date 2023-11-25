@@ -1,0 +1,11 @@
+
+IF
+  Global("NEWITEM_AR5101","AR5101",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Footlocker_02",CreateItem("F#HIDE01",1,0,0))
+    ActionOverride("Altar",CreateItem("F#RTHFH1",1,0,0))
+    ActionOverride("Altar",CreateItem("F#RTHFH2",20,0,0))
+    ActionOverride("Crate_03",CreateItem("F#HAMM02",1,0,0))
+    SetGlobal("NEWITEM_AR5101","AR5101",1)
+END

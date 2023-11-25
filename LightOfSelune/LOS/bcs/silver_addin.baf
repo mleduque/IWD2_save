@@ -1,0 +1,8 @@
+
+IF
+    Global("F#MakeSilver","MYAREA",0)
+THEN
+    RESPONSE #100
+        CreateCreature("f#silver","f#silver",[236.444],0)  
+        SetGlobal("F#MakeSilver","MYAREA",1)
+END

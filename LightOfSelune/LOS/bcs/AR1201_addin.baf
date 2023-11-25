@@ -1,0 +1,9 @@
+
+IF
+  Global("NEWITEM_AR1201","AR1201",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Crate",CreateItem("F#RTHFAA",1,0,0))
+    SetGlobal("NEWITEM_AR1201","AR1201",1)
+END
+
